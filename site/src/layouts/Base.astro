@@ -1,0 +1,39 @@
+---
+import { locales, localeNames, ui, href, type Locale } from '../i18n/ui';
+interface Props { locale: Locale; title: string; path: string }
+const { locale, title, path } = Astro.props;
+const t = ui[locale];
+---
+<html lang={locale}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} — {t.site}</title>
+  </head>
+  <body>
+    <header>
+      <a href={href(locale)}><strong>{t.site}</strong></a>
+      <nav>
+        <a href={href(locale, 'math')}>{t.math}</a>
+        <span>{t.myths} ({t.soon})</span>
+        <span>{t.philosophers} ({t.soon})</span>
+      </nav>
+      <nav aria-label="Language">
+        {locales.map((l) => (
+          <a href={href(l, path)} aria-current={l === locale ? 'page' : undefined}>{localeNames[l]}</a>
+        ))}
+      </nav>
+    </header>
+    <p class="draft">{t.draft}</p>
+    {locale !== 'ru' && t.untranslated && <p class="draft">{t.untranslated}</p>}
+    <main><slot /></main>
+    <style is:global>
+      /* Временные стили-заглушки: только чтобы было читаемо. Дизайн делаем отдельно. */
+      body { font-family: system-ui, sans-serif; max-width: 60rem; margin: 0 auto; padding: 1rem; line-height: 1.5; }
+      header { display: flex; flex-wrap: wrap; gap: 1rem; align-items: baseline; border-bottom: 1px solid #ccc; padding-bottom: .5rem; }
+      nav { display: flex; flex-wrap: wrap; gap: .75rem; }
+      nav a[aria-current] { font-weight: 700; }
+      .draft { font-size: .85rem; color: #777; }
+    </style>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+---
+import Base from '../../layouts/Base.astro';
+import { localePaths, toLocale, ui, href } from '../../i18n/ui';
+export function getStaticPaths() {
+  return localePaths();
+}
+const locale = toLocale(Astro.params.locale);
+const t = ui[locale];
+---
+<Base locale={locale} title={t.home} path="">
+  <h1>{t.site}</h1>
+  <ul>
+    <li><a href={href(locale, 'math')}>{t.math}</a></li>
+    <li>{t.myths} — {t.soon}</li>
+    <li>{t.philosophers} — {t.soon}</li>
+  </ul>
+</Base>

@@ -1,0 +1,13 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { localePaths, toLocale, ui } from '../../../i18n/ui';
+export function getStaticPaths() {
+  return localePaths();
+}
+const locale = toLocale(Astro.params.locale);
+const t = ui[locale];
+---
+<Base locale={locale} title={t.math} path="math">
+  <h1>{t.math}</h1>
+  <p>Структура раздела обсуждается. Здесь будет вход в раздел.</p>
+</Base>
