@@ -1,0 +1,64 @@
+---
+// Карточка — одна страница: понятие, теорема, человек, построение, опыт…
+import { render } from 'astro:content';
+import Base from '../../../../layouts/Base.astro';
+import Quote from '../../../../components/Quote.astro';
+import Demo from '../../../../components/Demo.astro';
+import CardLink from '../../../../components/CardLink.astro';
+import { locales, defaultLocale, toLocale, mt, href } from '../../../../i18n/ui';
+import { all, ids, one, backlinks } from '../../../../lib/content';
+export async function getStaticPaths() {
+  const list = await ids('cards');
+  return locales.flatMap((l) => list.map((id) => ({ params: { locale: l === defaultLocale ? undefined : l, id } })));
+}
+const locale = toLocale(Astro.params.locale);
+const m = mt[locale];
+const c = await one('cards', locale, Astro.params.id!);
+const d = c.entry.data;
+const { Content } = await render(c.entry);
+const cards = await all('cards', locale);
+const get = (id: string) => { const r = cards.get(id); if (!r) throw new Error(`Карточка ${c.id}: нет связанной карточки ${id}`); return r; };
+const related = d.related.map(get);
+const people = d.people.map(get);
+const back = await backlinks(locale, c.id);
+const backCards = back.cards.filter((b) => !d.related.includes(b.id));
+---
+<Base locale={locale} title={d.title} path={`math/c/${c.id}`} fallback={c.fallback}>
+  <p><a href={href(locale, 'math')}>← {mt[locale].start}</a></p>
+  <p class="kind">{m.types[d.type]}{d.extra && <> · {m.extra}</>}</p>
+  <h1>{d.title}</h1>
+  <p class="lead">{d.summary}</p>
+  <dl class="facts">
+    {d.ages.length > 0 && <><dt>{m.byAge}</dt><dd>{d.ages.map((a) => m.ages[a]).join(' · ')}</dd></>}
+    {d.era && <><dt>{m.era}</dt><dd>{d.era}</dd></>}
+    {d.greek && <><dt>Ἑλληνιστί</dt><dd lang="grc">{d.greek}</dd></>}
+    {d.euclid && <><dt>{m.euclid}</dt><dd>{d.euclid}</dd></>}
+    {d.reliability && <><dt>✅📜❓</dt><dd>{m.rel[d.reliability]}</dd></>}
+    {people.length > 0 && <><dt>👤</dt><dd>{people.map((p, i) => <>{i > 0 && ', '}<a href={href(locale, `math/c/${p.id}`)}>{p.entry.data.title}</a></>)}</dd></>}
+  </dl>
+  {d.demo && <Demo id={d.demo} locale={locale} />}
+  <article><Content /></article>
+  {d.quotes.length > 0 && <section><h2>{m.quotes}</h2>{d.quotes.map((q) => <Quote id={q} locale={locale} />)}</section>}
+  {d.curricula.length > 0 && (
+    <section><h2>{m.curricula}</h2><ul>{d.curricula.map((cu) => <li>{cu.src}: {cu.ref}</li>)}</ul></section>
+  )}
+  {related.length > 0 && <section><h2>{m.related}</h2><ul>{related.map((r) => <CardLink c={r} locale={locale} />)}</ul></section>}
+  {(back.paths.length > 0 || backCards.length > 0) && (
+    <section>
+      <h2>{m.usedIn}</h2>
+      <ul>
+        {back.paths.map((p) => <li><a href={href(locale, `math/path/${p.id}`)}>{p.entry.data.title}</a></li>)}
+        {backCards.map((b) => <CardLink c={b} locale={locale} />)}
+      </ul>
+    </section>
+  )}
+</Base>
+<style>
+  .kind { text-transform: uppercase; font-size: .8rem; color: #777; margin-bottom: 0; }
+  .lead { font-size: 1.1rem; }
+  .facts { display: grid; grid-template-columns: max-content 1fr; gap: .2rem 1rem; }
+  .facts dt { color: #777; }
+  .facts dd { margin: 0; }
+  article :global(table) { border-collapse: collapse; }
+  article :global(td), article :global(th) { border: 1px solid #ddd; padding: .25rem .5rem; vertical-align: top; }
+</style>

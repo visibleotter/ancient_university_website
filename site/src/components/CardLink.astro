@@ -1,0 +1,20 @@
+---
+// Строка-ссылка на карточку: тип, название, возраст.
+import { href, mt, type Locale } from '../i18n/ui';
+import type { Localized } from '../lib/content';
+interface Props { c: Localized<'cards'>; locale: Locale }
+const { c, locale } = Astro.props;
+const t = mt[locale];
+const d = c.entry.data;
+---
+<li class="cardlink" data-ages={d.ages.join(' ')}>
+  <span class="type">{t.types[d.type]}</span>
+  <a href={href(locale, `math/c/${c.id}`)}>{d.title}</a>
+  {d.demo && <span title={t.interactive}> ▶</span>}
+  {d.ages.length > 0 && <span class="ages">{d.ages.map((a) => t.ages[a].split(' ')[0]).join('')}</span>}
+  <br /><small>{d.summary}</small>
+</li>
+<style>
+  .cardlink { margin: .4rem 0; }
+  .type { font-size: .75rem; text-transform: uppercase; color: #777; margin-right: .3rem; }
+</style>

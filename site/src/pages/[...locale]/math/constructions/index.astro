@@ -1,0 +1,63 @@
+---
+// Каталог построений циркулем и линейкой по возрастам с фильтром по программам.
+import Base from '../../../../layouts/Base.astro';
+import { localePaths, toLocale, mt, href } from '../../../../i18n/ui';
+import { all } from '../../../../lib/content';
+import { AGES } from '../../../../content.config';
+export function getStaticPaths() {
+  return localePaths();
+}
+const locale = toLocale(Astro.params.locale);
+const m = mt[locale];
+const cs = [...(await all('cards', locale)).values()].filter((c) => c.entry.data.type === 'construction');
+// Возраст построения — первый (самый младший) из указанных.
+const band = (c: (typeof cs)[number]) => c.entry.data.ages[0];
+const srcKey = (s: string) => s.split(' (')[0];
+const sources = [...new Set(cs.flatMap((c) => c.entry.data.curricula.map((cu) => srcKey(cu.src))))].sort();
+---
+<Base locale={locale} title={m.constructions} path="math/constructions" fallback={cs.some((c) => c.fallback)}>
+  <p><a href={href(locale, 'math')}>← {m.start}</a></p>
+  <h1>{m.constructions}</h1>
+  <p>{m.constructionsIntro}</p>
+  <p class="filters">
+    <button data-src="" aria-pressed="true">{m.all}</button>
+    {sources.map((s) => <button data-src={s} aria-pressed="false">{s}</button>)}
+  </p>
+  {AGES.map((a) => {
+    const list = cs.filter((c) => band(c) === a).sort((x, y) => x.entry.data.level - y.entry.data.level);
+    return list.length > 0 && (
+      <section>
+        <h2 id={`age-${a}`}>{m.ages[a]}</h2>
+        <ol>
+          {list.map((c) => {
+            const d = c.entry.data;
+            return (
+              <li data-srcs={JSON.stringify(d.curricula.map((cu) => srcKey(cu.src)))}>
+                <a href={href(locale, `math/c/${c.id}`)}>{d.title}</a>
+                {d.demo && <span title={m.interactive}> ▶</span>}
+                {d.extra && <em> ({m.extra})</em>}
+                <br /><small>{d.summary}</small>
+                <br /><small class="src">{d.curricula.map((cu) => `${cu.src} — ${cu.ref}`).join(' · ')}</small>
+              </li>
+            );
+          })}
+        </ol>
+      </section>
+    );
+  })}
+</Base>
+<script>
+  const btns = document.querySelectorAll<HTMLButtonElement>('.filters button');
+  btns.forEach((b) => b.addEventListener('click', () => {
+    btns.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    const s = b.dataset.src;
+    document.querySelectorAll<HTMLElement>('li[data-srcs]').forEach((li) => {
+      li.hidden = !!s && !JSON.parse(li.dataset.srcs!).includes(s);
+    });
+  }));
+</script>
+<style>
+  .filters button[aria-pressed='true'] { font-weight: 700; }
+  .src { color: #777; }
+  li { margin-bottom: .6rem; }
+</style>

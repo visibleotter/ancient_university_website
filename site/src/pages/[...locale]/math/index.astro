@@ -1,13 +1,30 @@
 ---
+// Вход в раздел «Математика греков».
 import Base from '../../../layouts/Base.astro';
-import { localePaths, toLocale, ui } from '../../../i18n/ui';
+import { localePaths, toLocale, ui, mt, href } from '../../../i18n/ui';
+import { all } from '../../../lib/content';
+import { AGES } from '../../../content.config';
 export function getStaticPaths() {
   return localePaths();
 }
 const locale = toLocale(Astro.params.locale);
-const t = ui[locale];
+const t = ui[locale], m = mt[locale];
+const paths = [...(await all('paths', locale)).values()];
+const cards = [...(await all('cards', locale)).values()];
+const nConstr = cards.filter((c) => c.entry.data.type === 'construction').length;
 ---
-<Base locale={locale} title={t.math} path="math">
+<Base locale={locale} title={t.math} path="math" fallback={cards.some((c) => c.fallback)}>
   <h1>{t.math}</h1>
-  <p>Структура раздела обсуждается. Здесь будет вход в раздел.</p>
+  <h2>{m.start}</h2>
+  <ul>
+    {paths.map((p) => (
+      <li><a href={href(locale, `math/path/${p.id}`)}>{p.entry.data.title}</a><br /><small>{p.entry.data.summary}</small></li>
+    ))}
+    <li><a href={href(locale, 'math/constructions')}>{m.constructions}</a> ({nConstr})<br /><small>{m.constructionsIntro}</small></li>
+    <li><a href={href(locale, 'math/cards')}>{m.allCards}</a> ({cards.length})</li>
+  </ul>
+  <h2>{m.byAge}</h2>
+  <ul>
+    {AGES.map((a) => <li><a href={href(locale, `math/cards`) + `#age-${a}`}>{m.ages[a]}</a> — {cards.filter((c) => c.entry.data.ages.includes(a)).length}</li>)}
+  </ul>
 </Base>

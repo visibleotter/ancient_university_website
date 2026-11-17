@@ -1,0 +1,40 @@
+---
+// Интерактивный чертёж из src/lib/demos.ts.
+import { mt, type Locale } from '../i18n/ui';
+interface Props { id: string; locale: Locale }
+const { id, locale } = Astro.props;
+const t = mt[locale];
+const labels = JSON.stringify({ step: t.step, prev: t.prev, next: t.next, showAll: t.showAll, reset: t.reset, drag: t.drag });
+---
+<figure class="demo" data-demo={id} data-locale={locale} data-labels={labels}>
+  <noscript>{t.interactive}: JavaScript</noscript>
+</figure>
+<script>
+  import { mountAll } from '../lib/player';
+  mountAll();
+</script>
+<style is:global>
+  .demo { margin: 1rem 0; border: 1px solid #ccc; padding: .5rem; max-width: 40rem; }
+  .demo svg { width: 100%; height: auto; touch-action: none; background: #fffdf7; display: block; }
+  .demo .stroke { fill: none; stroke-width: 1.4; }
+  .demo .seg { stroke-width: 2.4; }
+  .demo .new { stroke-width: 3; }
+  .demo .dash { stroke-dasharray: 5 4; }
+  .demo .poly { stroke: none; opacity: .35; }
+  .demo .ang { fill: none; stroke-width: 1.5; }
+  .demo .ang.fill { opacity: .55; stroke: none; }
+  .demo .pt { stroke: #fff; stroke-width: 1; }
+  .demo .handle { cursor: grab; stroke: #000; stroke-width: 1.5; }
+  .demo .hit { fill: transparent; cursor: grab; }
+  .demo .name { font: italic 14px Georgia, serif; fill: #222; pointer-events: none; }
+  .demo .lbl { font: 12px system-ui, sans-serif; text-anchor: middle; pointer-events: none; }
+  .demo .c-red { stroke: #c8102e; fill: #c8102e; }
+  .demo .c-yellow { stroke: #e0a800; fill: #f2b705; }
+  .demo .c-blue { stroke: #1f4e9c; fill: #1f4e9c; }
+  .demo .c-black { stroke: #222; fill: #222; }
+  .demo .c-grey { stroke: #999; fill: #999; }
+  .demo .stroke.c-red, .demo .stroke.c-blue, .demo .stroke.c-black, .demo .stroke.c-grey, .demo .stroke.c-yellow { fill: none; }
+  .demo .ctl { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; }
+  .demo .hint { font-size: .8rem; color: #777; }
+  .demo .cap { min-height: 3em; }
+</style>

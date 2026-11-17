@@ -1,7 +1,7 @@
 ---
 import { locales, localeNames, ui, href, type Locale } from '../i18n/ui';
-interface Props { locale: Locale; title: string; path: string }
-const { locale, title, path } = Astro.props;
+interface Props { locale: Locale; title: string; path: string; fallback?: boolean }
+const { locale, title, path, fallback = false } = Astro.props;
 const t = ui[locale];
 ---
 <html lang={locale}>
@@ -25,7 +25,7 @@ const t = ui[locale];
       </nav>
     </header>
     <p class="draft">{t.draft}</p>
-    {locale !== 'ru' && t.untranslated && <p class="draft">{t.untranslated}</p>}
+    {fallback && <p class="draft">{t.untranslated}</p>}
     <main><slot /></main>
     <style is:global>
       /* Временные стили-заглушки: только чтобы было читаемо. Дизайн делаем отдельно. */
