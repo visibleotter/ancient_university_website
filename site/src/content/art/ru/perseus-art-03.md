@@ -6,5 +6,7 @@ period: later
 kind: painting
 museum: "Эрмитаж"
 commons: "Peter Paul Rubens - Perseus and Andromeda - WGA20304.jpg"
+license: "общественное достояние"
+credit: "Peter Paul Rubens"
 ---
 Подборка из тома «Мифы Греции в искусстве».

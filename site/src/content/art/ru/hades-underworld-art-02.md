@@ -6,5 +6,7 @@ period: later
 kind: painting
 museum: "—"
 commons: "Aeneas and Sibyl in the Underworld, by Jan Brueghel I (Budapest, Museum of Fine Arts, inv. 551).jpg"
+license: "общественное достояние"
+credit: "Jan Brueghel the Elder"
 ---
 Подборка из тома «Мифы Греции в искусстве».

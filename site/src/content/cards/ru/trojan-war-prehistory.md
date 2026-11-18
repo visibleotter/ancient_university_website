@@ -8,6 +8,7 @@ ages: ["8-10", "11-15"]
 era: "сюжеты из «Киприй» и поздних авторов"
 links:
   - { to: homer, kind: source }
+art: [trojan-war-prehistory-art-01, trojan-war-prehistory-art-02, trojan-war-prehistory-art-03, trojan-war-prehistory-art-04, trojan-war-prehistory-art-05, trojan-war-prehistory-art-06, trojan-war-prehistory-art-07, trojan-war-prehistory-art-08, trojan-war-prehistory-art-09, trojan-war-prehistory-art-10, trojan-war-prehistory-art-11, trojan-war-prehistory-art-12, trojan-war-prehistory-art-13, trojan-war-prehistory-art-14]
 ---
 **Гомер молчит ✅.** «Илиада» начинается сразу с десятого года осады и с ссоры Ахилла и Агамемнона. Всё, что «было до», греки знали из других поэм — прежде всего из **«Киприй»** (до нас дошёл только пересказ Прокла) — и из поздних авторов: Аполлодора, Еврипида.
 

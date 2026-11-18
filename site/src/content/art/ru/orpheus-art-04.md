@@ -6,5 +6,7 @@ period: later
 kind: painting
 museum: "Орсе"
 commons: "Gustave Moreau - Orpheus - Google Art Project.jpg"
+license: "общественное достояние"
+credit: "Gustave Moreau"
 ---
 Подборка из тома «Мифы Греции в искусстве».

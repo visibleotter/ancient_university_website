@@ -10,6 +10,7 @@ reliability: legend
 links:
   - { to: troy, kind: meaning }
   - { to: iliad-ring, kind: meaning }
+art: [trojan-horse-art-01, trojan-horse-art-02, trojan-horse-art-03, trojan-horse-art-04, trojan-horse-art-05]
 ---
 **Конь 📜.** По совету Одиссея ахейцы построили огромного деревянного коня, спрятали внутри воинов, а сами сделали вид, что уплыли. Троянцы втащили коня в город как дар Афине.
 

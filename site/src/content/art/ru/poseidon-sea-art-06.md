@@ -6,5 +6,7 @@ period: later
 kind: painting
 museum: "Мюнхен"
 commons: "Neptune’s Horses (1892) by Walter Crane.jpg"
+license: "общественное достояние"
+credit: "Walter Crane"
 ---
 Подборка из тома «Мифы Греции в искусстве».

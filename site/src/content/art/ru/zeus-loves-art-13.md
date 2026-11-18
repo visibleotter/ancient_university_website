@@ -6,5 +6,7 @@ period: later
 kind: painting
 museum: "ГМИИ им. Пушкина"
 commons: "Claude Lorrain - The Rape of Europa - WGA05005.jpg"
+license: "общественное достояние"
+credit: "Claude Lorrain"
 ---
 Подборка из тома «Мифы Греции в искусстве». Произведение из российского музея или русского художника.

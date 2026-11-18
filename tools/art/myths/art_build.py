@@ -96,7 +96,7 @@ for r in rows:
     if f:
         r['pick'] = f; chosen.append(r)
 
-VERIFY = False  # API Commons под лимитом: проверку лицензий делаем позже
+VERIFY = True  # API Commons под лимитом: проверку лицензий делаем позже
 # imageinfo пачками по 40
 meta = {}
 names = list({r['pick'] for r in chosen})

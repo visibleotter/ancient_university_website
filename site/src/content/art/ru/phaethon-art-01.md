@@ -6,5 +6,7 @@ period: later
 kind: painting
 museum: "Вашингтон"
 commons: "Peter Paul Rubens - The Fall of Phaeton (National Gallery of Art).jpg"
+license: "общественное достояние"
+credit: "Peter Paul Rubens"
 ---
 Подборка из тома «Мифы Греции в искусстве».

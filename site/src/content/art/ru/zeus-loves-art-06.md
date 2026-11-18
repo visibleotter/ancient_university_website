@@ -6,5 +6,7 @@ period: later
 kind: painting
 museum: "Русский музей"
 commons: "Thetis and Zeus by A.Losenko.jpg"
+license: "общественное достояние"
+credit: "Anton Losenko"
 ---
 Подборка из тома «Мифы Греции в искусстве». Произведение из российского музея или русского художника.

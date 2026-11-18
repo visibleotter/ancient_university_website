@@ -7,5 +7,7 @@ kind: painting
 museum: "Торонто"
 commons: "Anthony van Dyck - Daedalus and Icarus - Google Art Project.jpg"
 reliability: disputed
+license: "общественное достояние"
+credit: "Anthony van Dyck"
 ---
 Подборка из тома «Мифы Греции в искусстве».

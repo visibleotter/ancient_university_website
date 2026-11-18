@@ -5410,7 +5410,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Goltzius+Cadmus+dragon&title=Special:MediaSearch&type=image"
    ],
-   "card": "oedipus"
+   "cands": [
+    "Hendrick Goltzius Cadmus Statens Museum for Kunst 1183.jpg",
+    "Workshop of Hendrick Goltzius, after Hendrick Goltzius, The Dragon Devouring the Companions of Cadmus, c. 1615, NGA 156160.jpg",
+    "The Dragon Devouring the Companions of Cadmus MET DP832056.jpg",
+    "The Dragon Devouring the Companions of Cadmus MET DP821104.jpg",
+    "The Dragon Devouring the Companions of Cadmus LACMA M.81.158.jpg"
+   ],
+   "card": "oedipus",
+   "pick": "Hendrick Goltzius Cadmus Statens Museum for Kunst 1183.jpg"
   },
   {
    "sec": "15. Фиванский цикл: Эдип, его сыновья и Семеро против Фив",
@@ -5426,7 +5434,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Harriet+Oedipus+at+Colonus&title=Special:MediaSearch&type=image"
    ],
-   "card": "oedipus"
+   "cands": [
+    "Fulchran Jean Harriet - Oedipus at Colonus - 2002.3 - Cleveland Museum of Art.tiff",
+    "Fulchran-Jean Harriet - Oedipus at Colonus (1798).jpg",
+    "Oedipus at Colonus.jpg",
+    "Clevelandart 2002.3.jpg",
+    "Oedipus at Colonus by Fulchran-Jean Harriet.jpg"
+   ],
+   "card": "oedipus",
+   "pick": "Fulchran Jean Harriet - Oedipus at Colonus - 2002.3 - Cleveland Museum of Art.tiff"
   },
   {
    "sec": "15. Фиванский цикл: Эдип, его сыновья и Семеро против Фив",
@@ -5442,6 +5458,7 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Norblin+Antigone+burying+Polynices&title=Special:MediaSearch&type=image"
    ],
+   "cands": [],
    "card": "oedipus"
   },
   {
@@ -5458,7 +5475,12 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Lytras+Antigone+Polynices&title=Special:MediaSearch&type=image"
    ],
-   "card": "oedipus"
+   "cands": [
+    "Lytras nikiforos antigone polynices.jpeg",
+    "Nikephoros lytras, antigone e polynice, 1865.jpg"
+   ],
+   "card": "oedipus",
+   "pick": "Lytras nikiforos antigone polynices.jpeg"
   },
   {
    "sec": "15. Фиванский цикл: Эдип, его сыновья и Семеро против Фив",
@@ -5474,6 +5496,7 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Marie+Spartali+Stillman+Antigone&title=Special:MediaSearch&type=image"
    ],
+   "cands": [],
    "card": "oedipus"
   },
   {
@@ -5616,7 +5639,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Goltzius+Tantalus+Four+Disgracers&title=Special:MediaSearch&type=image"
    ],
-   "card": "atreids"
+   "cands": [
+    "Tantalus, from The Four Disgracers MET DP108228.jpg",
+    "Hendrick Goltzius - Tantalus - Google Art Project.jpg",
+    "Hendrik Goltzius, after Cornelis Cornelisz van Haarlem, Tantalus, 1588, NGA 152779.jpg",
+    "Hendrick Goltzius, De fire himmelstormere - Tantalus, 1588, KKSgb4631, Statens Museum for Kunst.jpg",
+    "Tantalus LACMA M.88.91.140.jpg"
+   ],
+   "card": "atreids",
+   "pick": "Hendrick Goltzius - Tantalus - Google Art Project.jpg"
   },
   {
    "sec": "16. Тантал, Пелоп и проклятие Атридов",
@@ -5646,6 +5677,7 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Gu%C3%A9rin+Clytemnestra+hesitates+before+striking+Agamemnon&title=Special:MediaSearch&type=image"
    ],
+   "cands": [],
    "card": "atreids"
   },
   {
@@ -5662,7 +5694,14 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=John+Collier+Clytemnestra+1882&title=Special:MediaSearch&type=image"
    ],
-   "card": "atreids"
+   "cands": [
+    "Clytemnestra by John Collier, 1882.jpg",
+    "Collier-Clytemnestra after the murder.jpg",
+    "Clytemnestra Guildhall London England.jpg",
+    "Clytemnestra1.jpg"
+   ],
+   "card": "atreids",
+   "pick": "Clytemnestra by John Collier, 1882.jpg"
   },
   {
    "sec": "16. Тантал, Пелоп и проклятие Атридов",
@@ -5678,7 +5717,12 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Leighton+Electra+at+the+Tomb+of+Agamemnon&title=Special:MediaSearch&type=image"
    ],
-   "card": "atreids"
+   "cands": [
+    "1869 Frederic Leighton - Electra at the Tomb of Agamemnon.jpg",
+    "Frederic Leighton (1830-1896) - Colour Sketch for 'Electra at the Tomb of Agamemnon' - LH0366 - Leighton House.jpg"
+   ],
+   "card": "atreids",
+   "pick": "1869 Frederic Leighton - Electra at the Tomb of Agamemnon.jpg"
   },
   {
    "sec": "16. Тантал, Пелоп и проклятие Атридов",
@@ -5792,7 +5836,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Cranach+Judgement+of+Paris&title=Special:MediaSearch&type=image"
    ],
-   "card": "trojan-war-prehistory"
+   "cands": [
+    "Lucas Cranach d.Ä. - Das Urteil des Paris (Statens Museum for Kunst).jpg",
+    "The Judgement of Paris by Lucas Cranach the Elder - Statens Museum for Kunst - DSC08157.JPG",
+    "Judgement of Paris by Lucas Cranach the Elder (1528).jpg",
+    "CRANACH the Elder, Lucas - The Judgement of Paris (1537-40).JPG",
+    "Lucas Cranach the Elder (1472-1553) and workshop - The Judgement of Paris - RCIN 405757 - Royal Collection.jpg"
+   ],
+   "card": "trojan-war-prehistory",
+   "pick": "Lucas Cranach d.Ä. - Das Urteil des Paris (Statens Museum for Kunst).jpg"
   },
   {
    "sec": "17. Перед войной: «Киприи» и гибель Троила",
@@ -5808,7 +5860,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Rubens+Judgement+of+Paris+National+Gallery&title=Special:MediaSearch&type=image"
    ],
-   "card": "trojan-war-prehistory"
+   "cands": [
+    "Rubens - Judgement of Paris.jpg",
+    "Peter Paul Rubens - The Judgement of Paris - Google Art Project.jpg",
+    "Peter Paul Rubens - The Judgment of Paris - WGA20307.jpg",
+    "Juicio de París de Rubens, Galería Nacional, Londres, Inglaterra, 2014-08-11, DD 175.JPG",
+    "Andrew Carrick Gow (1848-1920) (after) - The Judgement of Paris (after Peter Paul Rubens) - TWCMS , C10649a - Laing Art Gallery.jpg"
+   ],
+   "card": "trojan-war-prehistory",
+   "pick": "Rubens - Judgement of Paris.jpg"
   },
   {
    "sec": "17. Перед войной: «Киприи» и гибель Троила",
@@ -5823,6 +5883,9 @@
    "query": "Vrubel Judgement of Paris",
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Vrubel+Judgement+of+Paris&title=Special:MediaSearch&type=image"
+   ],
+   "cands": [
+    "Sud parisa.jpeg"
    ],
    "card": "trojan-war-prehistory"
   },
@@ -5840,6 +5903,7 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Batoni+Chiron+returns+Achilles+to+Thetis&title=Special:MediaSearch&type=image"
    ],
+   "cands": [],
    "card": "trojan-war-prehistory"
   },
   {
@@ -5856,7 +5920,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Tiepolo+Sacrifice+of+Iphigenia+Villa+Valmarana&title=Special:MediaSearch&type=image"
    ],
-   "card": "trojan-war-prehistory"
+   "cands": [
+    "Giovanni Battista Tiepolo - The Sacrifice of Iphigenia - Villa Valmarana.jpg",
+    "Giovanni Battista Tiepolo - The Sacrifice of Iphigenia - WGA22333.jpg",
+    "The Sacrifice of Iphigenia MET DP341859.jpg",
+    "The Sacrifice of Iphigenia MET 2015.46 profile.jpg",
+    "The Sacrifice of Iphigenia MET 2015.46 3.jpg"
+   ],
+   "card": "trojan-war-prehistory",
+   "pick": "Giovanni Battista Tiepolo - The Sacrifice of Iphigenia - Villa Valmarana.jpg"
   },
   {
    "sec": "17. Перед войной: «Киприи» и гибель Троила",
@@ -5872,7 +5944,13 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Watteau+Judgement+of+Paris+Louvre&title=Special:MediaSearch&type=image"
    ],
-   "card": "trojan-war-prehistory"
+   "cands": [
+    "Antoine Watteau - The Judgment of Paris - WGA25472.jpg",
+    "Jean-Antoine Watteau - Le jugement de Pâris.jpg",
+    "Le jugement de Pâris.jpg"
+   ],
+   "card": "trojan-war-prehistory",
+   "pick": "Antoine Watteau - The Judgment of Paris - WGA25472.jpg"
   },
   {
    "sec": "17. Перед войной: «Киприи» и гибель Троила",
@@ -5888,7 +5966,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Wtewael+Wedding+of+Peleus+and+Thetis&title=Special:MediaSearch&type=image"
    ],
-   "card": "trojan-war-prehistory"
+   "cands": [
+    "Joachim Anthonisz Wtewael - The Wedding of Peleus and Thetis - 1991.9 - Clark Art Institute.tiff",
+    "The wedding of Peleus and Thetis, by Joachim Wtewael.jpg",
+    "Joachim Anthonisz. Wtewael - Die Hochzeit von Peleus und Thetis - 857 - Bavarian State Painting Collections.jpg",
+    "Joachim Wtewael - The Wedding of Peleus and Thetis, 1612.jpg",
+    "Joachim Anthonisz. Wtewael - The Marriage of Peleus and Thetis - 62.058 - Rhode Island School of Design Museum.jpg"
+   ],
+   "card": "trojan-war-prehistory",
+   "pick": "Joachim Anthonisz Wtewael - The Wedding of Peleus and Thetis - 1991.9 - Clark Art Institute.tiff"
   },
   {
    "sec": "17. Перед войной: «Киприи» и гибель Троила",
@@ -5904,7 +5990,12 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Jan+Steen+Sacrifice+of+Iphigenia&title=Special:MediaSearch&type=image"
    ],
-   "card": "trojan-war-prehistory"
+   "cands": [
+    "Jan Steen - Sacrifice of Iphigenia - SK-A-3984 - Rijksmuseum.jpg",
+    "The Sacrifice of Iphigenia by Jan Havickszoon Steen.jpg"
+   ],
+   "card": "trojan-war-prehistory",
+   "pick": "Jan Steen - Sacrifice of Iphigenia - SK-A-3984 - Rijksmuseum.jpg"
   },
   {
    "sec": "17. Перед войной: «Киприи» и гибель Троила",
@@ -5920,7 +6011,11 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Guido+Reni+Abduction+of+Helen+Louvre&title=Special:MediaSearch&type=image"
    ],
-   "card": "trojan-war-prehistory"
+   "cands": [
+    "The Abduction of Helen by Guido Reni, Department of Paintings, Louvre.jpg"
+   ],
+   "card": "trojan-war-prehistory",
+   "pick": "The Abduction of Helen by Guido Reni, Department of Paintings, Louvre.jpg"
   },
   {
    "sec": "17. Перед войной: «Киприи» и гибель Троила",
@@ -5936,7 +6031,13 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Tintoretto+Abduction+of+Helen+Prado&title=Special:MediaSearch&type=image"
    ],
-   "card": "trojan-war-prehistory"
+   "cands": [
+    "Tintoretto Rape of Helen (cropped).jpg",
+    "Tintoretto Rape of Helen.jpg",
+    "Museo del Prado, Madrid (2946129849).jpg"
+   ],
+   "card": "trojan-war-prehistory",
+   "pick": "Tintoretto Rape of Helen (cropped).jpg"
   },
   {
    "sec": "17. Перед войной: «Киприи» и гибель Троила",
@@ -5952,7 +6053,14 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Poussin+Achilles+among+the+daughters+of+Lycomedes&title=Special:MediaSearch&type=image"
    ],
-   "card": "trojan-war-prehistory"
+   "cands": [
+    "Poussin - Achilles among the Daughters of Lycomedes (or Achilles on Skyros), 1656.jpg",
+    "Jean Lemaire - Achilles Discovered Among the Daughters of Lycomedes.jpg",
+    "Achilles door Odysseus herkend temidden van de dochters van Lycomedes, RP-P-OB-39.146.jpg",
+    "Achilles door Odysseus herkend temidden van de dochters van Lycomedes, RP-P-OB-39.147.jpg"
+   ],
+   "card": "trojan-war-prehistory",
+   "pick": "Poussin - Achilles among the Daughters of Lycomedes (or Achilles on Skyros), 1656.jpg"
   },
   {
    "sec": "17. Перед войной: «Киприи» и гибель Троила",
@@ -5968,7 +6076,11 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Rubens+van+Dyck+Achilles+discovered+daughters+of+Lycomedes&title=Special:MediaSearch&type=image"
    ],
-   "card": "trojan-war-prehistory"
+   "cands": [
+    "Anthony van Dyck en Peter Paul Rubens - Odysseus herkent Achilles tussen de dochters van Lycomedes - P001661 - Museo del Prado.jpg"
+   ],
+   "card": "trojan-war-prehistory",
+   "pick": "Anthony van Dyck en Peter Paul Rubens - Odysseus herkent Achilles tussen de dochters van Lycomedes - P001661 - Museo del Prado.jpg"
   },
   {
    "sec": "17. Перед войной: «Киприи» и гибель Троила",
@@ -5984,7 +6096,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Batoni+Achilles+at+the+court+of+Lycomedes&title=Special:MediaSearch&type=image"
    ],
-   "card": "trojan-war-prehistory"
+   "cands": [
+    "Batoni, Pompeo ~ Achilles at the Court of Lycomedes, 1745, oil on canvas, Galleria degli Uffizi, Florence.jpg",
+    "Vase with Achilles at Lycomedes after Pompeo Batoni, 16cm, interbellum Czecho-Slovakia 03.jpg",
+    "Vase with Achilles at Lycomedes after Pompeo Batoni, 16cm, interbellum Czecho-Slovakia 02.jpg",
+    "Vase with Achilles at Lycomedes after Pompeo Batoni, 16cm, interbellum Czecho-Slovakia 05.jpg",
+    "Vase with Achilles at Lycomedes after Pompeo Batoni, 16cm, interbellum Czecho-Slovakia 01.jpg"
+   ],
+   "card": "trojan-war-prehistory",
+   "pick": "Batoni, Pompeo ~ Achilles at the Court of Lycomedes, 1745, oil on canvas, Galleria degli Uffizi, Florence.jpg"
   },
   {
    "sec": "17. Перед войной: «Киприи» и гибель Троила",
@@ -6000,7 +6120,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Abildgaard+wounded+Philoctetes&title=Special:MediaSearch&type=image"
    ],
-   "card": "trojan-war-prehistory"
+   "cands": [
+    "Nicolai Abildgaard - The Wounded Philoctetes - Google Art Project.jpg",
+    "The Wounded Philoctetes.jpg",
+    "Nicolai Abildgaard, Den sårede Filoktet, 1775, KMS586, Statens Museum for Kunst.jpg",
+    "Den sårede Filoktet.jpg",
+    "The Wounded Philoctetes (1775).jpg"
+   ],
+   "card": "trojan-war-prehistory",
+   "pick": "Nicolai Abildgaard - The Wounded Philoctetes - Google Art Project.jpg"
   },
   {
    "sec": "17. Перед войной: «Киприи» и гибель Троила",
@@ -6016,7 +6144,14 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Drouais+Philoctetes+Lemnos&title=Special:MediaSearch&type=image"
    ],
-   "card": "trojan-war-prehistory"
+   "cands": [
+    "Philoctetes.jpg",
+    "Philoctete sur l’île de Lemnos - entourage de Jean Germain DROUAIS.jpg",
+    "Drouais Philoctète esquisse.jpg",
+    "Orléans - musée des beaux-arts (66).jpg"
+   ],
+   "card": "trojan-war-prehistory",
+   "pick": "Philoctete sur l’île de Lemnos - entourage de Jean Germain DROUAIS.jpg"
   },
   {
    "sec": "17. Перед войной: «Киприи» и гибель Троила",
@@ -6032,7 +6167,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=James+Barry+Philoctetes+Lemnos&title=Special:MediaSearch&type=image"
    ],
-   "card": "trojan-war-prehistory"
+   "cands": [
+    "James Barry - Philoctetes in the Island of Lemnos - B1977.14.11066 - Yale Center for British Art.jpg",
+    "Barry Philoctetes Lemnos.jpg",
+    "Giovanni Maria Mosca - Philoctetes on the Island of Lemnos - 1973.168 - Cleveland Museum of Art.tif",
+    "Guillaume Guillon-Lethiere, Philoctetes on the Island of Lemnos.jpg",
+    "Orléans - musée des beaux-arts (66).jpg"
+   ],
+   "card": "trojan-war-prehistory",
+   "pick": "James Barry - Philoctetes in the Island of Lemnos - B1977.14.11066 - Yale Center for British Art.jpg"
   },
   {
    "sec": "17. Перед войной: «Киприи» и гибель Троила",
@@ -6174,7 +6317,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Rubens+Achilles+series+Boijmans&title=Special:MediaSearch&type=image"
    ],
-   "card": "achilles"
+   "cands": [
+    "Rubens - Achilles vertoornd op Agamemnon - Boijmans Van Beuningen.jpg",
+    "WLANL - Quistnix! - Museum Boijmans van Beuningen - Achilles vertoornd op Agamemnon, Rubens.jpg",
+    "P.P. Rubens - Achilles herkend onder de dochters van Lycomedes - NK2680 - Museum Boijmans Van Beuningen.jpg",
+    "Peter Paul Rubens - The Wrath of Achilles - Google Art Project.jpg",
+    "Peter Paul Rubens 181.jpg"
+   ],
+   "card": "achilles",
+   "pick": "Rubens - Achilles vertoornd op Agamemnon - Boijmans Van Beuningen.jpg"
   },
   {
    "sec": "18. Троянская война",
@@ -6206,6 +6357,7 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Nikolai+Ge+Achilles+mourns+Patroclus&title=Special:MediaSearch&type=image"
    ],
+   "cands": [],
    "card": "achilles"
   },
   {
@@ -6221,6 +6373,9 @@
    "query": "Alexander Ivanov Priam Achilles Hector body",
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Alexander+Ivanov+Priam+Achilles+Hector+body&title=Special:MediaSearch&type=image"
+   ],
+   "cands": [
+    "Alexandr Ivanov 005.jpg"
    ],
    "card": "iliad-ring"
   },
@@ -6238,7 +6393,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Losenko+Hector+Andromache+farewell&title=Special:MediaSearch&type=image"
    ],
-   "card": "hector-andromache"
+   "cands": [
+    "Losenko Farewell of Hector and Andromache study 1773.jpg",
+    "Farewell of Hector and Andromache by Anton Losenko in the State Tretyakov Gallery IMG 6170.jpg",
+    "Losenko Hector and Andromache pencil study10a.jpg",
+    "Hector and Andromache by A.Losenko.jpg",
+    "Hector and Andromache by A.Losenko - detail 01.jpg"
+   ],
+   "card": "hector-andromache",
+   "pick": "Losenko Farewell of Hector and Andromache study 1773.jpg"
   },
   {
    "sec": "18. Троянская война",
@@ -6270,7 +6433,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Gustave+Moreau+Helen+Scaean+Gate&title=Special:MediaSearch&type=image"
    ],
-   "card": "trojan-horse"
+   "cands": [
+    "Helene a la porte scee - gustave moreau - 2.jpg",
+    "Helene a la porte scee - gustave moreau - avec cadre.jpg",
+    "Helene a la porte scee - gustave moreau.jpg",
+    "Moreau - Hélène à la porte Scée, Cat. 42.jpg",
+    "Moreau - Hélène à la porte de Scée, cat.42.jpg"
+   ],
+   "card": "trojan-horse",
+   "pick": "Helene a la porte scee - gustave moreau - 2.jpg"
   },
   {
    "sec": "18. Троянская война",
@@ -6286,7 +6457,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Tiepolo+Procession+of+the+Trojan+Horse+into+Troy&title=Special:MediaSearch&type=image"
    ],
-   "card": "trojan-horse"
+   "cands": [
+    "Giovanni Domenico Tiepolo - The Procession of the Trojan Horse in Troy - WGA22382.jpg",
+    "The Procession of the Trojan Horse in Troy by Giovanni Domenico Tiepolo (cropped).jpg",
+    "Giovanni Domenico Tipeolo, Procession of the Trojan Horse in Troy, 1760.jpg",
+    "Giovanni domenico tiepolo, processione del cavallo di legno denro troia, 1760 ca.jpg",
+    "Giovanni Domenico Tiepolo - The Building of the Trojan Horse, 1773-1774.jpg"
+   ],
+   "card": "trojan-horse",
+   "pick": "Giovanni Domenico Tiepolo - The Procession of the Trojan Horse in Troy - WGA22382.jpg"
   },
   {
    "sec": "18. Троянская война",
@@ -6319,6 +6498,7 @@
     "https://rusmuseumvrm.ru/data/collections/sculpture/18_20/kozlovskiy_mi_ayaks_zaschischaet_telo_patrokla_1796_sk_1807/index.php",
     "https://commons.wikimedia.org/w/index.php?search=Kozlovsky+Ajax+Patroclus&title=Special:MediaSearch&type=image"
    ],
+   "cands": [],
    "card": "achilles"
   },
   {
@@ -6335,7 +6515,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Jacques-Louis+David+Paris+and+Helen&title=Special:MediaSearch&type=image"
    ],
-   "card": "trojan-horse"
+   "cands": [
+    "The Love of Paris and Helen by Jacques-Louis David.jpg",
+    "The Love of Paris and Helen by Jacques-Louis David (cropped).jpg",
+    "Jacques-Louis David - The Loves of Paris and Helen - WGA6057.jpg",
+    "Les Amours de Pâris et d'Hélène (painting by Jacques-Louis David).jpg",
+    "Jacques-louis david, paride ed elena, 1789.JPG"
+   ],
+   "card": "trojan-horse",
+   "pick": "The Love of Paris and Helen by Jacques-Louis David.jpg"
   },
   {
    "sec": "18. Троянская война",
@@ -6350,6 +6538,13 @@
    "query": "Evelyn De Morgan Helen of Troy",
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Evelyn+De+Morgan+Helen+of+Troy&title=Special:MediaSearch&type=image"
+   ],
+   "cands": [
+    "Helen of Troy.jpg",
+    "Helen of TroyFXD.jpg",
+    "Hendrick Goltzius Helen of Troy P1160535 04.jpg",
+    "Hendrick Goltzius Helen of Troy P1160535 05.jpg",
+    "Hendrick Goltzius Helen of Troy P1160535 02.jpg"
    ],
    "card": "trojan-horse"
   },
@@ -6367,6 +6562,13 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Evelyn+De+Morgan+Cassandra&title=Special:MediaSearch&type=image"
    ],
+   "cands": [
+    "Cassandra1.jpeg",
+    "Lilium-'Cassandra'.jpg",
+    "Cassandra logo.png",
+    "WW Chicago 2014 - Cassandra Peterson 01 (15035609506).jpg",
+    "WW Chicago 2014 - Cassandra Peterson 05 (15058612335).jpg"
+   ],
    "card": "trojan-horse"
   },
   {
@@ -6383,7 +6585,14 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Ingres+Ambassadors+of+Agamemnon&title=Special:MediaSearch&type=image"
    ],
-   "card": "atreids"
+   "cands": [
+    "Jean-Auguste-Dominique Ingres - Achilles Receiving the Ambassadors of Agamemnon, 1801.jpg",
+    "The Envoys of Agamemnon by Ingres.jpg",
+    "The Envoys of Agamemnon by Ingres (detail).jpg",
+    "Ambassadeurs envoyés par Agamemnon à Achille pour l'engager à combattre - Ingres - btv1b8418795q.jpg"
+   ],
+   "card": "atreids",
+   "pick": "Jean-Auguste-Dominique Ingres - Achilles Receiving the Ambassadors of Agamemnon, 1801.jpg"
   },
   {
    "sec": "18. Троянская война",
@@ -6399,7 +6608,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Gavin+Hamilton+Achilles+lamenting+Patroclus&title=Special:MediaSearch&type=image"
    ],
-   "card": "achilles"
+   "cands": [
+    "Gavin Hamilton (1723-1798) - Achilles Lamenting the Death of Patroclus - NG 2339 - National Galleries of Scotland.jpg",
+    "Achilles Lamenting the Death of Patroclus by Gavin Hamilton the National Galleries of Scotland.jpg",
+    "Gavin Hamilton - Achilles Lamenting the Death of Patroclus - NG 2339 - National Galleries of Scotland.jpg",
+    "Gavin Hamilton - Achilles Lamenting the Death of Patroclus - B1975.4.884 - Yale Center for British Art.jpg",
+    "Hamilton Achilles Patroclus.jpg"
+   ],
+   "card": "achilles",
+   "pick": "Gavin Hamilton (1723-1798) - Achilles Lamenting the Death of Patroclus - NG 2339 - National Galleries of Scotland.jpg"
   },
   {
    "sec": "18. Троянская война",
@@ -6415,7 +6632,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Franz+Matsch+Triumph+of+Achilles+Achilleion&title=Special:MediaSearch&type=image"
    ],
-   "card": "achilles"
+   "cands": [
+    "The Triumph of Achilles by Franz von Matsch.jpg",
+    "The Triumph of Achilles by Franz von Matsch (cropped).jpg",
+    "The \"Triumph of Achilles\" fresco, in Corfu Achilleion.jpg",
+    "Triumph of Achilles in Corfu Achilleion cropped color enhanced white balanced.png",
+    "Hector Slain (Detail of Franz Matsch's 'Triumph of Achilles').png"
+   ],
+   "card": "achilles",
+   "pick": "The Triumph of Achilles by Franz von Matsch.jpg"
   },
   {
    "sec": "18. Троянская война",
@@ -6431,7 +6656,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Barocci+Aeneas+flight+from+Troy&title=Special:MediaSearch&type=image"
    ],
-   "card": "trojan-horse"
+   "cands": [
+    "Aeneas' Flight from Troy by Federico Barocci.jpg",
+    "Federico Barocci - Aeneas' Flight from Troy - WGA01283.jpg",
+    "Federico Barocci - Aeneas' Flight from Troy (detail) - WGA01284.jpg",
+    "Fuga di Enea da Troia - Barocci.jpg",
+    "Federico Barocci - Aeneas Saving Anchises at the Fall of Troy - 1960.26 - Cleveland Museum of Art.tif"
+   ],
+   "card": "trojan-horse",
+   "pick": "Aeneas' Flight from Troy by Federico Barocci.jpg"
   },
   {
    "sec": "18. Троянская война",
@@ -6447,7 +6680,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Bernini+Aeneas+Anchises+Ascanius&title=Special:MediaSearch&type=image"
    ],
-   "card": "trojan-horse"
+   "cands": [
+    "Aeneas, Anchises, and Ascanius by Bernini.jpg",
+    "Aeneas, Anchises, and Ascanius by Bernini, Galleria Borghese (44686152210).jpg",
+    "Aeneas, Anchises, and Ascanius (15778731307).jpg",
+    "Aeneas, Anchises, and Ascanius by Bernini, 1618-1620, marble, view 3 - Galleria Borghese - Rome, Italy - DSC04801.jpg",
+    "Aeneas, Anchises, and Ascanius by Bernini, 1618-1620, marble, view 1 - Galleria Borghese - Rome, Italy - DSC04797.jpg"
+   ],
+   "card": "trojan-horse",
+   "pick": "Aeneas, Anchises, and Ascanius by Bernini.jpg"
   },
   {
    "sec": "18. Троянская война",
@@ -6463,7 +6704,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Bouguereau+Remorse+of+Orestes&title=Special:MediaSearch&type=image"
    ],
-   "card": "atreids"
+   "cands": [
+    "Orestes Pursued by the Furies by William-Adolphe Bouguereau (1862) - Google Art Project.jpg",
+    "Orestes (torso).jpg",
+    "Bouguereau fury art.jpg",
+    "Carl Rahl - Orestes Pursued by the Furies (1852).jpg",
+    "Singer Sargent, John - Orestes Pursued by the Furies - 1921.jpg"
+   ],
+   "card": "atreids",
+   "pick": "Orestes Pursued by the Furies by William-Adolphe Bouguereau (1862) - Google Art Project.jpg"
   },
   {
    "sec": "18. Троянская война",
@@ -6479,7 +6728,12 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Sargent+Orestes+MFA+Boston&title=Special:MediaSearch&type=image"
    ],
-   "card": "atreids"
+   "cands": [
+    "Singer Sargent, John - Orestes Pursued by the Furies - 1921.jpg",
+    "Sargent - Orestes, 1922–25, 25.645.jpg"
+   ],
+   "card": "atreids",
+   "pick": "Singer Sargent, John - Orestes Pursued by the Furies - 1921.jpg"
   },
   {
    "sec": "18. Троянская война",
@@ -6495,7 +6749,14 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Franz+Stuck+Orestes+Erinyes&title=Special:MediaSearch&type=image"
    ],
-   "card": "atreids"
+   "cands": [
+    "Franz von Stuck - Orest und die Erinnyen - 1905.jpeg",
+    "Franz von stuck, oreste e le erinni, 1905, 02.jpg",
+    "Franz von stuck, oreste e le erinni, 1905, 01.jpg",
+    "Franz von stuck, oreste e le erinni, 1905, 03.jpg"
+   ],
+   "card": "atreids",
+   "pick": "Franz von Stuck - Orest und die Erinnyen - 1905.jpeg"
   },
   {
    "sec": "19. Одиссея",
@@ -6527,7 +6788,12 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Jordaens+Odysseus+cave+Polyphemus+Pushkin&title=Special:MediaSearch&type=image"
    ],
-   "card": "odysseus-adventures"
+   "cands": [
+    "Jacob jordaens, ulisse nella grotta di polifemo, 1630-35 (mosca, museo pushkin).jpg",
+    "Jakob Jordaens 009.jpg"
+   ],
+   "card": "odysseus-adventures",
+   "pick": "Jacob jordaens, ulisse nella grotta di polifemo, 1630-35 (mosca, museo pushkin).jpg"
   },
   {
    "sec": "19. Одиссея",
@@ -6543,7 +6809,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Odilon+Redon+The+Cyclops&title=Special:MediaSearch&type=image"
    ],
-   "card": "odysseus-adventures"
+   "cands": [
+    "Odilon Redon - The Cyclops, c. 1914.jpg",
+    "Odilon Redon - Le Cyclope.jpeg",
+    "Redon.cyclops.jpg",
+    "1914 Redon Zyklop anagoria.JPG",
+    "Oczlik (Cyclops) - samica.jpg"
+   ],
+   "card": "odysseus-adventures",
+   "pick": "Odilon Redon - The Cyclops, c. 1914.jpg"
   },
   {
    "sec": "19. Одиссея",
@@ -6591,7 +6865,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Herbert+Draper+Ulysses+and+the+Sirens&title=Special:MediaSearch&type=image"
    ],
-   "card": "odysseus-adventures"
+   "cands": [
+    "Draper Herbert James Ulysses and the Sirens.jpg",
+    "Herbert-James-Draper-Ulysses-and-the-Sirens.jpg",
+    "Herbert James Draper - Ulysses and the Sirens (1910).jpg",
+    "Herbert James Draper, Ulysses and the Sirens, 1909.jpg",
+    "Herbert James Draper, Ulysses and the Sirens.jpg"
+   ],
+   "card": "odysseus-adventures",
+   "pick": "Draper Herbert James Ulysses and the Sirens.jpg"
   },
   {
    "sec": "19. Одиссея",
@@ -6607,7 +6889,12 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=B%C3%B6cklin+Odysseus+and+Calypso&title=Special:MediaSearch&type=image"
    ],
-   "card": "odysseus-adventures"
+   "cands": [
+    "Arnold Böcklin 008.jpg",
+    "Calypso Calipso mitología griega greek.jpg"
+   ],
+   "card": "odysseus-adventures",
+   "pick": "Arnold Böcklin 008.jpg"
   },
   {
    "sec": "19. Одиссея",
@@ -6623,7 +6910,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Serov+Odysseus+and+Nausicaa&title=Special:MediaSearch&type=image"
    ],
-   "card": "odysseus-adventures"
+   "cands": [
+    "Валентин Александрович Серов - Одиссей и Навсикая.jpg",
+    "Odysseus and Nausicaa by Valentin Serov (drawing, 1910).JPG",
+    "Odysseus and Nausicaa by Valentin Serov (drawing, 1910) 2.JPG",
+    "Odysseus and Nausicaa by Valentin Serov (drawing, GTG) FRAME.jpg",
+    "Odysseus and Nausicaa by Valentin Serov (drawing, GTG) detail.jpg"
+   ],
+   "card": "odysseus-adventures",
+   "pick": "Odysseus and Nausicaa by Valentin Serov (drawing, 1910).JPG"
   },
   {
    "sec": "19. Одиссея",
@@ -6639,7 +6934,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Pinturicchio+Penelope+with+the+Suitors&title=Special:MediaSearch&type=image"
    ],
-   "card": "odysseus-adventures"
+   "cands": [
+    "Pinturicchio, Return of Odysseus.jpg",
+    "Pinturicchio - The Return of Odysseus - WGA17830.jpg",
+    "Penelope with the Suitors - Pinturicchio (National Gallery).jpg",
+    "Pinturicchio, penelope e i suoi corteggiatori, 1509 ca., dal palazzo del magnifico a siena, 01.jpg",
+    "Pinturicchio, penelope e i suoi corteggiatori, 1509 ca., dal palazzo del magnifico a siena, 02 gatto.jpg"
+   ],
+   "card": "odysseus-adventures",
+   "pick": "Pinturicchio, Return of Odysseus.jpg"
   },
   {
    "sec": "19. Одиссея",
@@ -6655,7 +6958,12 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Waterhouse+Penelope+and+the+Suitors&title=Special:MediaSearch&type=image"
    ],
-   "card": "odysseus-adventures"
+   "cands": [
+    "Penelope and the Suitors - John William Waterhouse - ABDAG003035.jpg",
+    "JohnWilliamWaterhouse-PenelopeandtheSuitors(1912).jpg"
+   ],
+   "card": "odysseus-adventures",
+   "pick": "Penelope and the Suitors - John William Waterhouse - ABDAG003035.jpg"
   },
   {
    "sec": "19. Одиссея",
@@ -6671,7 +6979,14 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Poussin+Landscape+with+Polyphemus+Hermitage&title=Special:MediaSearch&type=image"
    ],
-   "card": "odysseus-adventures"
+   "cands": [
+    "Nicolas Poussin - Landscape with Polyphemus - WGA18316.jpg",
+    "Poussin - Landscape with Polyphemus, 1649, ГЭ-1186.jpg",
+    "Nicolas Poussin - Paysage avec Polyphème.jpg",
+    "Musée de l'Ermitage - Nicolas Poussin - Paysage avec Polyphème (1649).jpg"
+   ],
+   "card": "odysseus-adventures",
+   "pick": "Nicolas Poussin - Landscape with Polyphemus - WGA18316.jpg"
   },
   {
    "sec": "19. Одиссея",
@@ -6687,7 +7002,12 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Rubens+Odysseus+island+of+the+Phaeacians&title=Special:MediaSearch&type=image"
    ],
-   "card": "odysseus-adventures"
+   "cands": [
+    "Rubens - Ulysses Landing on the Island of the Phaeacians 61.27 A1.jpg",
+    "Peter Paul Rubens - Ulysses and Nausicaa on the Island of the Phaeacians - WGA20400.jpg"
+   ],
+   "card": "odysseus-adventures",
+   "pick": "Rubens - Ulysses Landing on the Island of the Phaeacians 61.27 A1.jpg"
   },
   {
    "sec": "19. Одиссея",
@@ -6703,7 +7023,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Annibale+Carracci+Polyphemus+Farnese&title=Special:MediaSearch&type=image"
    ],
-   "card": "odysseus-adventures"
+   "cands": [
+    "Annibale Carracci - The Cyclops Polyphemus - WGA04461.jpg",
+    "Annibale Carracci, The Cyclops Polyphemus.jpg",
+    "Polyphemus en Galatea Schilderingen in Palazzo Farnese te Rome (serietitel) Galeria nel Palazzo Farnese in Roma (serietitel), RP-P-OB-35.916.jpg",
+    "Polyphemus en Galatea Schilderingen in Palazzo Farnese te Rome (serietitel) Galeria nel Palazzo Farnese in Roma (serietitel), RP-P-H-F-55.jpg",
+    "Polyphemus gooit een steen naar Acis Schilderingen in Palazzo Farnese te Rome (serietitel) Galeria nel Palazzo Farnese in Roma (serietitel), RP-P-OB-35.901.jpg"
+   ],
+   "card": "odysseus-adventures",
+   "pick": "Annibale Carracci - The Cyclops Polyphemus - WGA04461.jpg"
   },
   {
    "sec": "19. Одиссея",
@@ -6719,7 +7047,13 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=B%C3%B6cklin+Odysseus+and+Polyphemus&title=Special:MediaSearch&type=image"
    ],
-   "card": "odysseus-adventures"
+   "cands": [
+    "Arnold Böcklin - Odysseus und Polyphemus (1896).jpg",
+    "Arnold Böcklin - Odysseus and Polyphemus.jpg",
+    "Böcklin - Odysseus und Polyphem (Odysseus and Polyphemus), 1896, lot.8.jpg"
+   ],
+   "card": "odysseus-adventures",
+   "pick": "Arnold Böcklin - Odysseus und Polyphemus (1896).jpg"
   },
   {
    "sec": "19. Одиссея",
@@ -6735,7 +7069,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Dosso+Dossi+Circe+and+her+lovers&title=Special:MediaSearch&type=image"
    ],
-   "card": "odysseus-adventures"
+   "cands": [
+    "Dosso Dossi 003.jpg",
+    "Dosso Dossi, Circe and Her Lovers in a Landscape, c. 1525, NGA 12147.jpg",
+    "Dosso Dossi 003FXD.jpg",
+    "Circe Washington.jpg",
+    "A catalogue of the pictures and drawings in the National loan exhibition, in aid of National gallery funds, held in the Grafton Galleries, London (1909-1910) (1909) (14763618935).jpg"
+   ],
+   "card": "odysseus-adventures",
+   "pick": "Dosso Dossi 003.jpg"
   },
   {
    "sec": "19. Одиссея",
@@ -6751,7 +7093,15 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Wright+Barker+Circe&title=Special:MediaSearch&type=image"
    ],
-   "card": "odysseus-adventures"
+   "cands": [
+    "Circe by Wright Barker (1889).jpg",
+    "Circe by Wright Barker (2).jpg",
+    "Circe rivularis 01.jpg",
+    "Circe scripta 02.jpg",
+    "Circe scripta 01.jpg"
+   ],
+   "card": "odysseus-adventures",
+   "pick": "Circe by Wright Barker (1889).jpg"
   },
   {
    "sec": "19. Одиссея",
@@ -6767,814 +7117,1382 @@
    "links": [
     "https://commons.wikimedia.org/w/index.php?search=Joseph+Wright+Penelope+unravelling+her+web&title=Special:MediaSearch&type=image"
    ],
-   "card": "odysseus-adventures"
+   "cands": [
+    "Joseph Wright of Derby. Penelope Unravelling Her Web by Lamp Light. exhibited 1785.jpg",
+    "Joseph Wright of Derby - Penelope Unraveling Her Web - 87.PA.49 - J. Paul Getty Museum.jpg"
+   ],
+   "card": "odysseus-adventures",
+   "pick": "Joseph Wright of Derby. Penelope Unravelling Her Web by Lamp Light. exhibited 1785.jpg"
+  },
+  {
+   "sec": "Цитаты",
+   "sub": null,
+   "line": 946,
+   "raw": "Антонио Поллайоло, «Геракл и Гидра», «Геракл и Антей», ок. 1475 (Уффици) — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Pollaiuolo+Hercules+Hydra+Uffizi&title=Special:MediaSearch&type=image)",
+   "desc": "Антонио Поллайоло, «Геракл и Гидра», «Геракл и Антей», ок. 1475 (Уффици)",
+   "caution": false,
+   "ru": false,
+   "dispute": false,
+   "file": null,
+   "query": "Pollaiuolo Hercules Hydra Uffizi",
+   "cands": [
+    "Hercules and the Hydra - Antonio del Pollaiolo.jpg",
+    "Antonio del Pollaiolo - Hercules and the Hydra (no background).png",
+    "Antonio del Pollaiolo - Hercules and the Hydra - WGA18031.jpg",
+    "Star Lore Of All Ages (1911), 0321, Hercules and the Hydra.png",
+    "Antonio del Pollaiolo - Ercole e l'Idra e Ercole e Anteo - Google Art Project.jpg"
+   ],
+   "card": "heracles"
+  },
+  {
+   "sec": "Цитаты",
+   "sub": null,
+   "line": 947,
+   "raw": "Аннибале Карраччи, «Выбор Геракла», 1596 (Неаполь) — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Annibale+Carracci+Choice+of+Hercules&title=Special:MediaSearch&type=image)",
+   "desc": "Аннибале Карраччи, «Выбор Геракла», 1596 (Неаполь)",
+   "caution": false,
+   "ru": false,
+   "dispute": false,
+   "file": null,
+   "query": "Annibale Carracci Choice of Hercules",
+   "cands": [
+    "Annibale Carracci, Hercules at the Crossroads, brighter.jpg",
+    "Annibale Carracci - The Choice of Heracles - WGA4416.jpg",
+    "CarracciHercules.jpg",
+    "Carracci Hercultes at Crossroads, detail.jpg",
+    "Annibale carracci, ercole al bizio, 1596, Q365.JPG"
+   ],
+   "card": "heracles",
+   "pick": "Annibale Carracci, Hercules at the Crossroads, brighter.jpg"
+  },
+  {
+   "sec": "Цитаты",
+   "sub": null,
+   "line": 948,
+   "raw": "Франсиско Сурбаран, серия «Подвиги Геракла», 1634 (Прадо) — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Zurbaran+Labours+of+Hercules+Prado&title=Special:MediaSearch&type=image)",
+   "desc": "Франсиско Сурбаран, серия «Подвиги Геракла», 1634 (Прадо)",
+   "caution": false,
+   "ru": false,
+   "dispute": false,
+   "file": null,
+   "query": "Zurbaran Labours of Hercules Prado",
+   "cands": [],
+   "card": "heracles"
+  },
+  {
+   "sec": "Цитаты",
+   "sub": null,
+   "line": 949,
+   "raw": "Гюстав Моро, «Геракл и Лернейская гидра», 1875–76 (Чикаго) — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Gustave+Moreau+Hercules+Lernaean+Hydra&title=Special:MediaSearch&type=image)",
+   "desc": "Гюстав Моро, «Геракл и Лернейская гидра», 1875–76 (Чикаго)",
+   "caution": false,
+   "ru": false,
+   "dispute": false,
+   "file": null,
+   "query": "Gustave Moreau Hercules Lernaean Hydra",
+   "cands": [],
+   "card": "heracles"
+  },
+  {
+   "sec": "Цитаты",
+   "sub": null,
+   "line": 950,
+   "raw": "Фредерик Лейтон, «Геракл борется со Смертью за тело Алкесты», ок. 1869–71 (Хартфорд) — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Leighton+Hercules+wrestling+Death+Alcestis&title=Special:MediaSearch&type=image)",
+   "desc": "Фредерик Лейтон, «Геракл борется со Смертью за тело Алкесты», ок. 1869–71 (Хартфорд)",
+   "caution": false,
+   "ru": false,
+   "dispute": false,
+   "file": null,
+   "query": "Leighton Hercules wrestling Death Alcestis",
+   "cands": [],
+   "card": "heracles-fate"
+  },
+  {
+   "sec": "Цитаты",
+   "sub": null,
+   "line": 951,
+   "raw": "🇷🇺 Иван Акимов, «Самосожжение Геркулеса на костре в присутствии его друга Филоктета», 1782 (Третьяковская галерея) — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Ivan+Akimov+Hercules+pyre&title=Special:MediaSearch&type=image)",
+   "desc": "🇷🇺 Иван Акимов, «Самосожжение Геркулеса на костре в присутствии его друга Филоктета», 1782 (Третьяковская галерея)",
+   "caution": false,
+   "ru": true,
+   "dispute": false,
+   "file": null,
+   "query": "Ivan Akimov Hercules pyre",
+   "cands": [],
+   "card": "heracles"
+  },
+  {
+   "sec": "Цитаты",
+   "sub": null,
+   "line": 952,
+   "raw": "🇷🇺 Франсуа Буше, «Геркулес и Омфала», 1731–34 (ГМИИ им. Пушкина) ⚠ — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Boucher+Hercules+and+Omphale+Pushkin&title=Special:MediaSearch&type=image)",
+   "desc": "🇷🇺 Франсуа Буше, «Геркулес и Омфала», 1731–34 (ГМИИ им. Пушкина) ⚠",
+   "caution": true,
+   "ru": true,
+   "dispute": false,
+   "file": null,
+   "query": "Boucher Hercules and Omphale Pushkin",
+   "cands": [],
+   "card": "heracles-fate"
+  },
+  {
+   "sec": "Цитаты",
+   "sub": null,
+   "line": 953,
+   "raw": "🇷🇺 Джошуа Рейнольдс, «Младенец Геракл, удушающий змей», 1786–88, заказ Екатерины II (Эрмитаж) — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Reynolds+Infant+Hercules+strangling+serpents+Hermitage&title=Special:MediaSearch&type=image)",
+   "desc": "🇷🇺 Джошуа Рейнольдс, «Младенец Геракл, удушающий змей», 1786–88, заказ Екатерины II (Эрмитаж)",
+   "caution": false,
+   "ru": true,
+   "dispute": false,
+   "file": null,
+   "query": "Reynolds Infant Hercules strangling serpents Hermitage",
+   "cands": [
+    "The Infant Hercules Strangling Serpents in his Cradle - Joshua Reynolds (1788).jpg",
+    "Joshuareynolds2.jpg"
+   ],
+   "card": "heracles",
+   "pick": "The Infant Hercules Strangling Serpents in his Cradle - Joshua Reynolds (1788).jpg"
+  },
+  {
+   "sec": "Цитаты",
+   "sub": null,
+   "line": 954,
+   "raw": "🇷🇺 Рубенс, эскиз «Арка Геракла» (Эрмитаж, зал 247) — [Эрмитаж: зал](https://www.hermitagemuseum.org/wps/portal/hermitage/explore/buildings/locations/room/B40_F2_H247/?lng=ru)",
+   "desc": "🇷🇺 Рубенс, эскиз «Арка Геракла» (Эрмитаж, зал 247)",
+   "caution": false,
+   "ru": true,
+   "dispute": false,
+   "file": null,
+   "query": null,
+   "card": "heracles"
+  },
+  {
+   "sec": "Цитаты",
+   "sub": null,
+   "line": 955,
+   "raw": "Гвидо Рени, цикл «Подвиги Геракла», 1617–21 (Лувр) — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Guido+Reni+Hercules+Louvre&title=Special:MediaSearch&type=image)",
+   "desc": "Гвидо Рени, цикл «Подвиги Геракла», 1617–21 (Лувр)",
+   "caution": false,
+   "ru": false,
+   "dispute": false,
+   "file": null,
+   "query": "Guido Reni Hercules Louvre",
+   "cands": [
+    "Guido Reni - Hercules Vanquishing the Hydra of Lerma - WGA19284.jpg",
+    "Guido reni, storie di ercole, ercole e l'idra, 1617-21, 01.JPG",
+    "Heracles Hydra Guido Reni.jpg",
+    "Guido reni, storie di ercole, ercole e l'idra, 1617-21, 02.JPG",
+    "Reni - Hercule terrassant l'hydre de Lerne, INV 535 ; MR 284.jpg"
+   ],
+   "card": "heracles",
+   "pick": "Guido Reni - Hercules Vanquishing the Hydra of Lerma - WGA19284.jpg"
+  },
+  {
+   "sec": "Цитаты",
+   "sub": null,
+   "line": 956,
+   "raw": "Рубенс, «Геракл и Немейский лев», ок. 1615 — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Rubens+Hercules+Nemean+Lion&title=Special:MediaSearch&type=image)",
+   "desc": "Рубенс, «Геракл и Немейский лев», ок. 1615",
+   "caution": false,
+   "ru": false,
+   "dispute": false,
+   "file": null,
+   "query": "Rubens Hercules Nemean Lion",
+   "cands": [
+    "Rubens - Hercules and the Nemean lion.jpg",
+    "Peter Paul Rubens - Hercules Strangling the Nemean Lion - 2000.199 - Busch–Reisinger Museum.jpg",
+    "Peter Paul Rubens (1577-1640) (after) - Hercules and the Nemean Lion - WM.1608-1948 - Apsley House.jpg",
+    "Peter Paul Rubens - Hercules fighting the Nemean lion.jpeg",
+    "Heracles and the Nemea Lion Pieter Paul Rubens.jpg"
+   ],
+   "card": "heracles",
+   "pick": "Rubens - Hercules and the Nemean lion.jpg"
+  },
+  {
+   "sec": "Цитаты",
+   "sub": null,
+   "line": 957,
+   "raw": "Лукас Кранах Старший, «Геракл у Омфалы», 1537 (Брауншвейг) — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Cranach+Hercules+Omphale&title=Special:MediaSearch&type=image)",
+   "desc": "Лукас Кранах Старший, «Геракл у Омфалы», 1537 (Брауншвейг)",
+   "caution": false,
+   "ru": false,
+   "dispute": false,
+   "file": null,
+   "query": "Cranach Hercules Omphale",
+   "cands": [
+    "Bemberg Fondation Toulouse - Hercule à la cour d'Omphale - Lucas Cranach l'Ancien - 1537 Inv.1098.jpg",
+    "Cranach, Lucas (I) - Hercules at the court of Omphale - .Bemberg Fondation Toulouse - Google Art Project.jpg",
+    "Lucas Cranach d.Æ. - Hercules with Omphale - KMSsp727 - Statens Museum for Kunst.jpg",
+    "Cranach Hercules and Omphale (detail).jpg",
+    "Hans Cranach - Hercules am Hofe der Omphale.jpg"
+   ],
+   "card": "heracles-fate",
+   "pick": "Bemberg Fondation Toulouse - Hercule à la cour d'Omphale - Lucas Cranach l'Ancien - 1537 Inv.1098.jpg"
+  },
+  {
+   "sec": "Цитаты",
+   "sub": null,
+   "line": 958,
+   "raw": "Антонио Поллайоло, «Геракл и Антей», бронза, ок. 1470 (Флоренция, Барджелло) — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Pollaiuolo+Hercules+and+Antaeus+bronze&title=Special:MediaSearch&type=image)",
+   "desc": "Антонио Поллайоло, «Геракл и Антей», бронза, ок. 1470 (Флоренция, Барджелло)",
+   "caution": false,
+   "ru": false,
+   "dispute": false,
+   "file": null,
+   "query": "Pollaiuolo Hercules and Antaeus bronze",
+   "cands": [
+    "Baldung Hercules and Antaeus (detail).jpg",
+    "Baldung Hercules and Antaeus (detail) 02.jpg",
+    "Hercules and Antaeus, Trent Park, Enfield.jpg",
+    "Baldung Hercules and Antaeus (detail) 03.jpg",
+    "Baldung Hercules and Antaeus (detail) 01.jpg"
+   ],
+   "card": "heracles"
+  },
+  {
+   "sec": "Цитаты",
+   "sub": null,
+   "line": 959,
+   "raw": "Джамболонья, «Геракл и кентавр Несс», 1599 (Флоренция, Лоджия деи Ланци) — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Giambologna+Hercules+Nessus+Loggia&title=Special:MediaSearch&type=image)",
+   "desc": "Джамболонья, «Геракл и кентавр Несс», 1599 (Флоренция, Лоджия деи Ланци)",
+   "caution": false,
+   "ru": false,
+   "dispute": false,
+   "file": null,
+   "query": "Giambologna Hercules Nessus Loggia",
+   "cands": [
+    "Hercules and Nessus by Giambologna 1599 at the Loggia dei Lanzi in Florence Italy MH 03.jpg",
+    "Hercules and Nessus by Giambologna 1599 at the Loggia dei Lanzi in Florence Italy MH 01.jpg",
+    "Hercules and Nessus by Giambologna 1599 at the Loggia dei Lanzi in Florence Italy MH 02.jpg",
+    "Firenze - Florence - Loggia dei Lanzi - View West on 'Hercules beating the Centaur Nessus' 1599 by Giambologna (moved here in 1841).jpg",
+    "Statue group Heracles and Nessus at Loggia dei Lanzi.jpg"
+   ],
+   "card": "heracles-fate",
+   "pick": "Hercules and Nessus by Giambologna 1599 at the Loggia dei Lanzi in Florence Italy MH 03.jpg"
+  },
+  {
+   "sec": "Цитаты",
+   "sub": null,
+   "line": 960,
+   "raw": "Антонио Канова, «Геракл и Лихас», 1795–1815 (Рим) ⚠ — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Canova+Hercules+and+Lichas&title=Special:MediaSearch&type=image)",
+   "desc": "Антонио Канова, «Геракл и Лихас», 1795–1815 (Рим) ⚠",
+   "caution": true,
+   "ru": false,
+   "dispute": false,
+   "file": null,
+   "query": "Canova Hercules and Lichas",
+   "cands": [
+    "Hercules en Lichas Sculpturen van Antonio Canova (serietitel), RP-P-OB-39.040.jpg",
+    "Hercules en Lichas Sculpturen van Antonio Canova (serietitel), RP-P-OB-39.044.jpg",
+    "Canova - Hercules and Lichas, 1795-1815, bwF-umb5LwT0RA.jpg",
+    "Canova - Hercules and Lichas, circa 1796, G.68.3.1.jpg",
+    "Hercules about to hurl Lichas into the sea MET SF40 20 27.jpg"
+   ],
+   "card": "heracles",
+   "pick": "Hercules en Lichas Sculpturen van Antonio Canova (serietitel), RP-P-OB-39.040.jpg"
+  },
+  {
+   "sec": "Цитаты",
+   "sub": null,
+   "line": 961,
+   "raw": "Антуан Бурдель, «Геракл-лучник», 1909, бронза (Орсе) — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Bourdelle+Heracles+the+Archer&title=Special:MediaSearch&type=image)",
+   "desc": "Антуан Бурдель, «Геракл-лучник», 1909, бронза (Орсе)",
+   "caution": false,
+   "ru": false,
+   "dispute": false,
+   "file": null,
+   "query": "Bourdelle Heracles the Archer",
+   "cands": [
+    "Musée Ingres-Bourdelle - Héraklès Archer, 1909 - Platre - Antoine Bourdelle Joconde06070001188.jpg",
+    "Bourdelle Heracles Archer 1909 (91421391).jpeg",
+    "Bourdelle Heracles boogschutter 1909.jpg",
+    "Alfred Mayssonié par Bourdelle 1922.jpg",
+    "Middelheim Bourdelle Heracles.jpg"
+   ],
+   "card": "heracles",
+   "pick": "Musée Ingres-Bourdelle - Héraklès Archer, 1909 - Platre - Antoine Bourdelle Joconde06070001188.jpg"
   }
  ],
  "meta": {
-  "Arnold Böcklin - Pan in the Reeds, 1858.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "(Venice) Rape of Europa by Giambattista Tiepolo - Gallerie Accademia.jpg": {
+   "artist": "Didier Descouens",
+   "license": "Public domain",
+   "w": 7360
   },
-  "Giulio-romano-fall-of-the-giants-fresco-in-the-sala-dei-giganti-palazzo-del-te-1530-1532.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "(Venice) Venus Italica by Antonio Canova - Museo Correr.jpg": {
+   "artist": "Didier Descouens",
+   "license": "Public domain",
+   "w": 4842
   },
-  "Anthony van Dyck - Daedalus and Icarus - Google Art Project.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Titian - Sisyphus - Madrid - Prado.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Nicolas Poussin - Selene and Endymion - 36.11 - Detroit Institute of Arts.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Raphael's Triumph of Galatea 01.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Gustave Moreau - Orpheus - Google Art Project.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Tantalus Gioacchino Assereto circa1640s.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "JohnWilliamWaterhouse-Danaë(1892).jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Theseus and the Minotaur 1843 bronze by Antoine-Louis Barye (IMGP2666r2e).jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Mercury and Argus Pyotr Ivanovich Sokolov 1753-1791.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Anselm Feuerbach - Orpheus und Eurydike - 1719 - Österreichische Galerie Belvedere.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Juno and Argus - Peter Paul Rubens - Wallraf-Richartz Museum - Cologne - Germany 2017.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Valentin Serov - Похищение Европы - Google Art Project.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Edward Burne-Jones - Tile Design - Theseus and the Minotaur in the Labyrinth - Google Art Project.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Orphée et Eurydice - Nicolas Poussin - Musée du Louvre Peintures INV 7307 - photo 2.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Feuerbach Amazonenschlacht detail0.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "The Sleep of Endymion - Girodet (Louvre INV 4935).jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "0707Fc. Diana, Endymion and the Satyr, (Bryullov K.P.).jpg": {
+   "artist": "Karl Bryullov",
+   "license": "Public domain",
+   "w": 2988
   },
   "1899 Vrubel Pan anagoria.JPG": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Jacob Jordaens - Meleager and Atalanta, 1620-1650.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Nicolas Poussin - Echo and Narcissus - WGA18271.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Rubens - Venus and Adonis.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Edward Burne-Jones - Perseus and the Graiae, 1892.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Lord Frederick Leighton FLL006.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Angelo Bronzino 068.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Jean Broc - The Death of Hyacinthos.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Dante Gabriel Rossetti - Proserpine - Google Art Project.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Gustave Moreau - Galatée.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Pan syrinx Rubens.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "William-Adolphe Bouguereau - The abduction of Psyche, 1895.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "John William Waterhouse - Nymphs Finding the Head of Orpheus (study).jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Antonio Allegri, called Correggio - The Abduction of Ganymede - Google Art Project.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "L'Inspiration du poète - circa 1629 - Nicolas Poussin - Louvre - RF 1774.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Giambattista Tiepolo - La morte di Giacinto (1752-53) - Museo Nacional Thyssen-Bornemisza Madrid.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Psyché et l'Amour - François Gérard - Musée du Louvre Peintures INV 4739 ; L 3778.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Rembrandt - The Abduction of Ganymede - Google Art Project.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "George Frederic Watts - The Minotaur - Google Art Project.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Particular of Fountain of Neptune - Bologna.JPG": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Medusa Bernini Musei Capitolini MC1166 n2.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Nicolas Poussin - Et in Arcadia ego (deuxième version).jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Thetis and Zeus by A.Losenko.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "John William Waterhouse - Pandora, 1896.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "0475Fc. Narcissus Looking into the Water, 1819 (artist K.P. Bryullov, 1799-1852).jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Rubens saturn.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Cornelis de Vos - Apollo and the Python, 1636-1638FXD.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Erasmus Quellinus (II)- Jason with the Golden Fleece, 1630.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Peter Paul Rubens - Bacchus - WGA20321.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Apollo and Diana Attacking the Children of Niobe by Jacques-Louis David.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Cornelis Cornelisz. van Haarlem - The Fall of the Titans - Google Art Project.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Argonauteschëff Lorenzo Costa w.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Peter Paul Rubens - Bacchanalia - Google Art Project.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "François Boucher - The Rape of Europa, 1747.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Evelyn de Morgan - Demeter Mourning for Persephone, 1906.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Nicolas Poussin - Apollo and the Muses (Parnassus) - WGA18307.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Peter Paul Rubens - The Fall of Phaeton (National Gallery of Art).jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Herbert James Draper, The Golden Fleece.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Mantegna-minerva-garden-virtue.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Psyche-Waterhouse.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Pallas Athena by Rembrandt Museu Calouste Gulbenkian 1488.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Abraham Bloemaert - Apollo and Diana Punishing Niobe by Killing her Children - Google Art Project.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Correggio - Leda and the Swan - Google Art Project.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Claude Lorrain - The Rape of Europa - WGA05005.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Ganymede Waters Zeus as an Eagle by Thorvaldsen.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Frederic Leighton - The Return of Persephone (1891).jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Guercino - Aurora - WGA10920.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Orpheus and Eurydice by Peter Paul Rubens.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Jean-Baptiste-Camille Corot - Orpheus Leading Eurydice from the Underworld - Google Art Project.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Nicolas Poussin - Apollo and Daphne - WGA18345.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Bemberg Fondation Toulouse - Pégase et l'Hydre - Odilon Redon - Gouache et pastel 41x32.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Rubens - RKDimages, 239642.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Veronese-persée-rennes.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "2017-02 Sir Edward Coley Burne-Jones - Study for Danae and the Brazen Tower.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Frederic, Lord Leighton - Perseus and Andromeda - Google Art Project.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Perseus by Antonio Canova-Vatican.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Lucas Cranach d. Ä. - Venus and Cupid - WGA05639.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Orpheus and Eurydice, by Frederic Leighton, c. 1864, oil on canvas - Leighton House Museum - London - DSC01822.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Kauffmann, Angelica - Ariadne von Theseus verlassen - prior to 1782.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Peter Paul Rubens - Perseus and Andromeda - WGA20304.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Persus and Andromeda by Joachim Wtewael.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Raffael, Loggia di Psiche, Villa Farnesina, Rome 13.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Thorvaldsens Venus.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Piero di cosimo, battaglia di lapiti e centauri.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Giovanni Battista Tiepolo - Apollo Pursuing Daphne, 1755-1760.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Piero di Cosimo - The Myth of Prometheus - WGA17652.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Meleager und Atalante - Peter Paul Rubens.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Paolo Veronese - The Rape of Europa (detail) - WGA24933.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Atlas holding up the celestial globe - Guercino (1646).jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Walter Crane - The Fate of Persephone (1877).jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "(Venice) Dedalo e Icaro by Antonio Canova - Museo Correr 2.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Jason with the Golden Fleece by Bertel Thorvaldsen.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Fábula de Mercurio y Argos, by Diego Velázquez.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Edward Burne-Jones - The garden of Pan - Google Art Project.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Michelangelo, caduta di fetonte.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+   "artist": "Mikhail Vrubel",
+   "license": "Public domain",
+   "w": 2622
+  },
+  "Anselm Feuerbach - Orpheus und Eurydike - 1719 - Österreichische Galerie Belvedere.jpg": {
+   "artist": "Anselm Feuerbach",
+   "license": "Public domain",
+   "w": 2173
   },
   "Ariadne in Naxos, by Evelyn De Morgan, 1877.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+   "artist": "Evelyn De Morgan",
+   "license": "Public domain",
+   "w": 2000
   },
-  "Anselm Feuerbach Medea.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Arnold Böcklin - Pan in the Reeds, 1858.jpg": {
+   "artist": "Arnold Böcklin",
+   "license": "Public domain",
+   "w": 3905
   },
-  "Titian - Danae (Hermitage Version).jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Boucher Vulcan Presenting Venus with Arms for Aeneas.jpg": {
+   "artist": "François Boucher",
+   "license": "Public domain",
+   "w": 948
   },
-  "Orpheus Charming the Animals with His Music by Roelant Savery Mauritshuis 157.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Cabanel - Echo - with frame.jpg": {
+   "artist": "Alexandre Cabanel",
+   "license": "Public domain",
+   "w": 2467
   },
-  "Battle of the Centaurs by Arnold Böcklin (Kunstmuseum Basel).jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Circe by Wright Barker (1889).jpg": {
+   "artist": "Wright Barker",
+   "license": "Public domain",
+   "w": 1260
   },
-  "Aeneas and Sibyl in the Underworld, by Jan Brueghel I (Budapest, Museum of Fine Arts, inv. 551).jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Correggio - Leda and the Swan - Google Art Project.jpg": {
+   "artist": "Antonio da Correggio",
+   "license": "Public domain",
+   "w": 5041
   },
-  "Jean-Léon Gérôme, Pygmalion and Galatea, ca. 1890.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Draper Herbert James Ulysses and the Sirens.jpg": {
+   "artist": "Herbert James Draper",
+   "license": "Public domain",
+   "w": 1589
   },
-  "Canova - Theseus & Minotaur.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Edward Burne-Jones - Tile Design - Theseus and the Minotaur in the Labyrinth - Google Art Project.jpg": {
+   "artist": "Edward Burne-Jones",
+   "license": "Public domain",
+   "w": 4788
   },
-  "Prometheus by Gustave Moreau.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Evelyn de Morgan - Demeter Mourning for Persephone, 1906.jpg": {
+   "artist": "Evelyn De Morgan",
+   "license": "Public domain",
+   "w": 914
+  },
+  "Feuerbach Amazonenschlacht detail0.jpg": {
+   "artist": "Anselm Feuerbach",
+   "license": "Public domain",
+   "w": 375
+  },
+  "Franz von Stuck - Orest und die Erinnyen - 1905.jpeg": {
+   "artist": "Franz von Stuck",
+   "license": "Public domain",
+   "w": 2193
+  },
+  "Fulchran Jean Harriet - Oedipus at Colonus - 2002.3 - Cleveland Museum of Art.tiff": {
+   "artist": "Fulchran-Jean Harriet",
+   "license": "Public domain",
+   "w": 4579
+  },
+  "Giambattista Tiepolo - La morte di Giacinto (1752-53) - Museo Nacional Thyssen-Bornemisza Madrid.jpg": {
+   "artist": "Didier Descouens",
+   "license": "CC BY-SA 4.0",
+   "w": 7091
   },
   "Giovanni Lorenzo Bernini-Neptune and Triton-Victoria and Albert Museum.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+   "artist": "Yair Haklai",
+   "license": "CC BY-SA 3.0",
+   "w": 2448
   },
-  "La Morte d’Orphée (1893) - Jean Delville.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Hercules en Lichas Sculpturen van Antonio Canova (serietitel), RP-P-OB-39.040.jpg": {
+   "artist": "Rijksmuseum",
+   "license": "CC0",
+   "w": 5480
   },
-  "Apollo flaying Marsyas by Ribera (Naples, Capodimonte) Petit Palais.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Ixion by Jusepe de Ribera (1632).jpg": {
+   "artist": "Jusepe de Ribera",
+   "license": "Public domain",
+   "w": 2952
   },
-  "Apollo, Hyacinthus and Cyparissus Making Music and Singing by Alexander Ivanov.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Jacques-Louis David - Cupid and Psyche - 1962.37 - Cleveland Museum of Art.tiff": {
+   "artist": "Jacques-Louis David",
+   "license": "Public domain",
+   "w": 5000
   },
-  "Guido Reni 009.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "JohnWilliamWaterhouse-Danaë(1892).jpg": {
+   "artist": "John William Waterhouse",
+   "license": "Public domain",
+   "w": 600
   },
-  "Arnold Böcklin - Im Spiel der Wellen (1883).jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Losenko Farewell of Hector and Andromache study 1773.jpg": {
+   "artist": "Anton Losenko",
+   "license": "Public domain",
+   "w": 1196
   },
-  "Arnold Böcklin Die Nereide.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Lucas Cranach d. Ä. - Venus and Cupid - WGA05639.jpg": {
+   "artist": "Lucas Cranach the Elder",
+   "license": "Public domain",
+   "w": 1640
   },
-  "Ariadne by John William Waterhouse (1898).jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Peter Paul Rubens - Battle of the Amazons - WGA20302.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Mercury and Argus Pyotr Ivanovich Sokolov 1753-1791.jpg": {
+   "artist": "Pyotr Ivanovich Sokolov",
+   "license": "Public domain",
+   "w": 708
   },
   "Neptune’s Horses (1892) by Walter Crane.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+   "artist": "Walter Crane",
+   "license": "Public domain",
+   "w": 3013
   },
-  "Odilon Redon - Orpheus - 1926.25 - Cleveland Museum of Art.tif": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Titian - Perseus and Andromeda - WGA22891.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Peter Paul Rubens - The Rape of Ganymede, 1636-1638.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Jacopo Tintoretto - Bacchus, Venus and Ariadne - WGA22618.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "(Venice) Rape of Europa by Giambattista Tiepolo - Gallerie Accademia.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Gustave Moreau - Phaeton, 1878.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Giovanni Battista Tiepolo - Bellerophon on Pegasus - WGA22315.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Nicolas Poussin - Et in Arcadia ego (deuxième version).jpg": {
+   "artist": "Nicolas Poussin",
+   "license": "Public domain",
+   "w": 5966
   },
   "Nicolas Poussin - The Triumph of Neptune - WGA18288.jpg": {
    "artist": "",
-   "license": "",
-   "w": 0
+   "license": "Public domain",
+   "w": 926
   },
-  "Jacques-Louis David - Cupid and Psyche - 1962.37 - Cleveland Museum of Art.tiff": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Pan syrinx Rubens.jpg": {
+   "artist": "Peter Paul Rubens / Jan Brueghel the Elder",
+   "license": "Public domain",
+   "w": 4134
   },
-  "Edward Burne-Jones - The Death of Medusa I, 1882.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Perseus by Antonio Canova-Vatican.jpg": {
+   "artist": "Joseolgon",
+   "license": "CC BY 4.0",
+   "w": 3648
   },
-  "L'Enlèvement de Proserpine - Niccolò dell' Abbate - Louvre RF 3772 low-res.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Peter Paul Rubens - Bacchanalia - Google Art Project.jpg": {
+   "artist": "Peter Paul Rubens",
+   "license": "Public domain",
+   "w": 4001
   },
-  "Falconet - Pygmalion & Galatee (1763)-black bg.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Centaur in the Village Smithy (Böcklin).jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Luca Giordano - Battle of Lapiths and Centaurs - Hermitage.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "The Three Graces in the Hermitage by Antonio Canova.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Rembrandt Harmenszoon van Rijn - The Abduction of Proserpine.JPG": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "(Venice) Venus Italica by Antonio Canova - Museo Correr.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Johannes Vermeer - Diana and her Nymphs - 406 - Mauritshuis.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Cabanel - Echo - with frame.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Pandora Rossetti-box.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Apollo and Daphne waterhouse.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Bakst Costume for Narcisse by Tcherepnin 1911.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Peter Paul Rubens - Battle of the Amazons - WGA20302.jpg": {
+   "artist": "Peter Paul Rubens",
+   "license": "Public domain",
+   "w": 1214
   },
   "Peter Paul Rubens - Bellérophon, monté sur Pégase transperce la Chimère.JPG": {
-   "artist": "",
-   "license": "",
-   "w": 0
+   "artist": "Peter Paul Rubens",
+   "license": "Public domain",
+   "w": 1262
   },
-  "Neptune Fountain at Upper Garden of Peterhof.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Peter Paul Rubens - The Rape of Ganymede, 1636-1638.jpg": {
+   "artist": "Peter Paul Rubens",
+   "license": "Public domain",
+   "w": 1462
   },
-  "Guido Reni - Atalanta and Hippomenes - Google Art Project.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "File-Elisium by Leon Bakst 2.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Peter Paul Rubens - Diana and Callisto - WGA20326.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "0707Fc. Diana, Endymion and the Satyr, (Bryullov K.P.).jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Jason and Medea - John William Waterhouse.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "François Boucher - Pan and Syrinx, 1759.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Jan Cossiers - Prometheus Carrying Fire.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Luca Giordano - The Forge of Vulcan - WGA9008.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Lille PdBA delacroix medee.JPG": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Piero di Cosimo, Perseus frees Andromeda, 1536, Uffizi-wfr.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Bakst Nizhinsky.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
-  },
-  "Titian - Orpheus and Eurydice - WGA22856.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Prometheus by Gustave Moreau.jpg": {
+   "artist": "Gustave Moreau",
+   "license": "Public domain",
+   "w": 1843
   },
   "Rembrandt, Harmenszoon van Rijn - Diana mit Aktäon und Kallisto - c.1634-1635.jpg": {
+   "artist": "Rembrandt",
+   "license": "Public domain",
+   "w": 3181
+  },
+  "The Infant Hercules Strangling Serpents in his Cradle - Joshua Reynolds (1788).jpg": {
+   "artist": "Joshua Reynolds",
+   "license": "Public domain",
+   "w": 1436
+  },
+  "Theseus and the Minotaur 1843 bronze by Antoine-Louis Barye (IMGP2666r2e).jpg": {
+   "artist": "Alexey V. Kurochkin",
+   "license": "CC BY-SA 4.0",
+   "w": 1365
+  },
+  "Thorvaldsens Venus.jpg": {
+   "artist": "Bertel Thorvaldsen",
+   "license": "Public domain",
+   "w": 2170
+  },
+  "0475Fc. Narcissus Looking into the Water, 1819 (artist K.P. Bryullov, 1799-1852).jpg": {
+   "artist": "Karl Bryullov",
+   "license": "Public domain",
+   "w": 3274
+  },
+  "Aeneas and Sibyl in the Underworld, by Jan Brueghel I (Budapest, Museum of Fine Arts, inv. 551).jpg": {
+   "artist": "Jan Brueghel the Elder",
+   "license": "Public domain",
+   "w": 1164
+  },
+  "Annibale Carracci, Hercules at the Crossroads, brighter.jpg": {
+   "artist": "Annibale Carracci",
+   "license": "Public domain",
+   "w": 1800
+  },
+  "Antonio Allegri, called Correggio - The Abduction of Ganymede - Google Art Project.jpg": {
+   "artist": "Antonio da Correggio",
+   "license": "Public domain",
+   "w": 3415
+  },
+  "Apollo, Hyacinthus and Cyparissus Making Music and Singing by Alexander Ivanov.jpg": {
+   "artist": "Alexander Ivanov",
+   "license": "Public domain",
+   "w": 2048
+  },
+  "Apollo flaying Marsyas by Ribera (Naples, Capodimonte) Petit Palais.jpg": {
    "artist": "",
-   "license": "",
-   "w": 0
+   "license": "CC BY 4.0",
+   "w": 3625
+  },
+  "Argonauteschëff Lorenzo Costa w.jpg": {
+   "artist": "Lorenzo Costa / Ercole de' Roberti",
+   "license": "CC BY-SA 3.0",
+   "w": 1576
+  },
+  "Arnold Böcklin 008.jpg": {
+   "artist": "Arnold Böcklin",
+   "license": "Public domain",
+   "w": 6576
+  },
+  "Bemberg Fondation Toulouse - Pégase et l'Hydre - Odilon Redon - Gouache et pastel 41x32.jpg": {
+   "artist": "Didier Descouens",
+   "license": "Public domain",
+   "w": 4545
+  },
+  "Cornelis Cornelisz. van Haarlem - The Fall of the Titans - Google Art Project.jpg": {
+   "artist": "Cornelis van Haarlem",
+   "license": "Public domain",
+   "w": 7329
+  },
+  "Cornelis de Vos - Apollo and the Python, 1636-1638FXD.jpg": {
+   "artist": "Cornelis de Vos / After Peter Paul Rubens",
+   "license": "Public domain",
+   "w": 3051
   },
   "Detail of Michelangelo's Bacchus-Museo del Bargello-3.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+   "artist": "Yair Haklai",
+   "license": "CC BY-SA 4.0",
+   "w": 2268
   },
-  "Medea - Frederick Sandys - Google Cultural Institute.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Edward Burne-Jones - The Death of Medusa I, 1882.jpg": {
+   "artist": "Edward Burne-Jones",
+   "license": "Public domain",
+   "w": 938
+  },
+  "Erasmus Quellinus (II)- Jason with the Golden Fleece, 1630.jpg": {
+   "artist": "Erasmus Quellinus II",
+   "license": "Public domain",
+   "w": 3287
+  },
+  "Falconet - Pygmalion & Galatee (1763)-black bg.jpg": {
+   "artist": "Falconet_-_Pygmalion_&amp;_Galatee_(1763).jpg: Scupture by Étienne Maurice Falconet, photographed by Alex Bakharev at en",
+   "license": "Public domain",
+   "w": 1133
+  },
+  "Giovanni Battista Tiepolo - The Sacrifice of Iphigenia - Villa Valmarana.jpg": {
+   "artist": "Giovanni Battista Tiepolo",
+   "license": "Public domain",
+   "w": 4200
+  },
+  "Giovanni Domenico Tiepolo - The Procession of the Trojan Horse in Troy - WGA22382.jpg": {
+   "artist": "Giovanni Domenico Tiepolo",
+   "license": "Public domain",
+   "w": 7101
+  },
+  "Guido Reni - Hercules Vanquishing the Hydra of Lerma - WGA19284.jpg": {
+   "artist": "Guido Reni",
+   "license": "Public domain",
+   "w": 904
+  },
+  "Gustave Moreau - Galatée.jpg": {
+   "artist": "Gustave Moreau",
+   "license": "Public domain",
+   "w": 2014
+  },
+  "Jacob Jordaens - Meleager and Atalanta, 1620-1650.jpg": {
+   "artist": "Jacob Jordaens",
+   "license": "Public domain",
+   "w": 3051
+  },
+  "Jacopo Tintoretto - Bacchus, Venus and Ariadne - WGA22618.jpg": {
+   "artist": "Jacopo Tintoretto",
+   "license": "Public domain",
+   "w": 1393
+  },
+  "Johannes Vermeer - Diana and her Nymphs - 406 - Mauritshuis.jpg": {
+   "artist": "Johannes Vermeer",
+   "license": "Public domain",
+   "w": 6000
+  },
+  "Musée Ingres-Bourdelle - Héraklès Archer, 1909 - Platre - Antoine Bourdelle Joconde06070001188.jpg": {
+   "artist": "Didier Descouens",
+   "license": "Public domain",
+   "w": 6721
+  },
+  "Orpheus Charming the Animals with His Music by Roelant Savery Mauritshuis 157.jpg": {
+   "artist": "Roelant Savery",
+   "license": "Public domain",
+   "w": 3000
+  },
+  "Orphée et Eurydice - Nicolas Poussin - Musée du Louvre Peintures INV 7307 - photo 2.jpg": {
+   "artist": "Nicolas Poussin",
+   "license": "Public domain",
+   "w": 10760
+  },
+  "Penelope and the Suitors - John William Waterhouse - ABDAG003035.jpg": {
+   "artist": "John William Waterhouse",
+   "license": "Public domain",
+   "w": 500
+  },
+  "Peter Paul Rubens - Perseus and Andromeda - WGA20304.jpg": {
+   "artist": "Peter Paul Rubens",
+   "license": "Public domain",
+   "w": 1020
+  },
+  "Piero di Cosimo, Perseus frees Andromeda, 1536, Uffizi-wfr.jpg": {
+   "artist": "Piero di Cosimo",
+   "license": "CC BY-SA 4.0",
+   "w": 5617
+  },
+  "Piero di cosimo, battaglia di lapiti e centauri.jpg": {
+   "artist": "Piero di Cosimo",
+   "license": "Public domain",
+   "w": 2030
+  },
+  "Psyche-Waterhouse.jpg": {
+   "artist": "John William Waterhouse",
+   "license": "Public domain",
+   "w": 2303
+  },
+  "Psyché et l'Amour - François Gérard - Musée du Louvre Peintures INV 4739 ; L 3778.jpg": {
+   "artist": "François Gérard",
+   "license": "Public domain",
+   "w": 7282
   },
   "Pygmalion and Galatea (Boucher).jpeg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+   "artist": "François Boucher",
+   "license": "Public domain",
+   "w": 1564
   },
-  "Delacroix - Apollo Slays Python, ca. 1853.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Rubens - Judgement of Paris.jpg": {
+   "artist": "Peter Paul Rubens",
+   "license": "Public domain",
+   "w": 5707
   },
-  "Ixion by Jusepe de Ribera (1632).jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Rubens saturn.jpg": {
+   "artist": "Peter Paul Rubens",
+   "license": "Public domain",
+   "w": 1418
   },
-  "Franz Von Stuck - Sisyphus.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "The Abduction of Helen by Guido Reni, Department of Paintings, Louvre.jpg": {
+   "artist": "Anup Sadi",
+   "license": "CC BY-SA 4.0",
+   "w": 3376
   },
-  "Boucher Vulcan Presenting Venus with Arms for Aeneas.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Thetis and Zeus by A.Losenko.jpg": {
+   "artist": "Anton Losenko",
+   "license": "Public domain",
+   "w": 728
   },
-  "The Story of Pyche by Maurice Denis - 1909. Psyche discovering that her lover is Eros.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Titian - Danae (Hermitage Version).jpg": {
+   "artist": "Titian",
+   "license": "Public domain",
+   "w": 1476
   },
-  "The Hand Refrains, 2nd series, Pygmalion (Burne-Jones).jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Titian - Orpheus and Eurydice - WGA22856.jpg": {
+   "artist": "Titian",
+   "license": "Public domain",
+   "w": 1400
   },
-  "Jason-Gustave Moreau-IMG 8242.JPG": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Titian - Sisyphus - Madrid - Prado.jpg": {
+   "artist": "Titian",
+   "license": "Public domain",
+   "w": 1658
   },
-  "Sick young Bacchus by Caravaggio.jpg": {
-   "artist": "",
-   "license": "",
-   "w": 0
+  "Walter Crane - The Fate of Persephone (1877).jpg": {
+   "artist": "Walter Crane",
+   "license": "Public domain",
+   "w": 1924
+  },
+  "(Venice) Dedalo e Icaro by Antonio Canova - Museo Correr 2.jpg": {
+   "artist": "Didier Descouens",
+   "license": "Public domain",
+   "w": 5260
+  },
+  "1869 Frederic Leighton - Electra at the Tomb of Agamemnon.jpg": {
+   "artist": "Frederic Leighton",
+   "license": "Public domain",
+   "w": 1448
+  },
+  "2017-02 Sir Edward Coley Burne-Jones - Study for Danae and the Brazen Tower.jpg": {
+   "artist": "Edward Burne-Jones",
+   "license": "Public domain",
+   "w": 3307
+  },
+  "Aeneas' Flight from Troy by Federico Barocci.jpg": {
+   "artist": "Federico Barocci",
+   "license": "Public domain",
+   "w": 1050
+  },
+  "Aeneas, Anchises, and Ascanius by Bernini.jpg": {
+   "artist": "Gian Lorenzo Bernini",
+   "license": "CC BY-SA 4.0",
+   "w": 5086
+  },
+  "Anthony van Dyck en Peter Paul Rubens - Odysseus herkent Achilles tussen de dochters van Lycomedes - P001661 - Museo del Prado.jpg": {
+   "artist": "Anthony van Dyck / Peter Paul Rubens",
+   "license": "Public domain",
+   "w": 1000
+  },
+  "Antoine Watteau - The Judgment of Paris - WGA25472.jpg": {
+   "artist": "Jean-Antoine Watteau",
+   "license": "Public domain",
+   "w": 780
+  },
+  "Ariadne by John William Waterhouse (1898).jpg": {
+   "artist": "John William Waterhouse",
+   "license": "Public domain",
+   "w": 1301
+  },
+  "Arnold Böcklin - Im Spiel der Wellen (1883).jpg": {
+   "artist": "Arnold Böcklin",
+   "license": "Public domain",
+   "w": 1344
+  },
+  "Arnold Böcklin - Odysseus und Polyphemus (1896).jpg": {
+   "artist": "Arnold Böcklin",
+   "license": "Public domain",
+   "w": 7200
+  },
+  "Atlas holding up the celestial globe - Guercino (1646).jpg": {
+   "artist": "Guercino",
+   "license": "Public domain",
+   "w": 650
+  },
+  "Bakst Costume for Narcisse by Tcherepnin 1911.jpg": {
+   "artist": "Léon Bakst",
+   "license": "Public domain",
+   "w": 3331
+  },
+  "Battle of the Centaurs by Arnold Böcklin (Kunstmuseum Basel).jpg": {
+   "artist": "Arnold Böcklin",
+   "license": "Public domain",
+   "w": 6746
+  },
+  "Edward Burne-Jones - Perseus and the Graiae, 1892.jpg": {
+   "artist": "Edward Burne-Jones",
+   "license": "Public domain",
+   "w": 1024
+  },
+  "Edward Burne-Jones - The garden of Pan - Google Art Project.jpg": {
+   "artist": "Edward Burne-Jones",
+   "license": "Public domain",
+   "w": 5977
+  },
+  "Frederic, Lord Leighton - Perseus and Andromeda - Google Art Project.jpg": {
+   "artist": "Frederic Leighton",
+   "license": "Public domain",
+   "w": 2055
+  },
+  "George Frederic Watts - The Minotaur - Google Art Project.jpg": {
+   "artist": "George Frederic Watts",
+   "license": "Public domain",
+   "w": 1693
+  },
+  "Giulio-romano-fall-of-the-giants-fresco-in-the-sala-dei-giganti-palazzo-del-te-1530-1532.jpg": {
+   "artist": "Giulio Romano",
+   "license": "Public domain",
+   "w": 789
   },
   "Jan Gossaert danae.jpg": {
+   "artist": "Jan Gossaert",
+   "license": "Public domain",
+   "w": 2024
+  },
+  "Jan Steen - Sacrifice of Iphigenia - SK-A-3984 - Rijksmuseum.jpg": {
+   "artist": "Jan Steen",
+   "license": "Public domain",
+   "w": 3243
+  },
+  "Jason-Gustave Moreau-IMG 8242.JPG": {
+   "artist": "Gustave Moreau",
+   "license": "CC BY-SA 2.0 fr",
+   "w": 2431
+  },
+  "Jean-Léon Gérôme, Pygmalion and Galatea, ca. 1890.jpg": {
+   "artist": "Jean-Léon Gérôme",
+   "license": "Public domain",
+   "w": 2817
+  },
+  "John William Waterhouse - Nymphs Finding the Head of Orpheus (study).jpg": {
+   "artist": "John William Waterhouse",
+   "license": "Public domain",
+   "w": 944
+  },
+  "John William Waterhouse - Pandora, 1896.jpg": {
+   "artist": "John William Waterhouse",
+   "license": "Public domain",
+   "w": 1757
+  },
+  "Juno and Argus - Peter Paul Rubens - Wallraf-Richartz Museum - Cologne - Germany 2017.jpg": {
+   "artist": "Peter Paul Rubens",
+   "license": "Public domain",
+   "w": 3724
+  },
+  "Lytras nikiforos antigone polynices.jpeg": {
+   "artist": "Nikiforos Lytras",
+   "license": "Public domain",
+   "w": 810
+  },
+  "Meleager und Atalante - Peter Paul Rubens.jpg": {
+   "artist": "GoldenArtists",
+   "license": "CC BY 4.0",
+   "w": 4588
+  },
+  "Nicolas Poussin - Echo and Narcissus - WGA18271.jpg": {
    "artist": "",
-   "license": "",
-   "w": 0
+   "license": "Public domain",
+   "w": 1070
+  },
+  "Pinturicchio, Return of Odysseus.jpg": {
+   "artist": "Pinturicchio",
+   "license": "Public domain",
+   "w": 877
+  },
+  "Poussin - Achilles among the Daughters of Lycomedes (or Achilles on Skyros), 1656.jpg": {
+   "artist": "Nicolas Poussin",
+   "license": "Public domain",
+   "w": 1464
+  },
+  "Raphael's Triumph of Galatea 01.jpg": {
+   "artist": "Raphael",
+   "license": "Public domain",
+   "w": 1000
+  },
+  "Rubens - RKDimages, 239642.jpg": {
+   "artist": "Peter Paul Rubens",
+   "license": "Public domain",
+   "w": 650
+  },
+  "Rubens - Venus and Adonis.jpg": {
+   "artist": "Peter Paul Rubens",
+   "license": "Public domain",
+   "w": 2104
+  },
+  "Sick young Bacchus by Caravaggio.jpg": {
+   "artist": "Architas",
+   "license": "CC BY-SA 4.0",
+   "w": 5263
+  },
+  "The Three Graces in the Hermitage by Antonio Canova.jpg": {
+   "artist": "Pugilist",
+   "license": "CC BY-SA 4.0",
+   "w": 1536
+  },
+  "The Triumph of Achilles by Franz von Matsch.jpg": {
+   "artist": "Eugene Romanenko",
+   "license": "CC BY 2.0",
+   "w": 5638
+  },
+  "Tintoretto Rape of Helen (cropped).jpg": {
+   "artist": "Jacopo Tintoretto",
+   "license": "Public domain",
+   "w": 2059
+  },
+  "Titian - Perseus and Andromeda - WGA22891.jpg": {
+   "artist": "Titian",
+   "license": "Public domain",
+   "w": 1111
+  },
+  "Veronese-persée-rennes.jpg": {
+   "artist": "Paolo Veronese / Formerly attributed to Francesco Montemezzano / Formerly attributed to Carlo Caliari",
+   "license": "Public domain",
+   "w": 1379
+  },
+  "William-Adolphe Bouguereau - The abduction of Psyche, 1895.jpg": {
+   "artist": "William-Adolphe Bouguereau",
+   "license": "Public domain",
+   "w": 978
+  },
+  "Abraham Bloemaert - Apollo and Diana Punishing Niobe by Killing her Children - Google Art Project.jpg": {
+   "artist": "Abraham Bloemaert",
+   "license": "Public domain",
+   "w": 6391
+  },
+  "Angelo Bronzino 068.jpg": {
+   "artist": "Bronzino",
+   "license": "Public domain",
+   "w": 2684
+  },
+  "Anthony van Dyck - Daedalus and Icarus - Google Art Project.jpg": {
+   "artist": "Anthony van Dyck",
+   "license": "Public domain",
+   "w": 4144
+  },
+  "Arnold Böcklin Die Nereide.jpg": {
+   "artist": "Arnold Böcklin",
+   "license": "Public domain",
+   "w": 2380
+  },
+  "Bakst Nizhinsky.jpg": {
+   "artist": "Léon Bakst",
+   "license": "Public domain",
+   "w": 1700
+  },
+  "Centaur in the Village Smithy (Böcklin).jpg": {
+   "artist": "Arnold Böcklin",
+   "license": "Public domain",
+   "w": 1600
+  },
+  "Claude Lorrain - The Rape of Europa - WGA05005.jpg": {
+   "artist": "Claude Lorrain",
+   "license": "Public domain",
+   "w": 995
+  },
+  "File-Elisium by Leon Bakst 2.jpg": {
+   "artist": "Léon Bakst",
+   "license": "Public domain",
+   "w": 682
+  },
+  "Franz Von Stuck - Sisyphus.jpg": {
+   "artist": "Franz von Stuck",
+   "license": "Public domain",
+   "w": 1000
+  },
+  "François Boucher - Pan and Syrinx, 1759.jpg": {
+   "artist": "François Boucher",
+   "license": "Public domain",
+   "w": 5405
+  },
+  "Fábula de Mercurio y Argos, by Diego Velázquez.jpg": {
+   "artist": "Diego Velázquez",
+   "license": "Public domain",
+   "w": 3051
+  },
+  "Giovanni Battista Tiepolo - Apollo Pursuing Daphne, 1755-1760.jpg": {
+   "artist": "Giovanni Battista Tiepolo",
+   "license": "Public domain",
+   "w": 1200
+  },
+  "Guido Reni - Atalanta and Hippomenes - Google Art Project.jpg": {
+   "artist": "Guido Reni",
+   "license": "Public domain",
+   "w": 3330
+  },
+  "Guido Reni 009.jpg": {
+   "artist": "Guido Reni",
+   "license": "Public domain",
+   "w": 2024
+  },
+  "Gustave Moreau - Orpheus - Google Art Project.jpg": {
+   "artist": "Gustave Moreau",
+   "license": "Public domain",
+   "w": 2502
+  },
+  "Hendrick Goltzius - Tantalus - Google Art Project.jpg": {
+   "artist": "Hendrik Goltzius",
+   "license": "Public domain",
+   "w": 2401
+  },
+  "Hendrick Goltzius Cadmus Statens Museum for Kunst 1183.jpg": {
+   "artist": "Hendrik Goltzius",
+   "license": "Public domain",
+   "w": 1643
+  },
+  "Jean-Auguste-Dominique Ingres - Achilles Receiving the Ambassadors of Agamemnon, 1801.jpg": {
+   "artist": "Jean-Auguste-Dominique Ingres",
+   "license": "Public domain",
+   "w": 1024
+  },
+  "Joseph Wright of Derby. Penelope Unravelling Her Web by Lamp Light. exhibited 1785.jpg": {
+   "artist": "Joseph Wright of Derby",
+   "license": "Public domain",
+   "w": 3000
+  },
+  "L'Enlèvement de Proserpine - Niccolò dell' Abbate - Louvre RF 3772 low-res.jpg": {
+   "artist": "Niccolò dell'Abbate",
+   "license": "Public domain",
+   "w": 988
+  },
+  "La Morte d’Orphée (1893) - Jean Delville.jpg": {
+   "artist": "Jean Delville",
+   "license": "Public domain",
+   "w": 1024
+  },
+  "Lucas Cranach d.Ä. - Das Urteil des Paris (Statens Museum for Kunst).jpg": {
+   "artist": "Lucas Cranach the Elder",
+   "license": "Public domain",
+   "w": 5643
+  },
+  "Mantegna-minerva-garden-virtue.jpg": {
+   "artist": "Andrea Mantegna",
+   "license": "Public domain",
+   "w": 1666
+  },
+  "Medea - Frederick Sandys - Google Cultural Institute.jpg": {
+   "artist": "Frederick Sandys",
+   "license": "Public domain",
+   "w": 4698
+  },
+  "Michelangelo, caduta di fetonte.jpg": {
+   "artist": "Michelangelo",
+   "license": "Public domain",
+   "w": 3955
+  },
+  "Neptune Fountain at Upper Garden of Peterhof.jpg": {
+   "artist": "Florstein (Telegram:WikiPhoto.Space)",
+   "license": "CC BY-SA 4.0",
+   "w": 4200
+  },
+  "Nicolas Poussin - Apollo and Daphne - WGA18345.jpg": {
+   "artist": "Unknown authorUnknown author",
+   "license": "Public domain",
+   "w": 1119
+  },
+  "Nicolas Poussin - Apollo and the Muses (Parnassus) - WGA18307.jpg": {
+   "artist": "Nicolas Poussin",
+   "license": "Public domain",
+   "w": 1400
+  },
+  "Nicolas Poussin - Selene and Endymion - 36.11 - Detroit Institute of Arts.jpg": {
+   "artist": "Nicolas Poussin",
+   "license": "Public domain",
+   "w": 2000
+  },
+  "Odilon Redon - Orpheus - 1926.25 - Cleveland Museum of Art.tif": {
+   "artist": "Odilon Redon",
+   "license": "CC0",
+   "w": 1536
+  },
+  "Pandora Rossetti-box.jpg": {
+   "artist": "Dante Gabriel Rossetti",
+   "license": "Public domain",
+   "w": 421
+  },
+  "Particular of Fountain of Neptune - Bologna.JPG": {
+   "artist": "Andou",
+   "license": "CC BY-SA 3.0",
+   "w": 4024
+  },
+  "Raffael, Loggia di Psiche, Villa Farnesina, Rome 13.jpg": {
+   "artist": "Raphael",
+   "license": "Public domain",
+   "w": 1345
+  },
+  "Rubens - Achilles vertoornd op Agamemnon - Boijmans Van Beuningen.jpg": {
+   "artist": "Peter Paul Rubens",
+   "license": "Public domain",
+   "w": 2242
+  },
+  "Singer Sargent, John - Orestes Pursued by the Furies - 1921.jpg": {
+   "artist": "John Singer Sargent",
+   "license": "Public domain",
+   "w": 961
+  },
+  "The Hand Refrains, 2nd series, Pygmalion (Burne-Jones).jpg": {
+   "artist": "Edward Burne-Jones",
+   "license": "Public domain",
+   "w": 540
+  },
+  "The Love of Paris and Helen by Jacques-Louis David.jpg": {
+   "artist": "Jacques-Louis David",
+   "license": "Public domain",
+   "w": 3852
+  },
+  "The Sleep of Endymion - Girodet (Louvre INV 4935).jpg": {
+   "artist": "Anne-Louis Girodet",
+   "license": "CC0",
+   "w": 6173
+  },
+  "The Story of Pyche by Maurice Denis - 1909. Psyche discovering that her lover is Eros.jpg": {
+   "artist": "TimeTravelRome",
+   "license": "CC BY 2.0",
+   "w": 2930
+  },
+  "Valentin Serov - Похищение Европы - Google Art Project.jpg": {
+   "artist": "Valentin Serov",
+   "license": "Public domain",
+   "w": 4000
+  },
+  "Annibale Carracci - The Cyclops Polyphemus - WGA04461.jpg": {
+   "artist": "Annibale Carracci",
+   "license": "Public domain",
+   "w": 692
+  },
+  "Apollo and Daphne waterhouse.jpg": {
+   "artist": "John William Waterhouse",
+   "license": "Public domain",
+   "w": 937
+  },
+  "Apollo and Diana Attacking the Children of Niobe by Jacques-Louis David.jpg": {
+   "artist": "Jacques-Louis David",
+   "license": "Public domain",
+   "w": 2000
+  },
+  "Batoni, Pompeo ~ Achilles at the Court of Lycomedes, 1745, oil on canvas, Galleria degli Uffizi, Florence.jpg": {
+   "artist": "",
+   "license": "Public domain",
+   "w": 555
+  },
+  "Bemberg Fondation Toulouse - Hercule à la cour d'Omphale - Lucas Cranach l'Ancien - 1537 Inv.1098.jpg": {
+   "artist": "Lucas Cranach the Elder",
+   "license": "Public domain",
+   "w": 6102
+  },
+  "Canova - Theseus & Minotaur.jpg": {
+   "artist": "Antonio Canova",
+   "license": "Public domain",
+   "w": 2816
+  },
+  "Dante Gabriel Rossetti - Proserpine - Google Art Project.jpg": {
+   "artist": "Dante Gabriel Rossetti",
+   "license": "Public domain",
+   "w": 1041
+  },
+  "Delacroix - Apollo Slays Python, ca. 1853.jpg": {
+   "artist": "Eugène Delacroix",
+   "license": "CC BY-SA 4.0",
+   "w": 1644
+  },
+  "Dosso Dossi 003.jpg": {
+   "artist": "Dosso Dossi",
+   "license": "Public domain",
+   "w": 5995
+  },
+  "Ganymede Waters Zeus as an Eagle by Thorvaldsen.jpg": {
+   "artist": "Bertel Thorvaldsen",
+   "license": "CC BY-SA 3.0",
+   "w": 3627
+  },
+  "Giovanni Battista Tiepolo - Bellerophon on Pegasus - WGA22315.jpg": {
+   "artist": "Giovanni Battista Tiepolo",
+   "license": "Public domain",
+   "w": 986
+  },
+  "Gustave Moreau - Phaeton, 1878.jpg": {
+   "artist": "Gustave Moreau",
+   "license": "Public domain",
+   "w": 736
+  },
+  "Helene a la porte scee - gustave moreau - 2.jpg": {
+   "artist": "Gustave Moreau",
+   "license": "Public domain",
+   "w": 3256
+  },
+  "Herbert James Draper, The Golden Fleece.jpg": {
+   "artist": "Herbert James Draper",
+   "license": "Public domain",
+   "w": 1200
+  },
+  "James Barry - Philoctetes in the Island of Lemnos - B1977.14.11066 - Yale Center for British Art.jpg": {
+   "artist": "James Barry",
+   "license": "CC0",
+   "w": 1539
+  },
+  "Jan Cossiers - Prometheus Carrying Fire.jpg": {
+   "artist": "Jan Cossiers / After Peter Paul Rubens / Peter Paul Rubens",
+   "license": "Public domain",
+   "w": 1199
+  },
+  "Jason with the Golden Fleece by Bertel Thorvaldsen.jpg": {
+   "artist": "Yair Haklai",
+   "license": "CC BY-SA 4.0",
+   "w": 2448
+  },
+  "Jean-Baptiste-Camille Corot - Orpheus Leading Eurydice from the Underworld - Google Art Project.jpg": {
+   "artist": "Jean-Baptiste Camille Corot",
+   "license": "Public domain",
+   "w": 7195
+  },
+  "Jean Broc - The Death of Hyacinthos.jpg": {
+   "artist": "Jean Broc",
+   "license": "Public domain",
+   "w": 565
+  },
+  "Joachim Anthonisz Wtewael - The Wedding of Peleus and Thetis - 1991.9 - Clark Art Institute.tiff": {
+   "artist": "Joachim Wtewael",
+   "license": "Public domain",
+   "w": 9331
+  },
+  "L'Inspiration du poète - circa 1629 - Nicolas Poussin - Louvre - RF 1774.jpg": {
+   "artist": "",
+   "license": "Public domain",
+   "w": 1500
+  },
+  "Lille PdBA delacroix medee.JPG": {
+   "artist": "Eugène Delacroix",
+   "license": "Public domain",
+   "w": 1208
+  },
+  "Lord Frederick Leighton FLL006.jpg": {
+   "artist": "Frederic Leighton",
+   "license": "Public domain",
+   "w": 1127
+  },
+  "Luca Giordano - Battle of Lapiths and Centaurs - Hermitage.jpg": {
+   "artist": "Luca Giordano",
+   "license": "Public domain",
+   "w": 1998
+  },
+  "Luca Giordano - The Forge of Vulcan - WGA9008.jpg": {
+   "artist": "Luca Giordano",
+   "license": "Public domain",
+   "w": 3173
+  },
+  "Medusa Bernini Musei Capitolini MC1166 n2.jpg": {
+   "artist": "Jastrow (2006)",
+   "license": "Public domain",
+   "w": 1850
+  },
+  "Nicolai Abildgaard - The Wounded Philoctetes - Google Art Project.jpg": {
+   "artist": "Nicolai Abildgaard",
+   "license": "Public domain",
+   "w": 9025
+  },
+  "Odysseus and Nausicaa by Valentin Serov (drawing, 1910).JPG": {
+   "artist": "V. Serov",
+   "license": "Public domain",
+   "w": 800
+  },
+  "Orestes Pursued by the Furies by William-Adolphe Bouguereau (1862) - Google Art Project.jpg": {
+   "artist": "William-Adolphe Bouguereau",
+   "license": "Public domain",
+   "w": 7884
+  },
+  "Orpheus and Eurydice by Peter Paul Rubens.jpg": {
+   "artist": "Peter Paul Rubens",
+   "license": "Public domain",
+   "w": 2929
+  },
+  "Pallas Athena by Rembrandt Museu Calouste Gulbenkian 1488.jpg": {
+   "artist": "Attributed to Rembrandt",
+   "license": "Public domain",
+   "w": 696
+  },
+  "Paolo Veronese - The Rape of Europa (detail) - WGA24933.jpg": {
+   "artist": "Paolo Veronese",
+   "license": "Public domain",
+   "w": 1129
+  },
+  "Persus and Andromeda by Joachim Wtewael.jpg": {
+   "artist": "Joachim Wtewael",
+   "license": "Public domain",
+   "w": 3000
+  },
+  "Peter Paul Rubens - Bacchus - WGA20321.jpg": {
+   "artist": "Peter Paul Rubens",
+   "license": "Public domain",
+   "w": 1057
+  },
+  "Peter Paul Rubens - The Fall of Phaeton (National Gallery of Art).jpg": {
+   "artist": "Peter Paul Rubens",
+   "license": "Public domain",
+   "w": 10520
+  },
+  "Piero di Cosimo - The Myth of Prometheus - WGA17652.jpg": {
+   "artist": "Piero di Cosimo",
+   "license": "Public domain",
+   "w": 3000
+  },
+  "Rembrandt Harmenszoon van Rijn - The Abduction of Proserpine.JPG": {
+   "artist": "Rembrandt",
+   "license": "Public domain",
+   "w": 637
+  },
+  "Rubens - Hercules and the Nemean lion.jpg": {
+   "artist": "After Peter Paul Rubens",
+   "license": "Public domain",
+   "w": 2200
+  },
+  "Rubens - Ulysses Landing on the Island of the Phaeacians 61.27 A1.jpg": {
+   "artist": "Peter Paul Rubens",
+   "license": "Public domain",
+   "w": 500
+  },
+  "Tantalus Gioacchino Assereto circa1640s.jpg": {
+   "artist": "Gioacchino Assereto",
+   "license": "Public domain",
+   "w": 1287
+  },
+  "Anselm Feuerbach Medea.jpg": {
+   "artist": "Anselm Feuerbach",
+   "license": "Public domain",
+   "w": 1100
+  },
+  "Clytemnestra by John Collier, 1882.jpg": {
+   "artist": "John Collier (d. 1934)",
+   "license": "Public domain",
+   "w": 2056
+  },
+  "François Boucher - The Rape of Europa, 1747.jpg": {
+   "artist": "François Boucher",
+   "license": "Public domain",
+   "w": 4959
+  },
+  "Frederic Leighton - The Return of Persephone (1891).jpg": {
+   "artist": "Frederic Leighton",
+   "license": "Public domain",
+   "w": 1056
+  },
+  "Gavin Hamilton (1723-1798) - Achilles Lamenting the Death of Patroclus - NG 2339 - National Galleries of Scotland.jpg": {
+   "artist": "Gavin Hamilton",
+   "license": "Public domain",
+   "w": 800
+  },
+  "Guercino - Aurora - WGA10920.jpg": {
+   "artist": "Guercino",
+   "license": "Public domain",
+   "w": 1137
+  },
+  "Hercules and Nessus by Giambologna 1599 at the Loggia dei Lanzi in Florence Italy MH 03.jpg": {
+   "artist": "Mary Harrsch",
+   "license": "CC BY-SA 4.0",
+   "w": 1920
+  },
+  "Jacob jordaens, ulisse nella grotta di polifemo, 1630-35 (mosca, museo pushkin).jpg": {
+   "artist": "Sailko",
+   "license": "CC BY 3.0",
+   "w": 4728
+  },
+  "Jason and Medea - John William Waterhouse.jpg": {
+   "artist": "John William Waterhouse",
+   "license": "Public domain",
+   "w": 2530
+  },
+  "Kauffmann, Angelica - Ariadne von Theseus verlassen - prior to 1782.jpg": {
+   "artist": "Angelica Kauffmann",
+   "license": "Public domain",
+   "w": 495
+  },
+  "Nicolas Poussin - Landscape with Polyphemus - WGA18316.jpg": {
+   "artist": "Nicolas Poussin",
+   "license": "Public domain",
+   "w": 1255
+  },
+  "Odilon Redon - The Cyclops, c. 1914.jpg": {
+   "artist": "Odilon Redon",
+   "license": "Public domain",
+   "w": 2846
+  },
+  "Orpheus and Eurydice, by Frederic Leighton, c. 1864, oil on canvas - Leighton House Museum - London - DSC01822.jpg": {
+   "artist": "Daderot",
+   "license": "CC0",
+   "w": 2985
+  },
+  "Peter Paul Rubens - Diana and Callisto - WGA20326.jpg": {
+   "artist": "Peter Paul Rubens",
+   "license": "Public domain",
+   "w": 3051
+  },
+  "Philoctete sur l’île de Lemnos - entourage de Jean Germain DROUAIS.jpg": {
+   "artist": "Entourage de Jean Germain DROUAIS",
+   "license": "Public domain",
+   "w": 2094
+  },
+  "Rembrandt - The Abduction of Ganymede - Google Art Project.jpg": {
+   "artist": "Rembrandt",
+   "license": "Public domain",
+   "w": 4192
   }
  }
 }

@@ -11,6 +11,7 @@ reliability: legend
 links:
   - { to: tragedy, kind: meaning }
   - { to: greek-alphabet, kind: meaning }
+art: [oedipus-art-01, oedipus-art-02, oedipus-art-03]
 ---
 **Кадм 📜.** Город Фивы основал Кадм; из посеянных зубов дракона выросли воины-спарты. Кадму приписывали и **алфавит** — «финикийские буквы» (см. станцию «Алфавит»).
 

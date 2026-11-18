@@ -12,6 +12,7 @@ reliability: disputed
 links:
   - { to: poulnabrone, kind: meaning }
   - { to: newgrange, kind: meaning }
+art: [carrowmore-photo-01]
 ---
 **Что это ✅.** Около 30 сохранившихся (когда-то, возможно, больше 100) маленьких гробниц: дольмен в кольце из валунов. Почти все обращены к главному кургану Листогил в центре.
 

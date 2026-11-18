@@ -6,5 +6,7 @@ period: later
 kind: painting
 museum: "Лувр"
 commons: "Mantegna-minerva-garden-virtue.jpg"
+license: "общественное достояние"
+credit: "Andrea Mantegna"
 ---
 Подборка из тома «Мифы Греции в искусстве».

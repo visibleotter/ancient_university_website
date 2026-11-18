@@ -7,5 +7,7 @@ kind: painting
 museum: "Эрмитаж"
 commons: "Luca Giordano - Battle of Lapiths and Centaurs - Hermitage.jpg"
 caution: true
+license: "общественное достояние"
+credit: "Luca Giordano"
 ---
 Подборка из тома «Мифы Греции в искусстве». Произведение из российского музея или русского художника.

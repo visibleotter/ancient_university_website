@@ -6,5 +6,7 @@ period: later
 kind: sculpture
 museum: "Лондон, музей Виктории и Альберта"
 commons: "Canova - Theseus & Minotaur.jpg"
+license: "общественное достояние"
+credit: "Antonio Canova"
 ---
 Подборка из тома «Мифы Греции в искусстве».

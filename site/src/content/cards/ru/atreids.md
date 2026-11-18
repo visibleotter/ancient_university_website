@@ -10,6 +10,7 @@ reliability: legend
 links:
   - { to: tragedy, kind: meaning }
   - { to: mycenae, kind: meaning }
+art: [atreids-art-01, atreids-art-02, atreids-art-03, atreids-art-04, atreids-art-05, atreids-art-06, atreids-art-07]
 ---
 **Тантал 📜.** Испытывая всеведение богов, он подал им на пиру мясо своего сына **Пелопа** ⚠. Боги оживили мальчика, а Тантала отправили в Аид на вечные муки.
 

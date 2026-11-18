@@ -6,5 +6,6 @@ period: later
 kind: painting
 museum: "Лувр"
 commons: "Nicolas Poussin - Echo and Narcissus - WGA18271.jpg"
+license: "общественное достояние"
 ---
 Подборка из тома «Мифы Греции в искусстве».

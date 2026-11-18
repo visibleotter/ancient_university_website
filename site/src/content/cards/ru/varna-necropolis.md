@@ -10,6 +10,7 @@ when: { from: -4600, to: -4200, approx: true }
 place: { name: "Варна", lat: 43.2142, lon: 27.8806 }
 links:
   - { to: tell-arpachiyah, kind: meaning }
+art: [varna-necropolis-photo-01]
 ---
 **Находка ✅.** В 1972 г. экскаваторщик в Варне (Болгария) наткнулся на могилы с золотом. Раскопано около 300 погребений.
 

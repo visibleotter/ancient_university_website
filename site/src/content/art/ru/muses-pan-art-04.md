@@ -5,5 +5,7 @@ period: later
 kind: painting
 museum: "—"
 commons: "Bakst Nizhinsky.jpg"
+license: "общественное достояние"
+credit: "Léon Bakst"
 ---
 Подборка из тома «Мифы Греции в искусстве». Произведение из российского музея или русского художника.

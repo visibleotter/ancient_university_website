@@ -1,0 +1,7 @@
+C:\Stuff\ancient_university_website\tools\art\myths\art_extract.py:31: DeprecationWarning: 'maxsplit' is passed as positional argument
+  desc = re.split(r' — \[| — ', raw, 1)[0]
+100 350
+300 350
+340 350
+done 350 228
+heracles rows added 16

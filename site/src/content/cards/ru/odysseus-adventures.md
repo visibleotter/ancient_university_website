@@ -10,6 +10,7 @@ reliability: legend
 links:
   - { to: odyssey, kind: meaning }
   - { to: poseidon-sea, kind: meaning }
+art: [odysseus-adventures-art-01, odysseus-adventures-art-02, odysseus-adventures-art-03, odysseus-adventures-art-04, odysseus-adventures-art-05, odysseus-adventures-art-06, odysseus-adventures-art-07, odysseus-adventures-art-08, odysseus-adventures-art-09, odysseus-adventures-art-10, odysseus-adventures-art-11, odysseus-adventures-art-12, odysseus-adventures-art-13, odysseus-adventures-art-14]
 ---
 **Полифем 📜.** Одиссей назвался «Никто» и ослепил одноглазого великана; тот кричал: «Никто меня убивает!» — и соседи не пришли. Отец циклопа Посейдон с тех пор мстил Одиссею.
 

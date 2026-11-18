@@ -6,5 +6,7 @@ period: later
 kind: painting
 museum: "—"
 commons: "Franz Von Stuck - Sisyphus.jpg"
+license: "общественное достояние"
+credit: "Franz von Stuck"
 ---
 Подборка из тома «Мифы Греции в искусстве».

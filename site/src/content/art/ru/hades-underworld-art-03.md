@@ -7,5 +7,7 @@ kind: painting
 museum: "Прадо"
 commons: "Ixion by Jusepe de Ribera (1632).jpg"
 caution: true
+license: "общественное достояние"
+credit: "Jusepe de Ribera"
 ---
 Подборка из тома «Мифы Греции в искусстве».

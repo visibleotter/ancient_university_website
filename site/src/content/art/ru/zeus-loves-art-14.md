@@ -6,5 +6,7 @@ period: later
 kind: painting
 museum: "Вена"
 commons: "Antonio Allegri, called Correggio - The Abduction of Ganymede - Google Art Project.jpg"
+license: "общественное достояние"
+credit: "Antonio da Correggio"
 ---
 Подборка из тома «Мифы Греции в искусстве».

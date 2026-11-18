@@ -10,6 +10,7 @@ when: { from: -1500, to: -300, approx: true }
 place: { name: "Гочхан", lat: 35.43, lon: 126.65 }
 links:
   - { to: megaliths-intro, kind: meaning }
+art: [korean-dolmens-photo-01, korean-dolmens-photo-02]
 ---
 **Сколько ✅.** По оценкам, в Корее около 30–40 тысяч дольменов — это больше, чем где-либо ещё. Объект ЮНЕСКО (2000).
 

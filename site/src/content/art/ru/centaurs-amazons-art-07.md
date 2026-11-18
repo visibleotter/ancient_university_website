@@ -7,5 +7,7 @@ kind: painting
 museum: "Нюрнберг"
 commons: "Feuerbach Amazonenschlacht detail0.jpg"
 caution: true
+license: "общественное достояние"
+credit: "Anselm Feuerbach"
 ---
 Подборка из тома «Мифы Греции в искусстве».

@@ -6,5 +6,7 @@ period: later
 kind: painting
 museum: "Бирмингем"
 commons: "Medea - Frederick Sandys - Google Cultural Institute.jpg"
+license: "общественное достояние"
+credit: "Frederick Sandys"
 ---
 Подборка из тома «Мифы Греции в искусстве».

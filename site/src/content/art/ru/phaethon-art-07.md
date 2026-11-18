@@ -7,5 +7,7 @@ kind: painting
 museum: "Лувр"
 commons: "The Sleep of Endymion - Girodet (Louvre INV 4935).jpg"
 caution: true
+license: "общественное достояние"
+credit: "Anne-Louis Girodet"
 ---
 Подборка из тома «Мифы Греции в искусстве».

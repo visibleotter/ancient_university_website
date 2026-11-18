@@ -6,5 +6,7 @@ period: later
 kind: painting
 museum: "Уффици"
 commons: "Angelo Bronzino 068.jpg"
+license: "общественное достояние"
+credit: "Bronzino"
 ---
 Подборка из тома «Мифы Греции в искусстве».

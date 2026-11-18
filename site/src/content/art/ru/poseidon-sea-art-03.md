@@ -6,5 +6,7 @@ period: later
 kind: painting
 museum: "Мюнхен"
 commons: "Arnold Böcklin - Im Spiel der Wellen (1883).jpg"
+license: "общественное достояние"
+credit: "Arnold Böcklin"
 ---
 Подборка из тома «Мифы Греции в искусстве».

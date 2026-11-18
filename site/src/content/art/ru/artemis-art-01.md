@@ -6,5 +6,7 @@ period: later
 kind: painting
 museum: "Гаага, Маурицхёйс"
 commons: "Johannes Vermeer - Diana and her Nymphs - 406 - Mauritshuis.jpg"
+license: "общественное достояние"
+credit: "Johannes Vermeer"
 ---
 Подборка из тома «Мифы Греции в искусстве».

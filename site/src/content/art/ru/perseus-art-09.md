@@ -6,5 +6,7 @@ period: later
 kind: painting
 museum: "Капитолийские музеи"
 commons: "Medusa Bernini Musei Capitolini MC1166 n2.jpg"
+license: "общественное достояние"
+credit: "Jastrow (2006)"
 ---
 Подборка из тома «Мифы Греции в искусстве».

@@ -6,5 +6,7 @@ period: later
 kind: painting
 museum: "Метрополитен"
 commons: "Jean-Léon Gérôme, Pygmalion and Galatea, ca. 1890.jpg"
+license: "общественное достояние"
+credit: "Jean-Léon Gérôme"
 ---
 Подборка из тома «Мифы Греции в искусстве».

@@ -33,7 +33,10 @@ for r in rows:
     date = re.sub(r',?\s*(скульптура|бронза|фреска|плафон[^,]*)\s*$', '', date).strip(' ,') or 'Новое время'
     low = desc.lower()
     kind = 'sculpture' if ('скульптур' in low or 'бронза' in low or 'мрамор' in low) else 'fresco' if ('фреск' in low or 'плафон' in low) else 'painting'
-    count[c] = count.get(c, 0) + 1
+    if c not in count:
+        nums = [int(m.group(1)) for f2 in os.listdir(os.path.join(SITE, 'art', 'ru')) for m in [re.match(re.escape(c) + r'-art-(\d+)\.md$', f2)] if m]
+        count[c] = max(nums, default=0)
+    count[c] += 1
     aid = f'{c}-art-{count[c]:02d}'
     mt = meta[f]
     lic = mt['license'] or ''

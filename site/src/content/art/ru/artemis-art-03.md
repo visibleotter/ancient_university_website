@@ -6,5 +6,7 @@ period: later
 kind: painting
 museum: "Анхольт"
 commons: "Rembrandt, Harmenszoon van Rijn - Diana mit Aktäon und Kallisto - c.1634-1635.jpg"
+license: "общественное достояние"
+credit: "Rembrandt"
 ---
 Подборка из тома «Мифы Греции в искусстве».

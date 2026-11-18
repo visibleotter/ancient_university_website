@@ -6,5 +6,7 @@ period: later
 kind: painting
 museum: "Хьюстон"
 commons: "Kauffmann, Angelica - Ariadne von Theseus verlassen - prior to 1782.jpg"
+license: "общественное достояние"
+credit: "Angelica Kauffmann"
 ---
 Подборка из тома «Мифы Греции в искусстве».

@@ -6,5 +6,7 @@ period: later
 kind: sculpture
 museum: "Венеция, музей Коррер"
 commons: "(Venice) Dedalo e Icaro by Antonio Canova - Museo Correr 2.jpg"
+license: "общественное достояние"
+credit: "Didier Descouens"
 ---
 Подборка из тома «Мифы Греции в искусстве».

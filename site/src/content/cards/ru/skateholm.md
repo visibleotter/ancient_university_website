@@ -11,6 +11,7 @@ place: { name: "Скатехольм (Сконе)", lat: 55.38, lon: 13.48 }
 links:
   - { to: ain-mallaha, kind: meaning }
   - { to: mesolithic-burials, kind: meaning }
+art: [skateholm-photo-01]
 ---
 **Кладбище ✅.** Мезолитический могильник у лагуны на юге Швеции; раскопки Ларса Ларссона в 1980-е. Около 80 погребений людей.
 

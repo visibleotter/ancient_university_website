@@ -11,6 +11,7 @@ reliability: legend
 links:
   - { to: gigantomachy, kind: meaning }
   - { to: prometheus, kind: meaning }
+art: [heracles-art-01, heracles-art-02, heracles-art-03, heracles-art-04, heracles-art-05, heracles-art-06]
 ---
 **Рождение 📜.** Сын Зевса и смертной Алкмены. Гера ненавидела его: ещё в колыбели младенец задушил двух змей, которых она подослала.
 

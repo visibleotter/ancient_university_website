@@ -6,5 +6,7 @@ period: later
 kind: painting
 museum: "—"
 commons: "Pandora Rossetti-box.jpg"
+license: "общественное достояние"
+credit: "Dante Gabriel Rossetti"
 ---
 Подборка из тома «Мифы Греции в искусстве».

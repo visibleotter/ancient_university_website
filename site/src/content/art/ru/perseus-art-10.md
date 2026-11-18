@@ -6,5 +6,7 @@ period: later
 kind: painting
 museum: "Саутгемптон"
 commons: "Edward Burne-Jones - The Death of Medusa I, 1882.jpg"
+license: "общественное достояние"
+credit: "Edward Burne-Jones"
 ---
 Подборка из тома «Мифы Греции в искусстве».

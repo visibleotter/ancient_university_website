@@ -1,3 +1,7 @@
 tools/quotes/pgl/
 tools/quotes/f1k/
 __pycache__/
+
+# Картинки из личной папки Вадима — только для локального просмотра (права не выяснены), не публикуем
+site/public/local-img/
+site/src/data/local-images.json

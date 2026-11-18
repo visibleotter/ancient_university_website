@@ -6,5 +6,7 @@ period: later
 kind: painting
 museum: "Хьюстон"
 commons: "Jean-Baptiste-Camille Corot - Orpheus Leading Eurydice from the Underworld - Google Art Project.jpg"
+license: "общественное достояние"
+credit: "Jean-Baptiste Camille Corot"
 ---
 Подборка из тома «Мифы Греции в искусстве».

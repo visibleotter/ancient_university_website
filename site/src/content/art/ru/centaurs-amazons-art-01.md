@@ -7,5 +7,7 @@ kind: painting
 museum: "Лондон"
 commons: "Piero di cosimo, battaglia di lapiti e centauri.jpg"
 caution: true
+license: "общественное достояние"
+credit: "Piero di Cosimo"
 ---
 Подборка из тома «Мифы Греции в искусстве».

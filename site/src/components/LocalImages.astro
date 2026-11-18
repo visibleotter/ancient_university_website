@@ -1,0 +1,31 @@
+---
+// Картинки из личной папки Вадима («История Древнего Мира»): только для локального просмотра.
+// Файлы — site/public/local-img/, соответствие «карточка → картинки» — src/data/local-images.json.
+// Оба пути в .gitignore: в репозитории и на Vercel их нет, и тогда блок просто не показывается.
+// Собирается скриптом tools/local-img/map_local.py.
+interface Props { id: string }
+const { id } = Astro.props;
+const found = import.meta.glob('../data/local-images.json', { eager: true, import: 'default' }) as Record<string, Record<string, { src: string; caption: string }[]>>;
+const map = Object.values(found)[0] ?? {};
+const imgs = map[id] ?? [];
+---
+{imgs.length > 0 && (
+  <section class="local-imgs">
+    <h2>Картинки из лекций <small>(только локально — права не выяснены)</small></h2>
+    <div class="grid">
+      {imgs.map((i) => (
+        <figure>
+          <a href={i.src} target="_blank" rel="noopener"><img src={i.src} alt={i.caption} loading="lazy" /></a>
+          <figcaption>{i.caption}</figcaption>
+        </figure>
+      ))}
+    </div>
+  </section>
+)}
+<style>
+  .local-imgs h2 small { font-size: .7em; font-weight: normal; color: #888; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); gap: .75rem; }
+  figure { margin: 0; }
+  img { width: 100%; height: auto; border-radius: 4px; display: block; }
+  figcaption { font-size: .85rem; color: #555; }
+</style>

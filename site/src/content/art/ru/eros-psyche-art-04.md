@@ -5,5 +5,7 @@ period: later
 kind: painting
 museum: "—"
 commons: "The Story of Pyche by Maurice Denis - 1909. Psyche discovering that her lover is Eros.jpg"
+license: "CC BY 2.0"
+credit: "TimeTravelRome"
 ---
 Подборка из тома «Мифы Греции в искусстве». Произведение из российского музея или русского художника.

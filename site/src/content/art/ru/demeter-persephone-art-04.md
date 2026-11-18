@@ -6,5 +6,7 @@ period: later
 kind: painting
 museum: "Берлин"
 commons: "Rembrandt Harmenszoon van Rijn - The Abduction of Proserpine.JPG"
+license: "общественное достояние"
+credit: "Rembrandt"
 ---
 Подборка из тома «Мифы Греции в искусстве».

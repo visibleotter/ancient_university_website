@@ -7,6 +7,7 @@ import Demo from './Demo.astro';
 import CardLink from './CardLink.astro';
 import AtlasFig from './AtlasFig.astro';
 import ArtItem from './ArtItem.astro';
+import LocalImages from './LocalImages.astro';
 import { mt, href, type Locale } from '../i18n/ui';
 import { all, one, backlinks, linksOf } from '../lib/content';
 interface Props { id: string; locale: Locale; inRoute?: boolean }
@@ -50,6 +51,7 @@ for (const a of d.art) { const r = arts.get(a); if (!r) throw new Error(`Кар�
     {art.later.length > 0 && <><h3>{m.artLater}</h3>{art.later.map((a) => <ArtItem id={a} locale={locale} />)}</>}
   </section>
 )}
+<LocalImages id={c.id} />
 {d.quotes.length > 0 && <section><h2>{m.quotes}</h2>{d.quotes.map((q) => <Quote id={q} locale={locale} />)}</section>}
 {links.length > 0 && (
   <section>

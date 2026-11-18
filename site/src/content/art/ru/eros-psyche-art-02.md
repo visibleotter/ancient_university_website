@@ -6,5 +6,7 @@ period: later
 kind: painting
 museum: "—"
 commons: "Psyche-Waterhouse.jpg"
+license: "общественное достояние"
+credit: "John William Waterhouse"
 ---
 Подборка из тома «Мифы Греции в искусстве».

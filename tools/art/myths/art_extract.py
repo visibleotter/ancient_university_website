@@ -40,8 +40,12 @@ for r in rows:
     m = re.search(r'\]\((https?://[^)]+)\)', raw)
     r['links'] = re.findall(r'\]\((https?://[^)]+)\)', raw)
 
+if os.path.exists(OUT):
+    old = {r['line']: r for r in json.load(open(OUT, encoding='utf-8'))}
+    for r in rows:
+        if r['line'] in old and 'cands' in old[r['line']]: r['cands'] = old[r['line']]['cands']
 for n, r in enumerate(rows):
-    if r['file'] or not r['query']:
+    if r['file'] or not r['query'] or r.get('cands'):
         continue
     res = api(dict(action='query', list='search', srsearch=r['query'] + ' filetype:bitmap', srnamespace=6, srlimit=5))
     r['cands'] = [s['title'][5:] for s in (res or {}).get('query', {}).get('search', [])]

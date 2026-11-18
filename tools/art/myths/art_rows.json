@@ -4986,6 +4986,13 @@
   "query": "Goltzius Cadmus dragon",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Goltzius+Cadmus+dragon&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Hendrick Goltzius Cadmus Statens Museum for Kunst 1183.jpg",
+   "Workshop of Hendrick Goltzius, after Hendrick Goltzius, The Dragon Devouring the Companions of Cadmus, c. 1615, NGA 156160.jpg",
+   "The Dragon Devouring the Companions of Cadmus MET DP832056.jpg",
+   "The Dragon Devouring the Companions of Cadmus MET DP821104.jpg",
+   "The Dragon Devouring the Companions of Cadmus LACMA M.81.158.jpg"
   ]
  },
  {
@@ -5001,6 +5008,13 @@
   "query": "Harriet Oedipus at Colonus",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Harriet+Oedipus+at+Colonus&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Fulchran Jean Harriet - Oedipus at Colonus - 2002.3 - Cleveland Museum of Art.tiff",
+   "Fulchran-Jean Harriet - Oedipus at Colonus (1798).jpg",
+   "Oedipus at Colonus.jpg",
+   "Clevelandart 2002.3.jpg",
+   "Oedipus at Colonus by Fulchran-Jean Harriet.jpg"
   ]
  },
  {
@@ -5016,7 +5030,8 @@
   "query": "Norblin Antigone burying Polynices",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Norblin+Antigone+burying+Polynices&title=Special:MediaSearch&type=image"
-  ]
+  ],
+  "cands": []
  },
  {
   "sec": "15. Фиванский цикл: Эдип, его сыновья и Семеро против Фив",
@@ -5031,6 +5046,10 @@
   "query": "Lytras Antigone Polynices",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Lytras+Antigone+Polynices&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Lytras nikiforos antigone polynices.jpeg",
+   "Nikephoros lytras, antigone e polynice, 1865.jpg"
   ]
  },
  {
@@ -5046,7 +5065,8 @@
   "query": "Marie Spartali Stillman Antigone",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Marie+Spartali+Stillman+Antigone&title=Special:MediaSearch&type=image"
-  ]
+  ],
+  "cands": []
  },
  {
   "sec": "16. Тантал, Пелоп и проклятие Атридов",
@@ -5178,6 +5198,13 @@
   "query": "Goltzius Tantalus Four Disgracers",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Goltzius+Tantalus+Four+Disgracers&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Tantalus, from The Four Disgracers MET DP108228.jpg",
+   "Hendrick Goltzius - Tantalus - Google Art Project.jpg",
+   "Hendrik Goltzius, after Cornelis Cornelisz van Haarlem, Tantalus, 1588, NGA 152779.jpg",
+   "Hendrick Goltzius, De fire himmelstormere - Tantalus, 1588, KKSgb4631, Statens Museum for Kunst.jpg",
+   "Tantalus LACMA M.88.91.140.jpg"
   ]
  },
  {
@@ -5206,7 +5233,8 @@
   "query": "Guérin Clytemnestra hesitates before striking Agamemnon",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Gu%C3%A9rin+Clytemnestra+hesitates+before+striking+Agamemnon&title=Special:MediaSearch&type=image"
-  ]
+  ],
+  "cands": []
  },
  {
   "sec": "16. Тантал, Пелоп и проклятие Атридов",
@@ -5221,6 +5249,12 @@
   "query": "John Collier Clytemnestra 1882",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=John+Collier+Clytemnestra+1882&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Clytemnestra by John Collier, 1882.jpg",
+   "Collier-Clytemnestra after the murder.jpg",
+   "Clytemnestra Guildhall London England.jpg",
+   "Clytemnestra1.jpg"
   ]
  },
  {
@@ -5236,6 +5270,10 @@
   "query": "Leighton Electra at the Tomb of Agamemnon",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Leighton+Electra+at+the+Tomb+of+Agamemnon&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "1869 Frederic Leighton - Electra at the Tomb of Agamemnon.jpg",
+   "Frederic Leighton (1830-1896) - Colour Sketch for 'Electra at the Tomb of Agamemnon' - LH0366 - Leighton House.jpg"
   ]
  },
  {
@@ -5342,6 +5380,13 @@
   "query": "Cranach Judgement of Paris",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Cranach+Judgement+of+Paris&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Lucas Cranach d.Ä. - Das Urteil des Paris (Statens Museum for Kunst).jpg",
+   "The Judgement of Paris by Lucas Cranach the Elder - Statens Museum for Kunst - DSC08157.JPG",
+   "Judgement of Paris by Lucas Cranach the Elder (1528).jpg",
+   "CRANACH the Elder, Lucas - The Judgement of Paris (1537-40).JPG",
+   "Lucas Cranach the Elder (1472-1553) and workshop - The Judgement of Paris - RCIN 405757 - Royal Collection.jpg"
   ]
  },
  {
@@ -5357,6 +5402,13 @@
   "query": "Rubens Judgement of Paris National Gallery",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Rubens+Judgement+of+Paris+National+Gallery&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Rubens - Judgement of Paris.jpg",
+   "Peter Paul Rubens - The Judgement of Paris - Google Art Project.jpg",
+   "Peter Paul Rubens - The Judgment of Paris - WGA20307.jpg",
+   "Juicio de París de Rubens, Galería Nacional, Londres, Inglaterra, 2014-08-11, DD 175.JPG",
+   "Andrew Carrick Gow (1848-1920) (after) - The Judgement of Paris (after Peter Paul Rubens) - TWCMS , C10649a - Laing Art Gallery.jpg"
   ]
  },
  {
@@ -5372,6 +5424,9 @@
   "query": "Vrubel Judgement of Paris",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Vrubel+Judgement+of+Paris&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Sud parisa.jpeg"
   ]
  },
  {
@@ -5387,7 +5442,8 @@
   "query": "Batoni Chiron returns Achilles to Thetis",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Batoni+Chiron+returns+Achilles+to+Thetis&title=Special:MediaSearch&type=image"
-  ]
+  ],
+  "cands": []
  },
  {
   "sec": "17. Перед войной: «Киприи» и гибель Троила",
@@ -5402,6 +5458,13 @@
   "query": "Tiepolo Sacrifice of Iphigenia Villa Valmarana",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Tiepolo+Sacrifice+of+Iphigenia+Villa+Valmarana&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Giovanni Battista Tiepolo - The Sacrifice of Iphigenia - Villa Valmarana.jpg",
+   "Giovanni Battista Tiepolo - The Sacrifice of Iphigenia - WGA22333.jpg",
+   "The Sacrifice of Iphigenia MET DP341859.jpg",
+   "The Sacrifice of Iphigenia MET 2015.46 profile.jpg",
+   "The Sacrifice of Iphigenia MET 2015.46 3.jpg"
   ]
  },
  {
@@ -5417,6 +5480,11 @@
   "query": "Watteau Judgement of Paris Louvre",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Watteau+Judgement+of+Paris+Louvre&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Antoine Watteau - The Judgment of Paris - WGA25472.jpg",
+   "Jean-Antoine Watteau - Le jugement de Pâris.jpg",
+   "Le jugement de Pâris.jpg"
   ]
  },
  {
@@ -5432,6 +5500,13 @@
   "query": "Wtewael Wedding of Peleus and Thetis",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Wtewael+Wedding+of+Peleus+and+Thetis&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Joachim Anthonisz Wtewael - The Wedding of Peleus and Thetis - 1991.9 - Clark Art Institute.tiff",
+   "The wedding of Peleus and Thetis, by Joachim Wtewael.jpg",
+   "Joachim Anthonisz. Wtewael - Die Hochzeit von Peleus und Thetis - 857 - Bavarian State Painting Collections.jpg",
+   "Joachim Wtewael - The Wedding of Peleus and Thetis, 1612.jpg",
+   "Joachim Anthonisz. Wtewael - The Marriage of Peleus and Thetis - 62.058 - Rhode Island School of Design Museum.jpg"
   ]
  },
  {
@@ -5447,6 +5522,10 @@
   "query": "Jan Steen Sacrifice of Iphigenia",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Jan+Steen+Sacrifice+of+Iphigenia&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Jan Steen - Sacrifice of Iphigenia - SK-A-3984 - Rijksmuseum.jpg",
+   "The Sacrifice of Iphigenia by Jan Havickszoon Steen.jpg"
   ]
  },
  {
@@ -5462,6 +5541,9 @@
   "query": "Guido Reni Abduction of Helen Louvre",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Guido+Reni+Abduction+of+Helen+Louvre&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "The Abduction of Helen by Guido Reni, Department of Paintings, Louvre.jpg"
   ]
  },
  {
@@ -5477,6 +5559,11 @@
   "query": "Tintoretto Abduction of Helen Prado",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Tintoretto+Abduction+of+Helen+Prado&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Tintoretto Rape of Helen (cropped).jpg",
+   "Tintoretto Rape of Helen.jpg",
+   "Museo del Prado, Madrid (2946129849).jpg"
   ]
  },
  {
@@ -5492,6 +5579,12 @@
   "query": "Poussin Achilles among the daughters of Lycomedes",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Poussin+Achilles+among+the+daughters+of+Lycomedes&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Poussin - Achilles among the Daughters of Lycomedes (or Achilles on Skyros), 1656.jpg",
+   "Jean Lemaire - Achilles Discovered Among the Daughters of Lycomedes.jpg",
+   "Achilles door Odysseus herkend temidden van de dochters van Lycomedes, RP-P-OB-39.146.jpg",
+   "Achilles door Odysseus herkend temidden van de dochters van Lycomedes, RP-P-OB-39.147.jpg"
   ]
  },
  {
@@ -5507,6 +5600,9 @@
   "query": "Rubens van Dyck Achilles discovered daughters of Lycomedes",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Rubens+van+Dyck+Achilles+discovered+daughters+of+Lycomedes&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Anthony van Dyck en Peter Paul Rubens - Odysseus herkent Achilles tussen de dochters van Lycomedes - P001661 - Museo del Prado.jpg"
   ]
  },
  {
@@ -5522,6 +5618,13 @@
   "query": "Batoni Achilles at the court of Lycomedes",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Batoni+Achilles+at+the+court+of+Lycomedes&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Batoni, Pompeo ~ Achilles at the Court of Lycomedes, 1745, oil on canvas, Galleria degli Uffizi, Florence.jpg",
+   "Vase with Achilles at Lycomedes after Pompeo Batoni, 16cm, interbellum Czecho-Slovakia 03.jpg",
+   "Vase with Achilles at Lycomedes after Pompeo Batoni, 16cm, interbellum Czecho-Slovakia 02.jpg",
+   "Vase with Achilles at Lycomedes after Pompeo Batoni, 16cm, interbellum Czecho-Slovakia 05.jpg",
+   "Vase with Achilles at Lycomedes after Pompeo Batoni, 16cm, interbellum Czecho-Slovakia 01.jpg"
   ]
  },
  {
@@ -5537,6 +5640,13 @@
   "query": "Abildgaard wounded Philoctetes",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Abildgaard+wounded+Philoctetes&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Nicolai Abildgaard - The Wounded Philoctetes - Google Art Project.jpg",
+   "The Wounded Philoctetes.jpg",
+   "Nicolai Abildgaard, Den sårede Filoktet, 1775, KMS586, Statens Museum for Kunst.jpg",
+   "Den sårede Filoktet.jpg",
+   "The Wounded Philoctetes (1775).jpg"
   ]
  },
  {
@@ -5552,6 +5662,12 @@
   "query": "Drouais Philoctetes Lemnos",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Drouais+Philoctetes+Lemnos&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Philoctetes.jpg",
+   "Philoctete sur l’île de Lemnos - entourage de Jean Germain DROUAIS.jpg",
+   "Drouais Philoctète esquisse.jpg",
+   "Orléans - musée des beaux-arts (66).jpg"
   ]
  },
  {
@@ -5567,6 +5683,13 @@
   "query": "James Barry Philoctetes Lemnos",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=James+Barry+Philoctetes+Lemnos&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "James Barry - Philoctetes in the Island of Lemnos - B1977.14.11066 - Yale Center for British Art.jpg",
+   "Barry Philoctetes Lemnos.jpg",
+   "Giovanni Maria Mosca - Philoctetes on the Island of Lemnos - 1973.168 - Cleveland Museum of Art.tif",
+   "Guillaume Guillon-Lethiere, Philoctetes on the Island of Lemnos.jpg",
+   "Orléans - musée des beaux-arts (66).jpg"
   ]
  },
  {
@@ -5699,6 +5822,13 @@
   "query": "Rubens Achilles series Boijmans",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Rubens+Achilles+series+Boijmans&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Rubens - Achilles vertoornd op Agamemnon - Boijmans Van Beuningen.jpg",
+   "WLANL - Quistnix! - Museum Boijmans van Beuningen - Achilles vertoornd op Agamemnon, Rubens.jpg",
+   "P.P. Rubens - Achilles herkend onder de dochters van Lycomedes - NK2680 - Museum Boijmans Van Beuningen.jpg",
+   "Peter Paul Rubens - The Wrath of Achilles - Google Art Project.jpg",
+   "Peter Paul Rubens 181.jpg"
   ]
  },
  {
@@ -5729,7 +5859,8 @@
   "query": "Nikolai Ge Achilles mourns Patroclus",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Nikolai+Ge+Achilles+mourns+Patroclus&title=Special:MediaSearch&type=image"
-  ]
+  ],
+  "cands": []
  },
  {
   "sec": "18. Троянская война",
@@ -5744,6 +5875,9 @@
   "query": "Alexander Ivanov Priam Achilles Hector body",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Alexander+Ivanov+Priam+Achilles+Hector+body&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Alexandr Ivanov 005.jpg"
   ]
  },
  {
@@ -5759,6 +5893,13 @@
   "query": "Losenko Hector Andromache farewell",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Losenko+Hector+Andromache+farewell&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Losenko Farewell of Hector and Andromache study 1773.jpg",
+   "Farewell of Hector and Andromache by Anton Losenko in the State Tretyakov Gallery IMG 6170.jpg",
+   "Losenko Hector and Andromache pencil study10a.jpg",
+   "Hector and Andromache by A.Losenko.jpg",
+   "Hector and Andromache by A.Losenko - detail 01.jpg"
   ]
  },
  {
@@ -5789,6 +5930,13 @@
   "query": "Gustave Moreau Helen Scaean Gate",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Gustave+Moreau+Helen+Scaean+Gate&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Helene a la porte scee - gustave moreau - 2.jpg",
+   "Helene a la porte scee - gustave moreau - avec cadre.jpg",
+   "Helene a la porte scee - gustave moreau.jpg",
+   "Moreau - Hélène à la porte Scée, Cat. 42.jpg",
+   "Moreau - Hélène à la porte de Scée, cat.42.jpg"
   ]
  },
  {
@@ -5804,6 +5952,13 @@
   "query": "Tiepolo Procession of the Trojan Horse into Troy",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Tiepolo+Procession+of+the+Trojan+Horse+into+Troy&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Giovanni Domenico Tiepolo - The Procession of the Trojan Horse in Troy - WGA22382.jpg",
+   "The Procession of the Trojan Horse in Troy by Giovanni Domenico Tiepolo (cropped).jpg",
+   "Giovanni Domenico Tipeolo, Procession of the Trojan Horse in Troy, 1760.jpg",
+   "Giovanni domenico tiepolo, processione del cavallo di legno denro troia, 1760 ca.jpg",
+   "Giovanni Domenico Tiepolo - The Building of the Trojan Horse, 1773-1774.jpg"
   ]
  },
  {
@@ -5835,7 +5990,8 @@
   "links": [
    "https://rusmuseumvrm.ru/data/collections/sculpture/18_20/kozlovskiy_mi_ayaks_zaschischaet_telo_patrokla_1796_sk_1807/index.php",
    "https://commons.wikimedia.org/w/index.php?search=Kozlovsky+Ajax+Patroclus&title=Special:MediaSearch&type=image"
-  ]
+  ],
+  "cands": []
  },
  {
   "sec": "18. Троянская война",
@@ -5850,6 +6006,13 @@
   "query": "Jacques-Louis David Paris and Helen",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Jacques-Louis+David+Paris+and+Helen&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "The Love of Paris and Helen by Jacques-Louis David.jpg",
+   "The Love of Paris and Helen by Jacques-Louis David (cropped).jpg",
+   "Jacques-Louis David - The Loves of Paris and Helen - WGA6057.jpg",
+   "Les Amours de Pâris et d'Hélène (painting by Jacques-Louis David).jpg",
+   "Jacques-louis david, paride ed elena, 1789.JPG"
   ]
  },
  {
@@ -5865,6 +6028,13 @@
   "query": "Evelyn De Morgan Helen of Troy",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Evelyn+De+Morgan+Helen+of+Troy&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Helen of Troy.jpg",
+   "Helen of TroyFXD.jpg",
+   "Hendrick Goltzius Helen of Troy P1160535 04.jpg",
+   "Hendrick Goltzius Helen of Troy P1160535 05.jpg",
+   "Hendrick Goltzius Helen of Troy P1160535 02.jpg"
   ]
  },
  {
@@ -5880,6 +6050,13 @@
   "query": "Evelyn De Morgan Cassandra",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Evelyn+De+Morgan+Cassandra&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Cassandra1.jpeg",
+   "Lilium-'Cassandra'.jpg",
+   "Cassandra logo.png",
+   "WW Chicago 2014 - Cassandra Peterson 01 (15035609506).jpg",
+   "WW Chicago 2014 - Cassandra Peterson 05 (15058612335).jpg"
   ]
  },
  {
@@ -5895,6 +6072,12 @@
   "query": "Ingres Ambassadors of Agamemnon",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Ingres+Ambassadors+of+Agamemnon&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Jean-Auguste-Dominique Ingres - Achilles Receiving the Ambassadors of Agamemnon, 1801.jpg",
+   "The Envoys of Agamemnon by Ingres.jpg",
+   "The Envoys of Agamemnon by Ingres (detail).jpg",
+   "Ambassadeurs envoyés par Agamemnon à Achille pour l'engager à combattre - Ingres - btv1b8418795q.jpg"
   ]
  },
  {
@@ -5910,6 +6093,13 @@
   "query": "Gavin Hamilton Achilles lamenting Patroclus",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Gavin+Hamilton+Achilles+lamenting+Patroclus&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Gavin Hamilton (1723-1798) - Achilles Lamenting the Death of Patroclus - NG 2339 - National Galleries of Scotland.jpg",
+   "Achilles Lamenting the Death of Patroclus by Gavin Hamilton the National Galleries of Scotland.jpg",
+   "Gavin Hamilton - Achilles Lamenting the Death of Patroclus - NG 2339 - National Galleries of Scotland.jpg",
+   "Gavin Hamilton - Achilles Lamenting the Death of Patroclus - B1975.4.884 - Yale Center for British Art.jpg",
+   "Hamilton Achilles Patroclus.jpg"
   ]
  },
  {
@@ -5925,6 +6115,13 @@
   "query": "Franz Matsch Triumph of Achilles Achilleion",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Franz+Matsch+Triumph+of+Achilles+Achilleion&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "The Triumph of Achilles by Franz von Matsch.jpg",
+   "The Triumph of Achilles by Franz von Matsch (cropped).jpg",
+   "The \"Triumph of Achilles\" fresco, in Corfu Achilleion.jpg",
+   "Triumph of Achilles in Corfu Achilleion cropped color enhanced white balanced.png",
+   "Hector Slain (Detail of Franz Matsch's 'Triumph of Achilles').png"
   ]
  },
  {
@@ -5940,6 +6137,13 @@
   "query": "Barocci Aeneas flight from Troy",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Barocci+Aeneas+flight+from+Troy&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Aeneas' Flight from Troy by Federico Barocci.jpg",
+   "Federico Barocci - Aeneas' Flight from Troy - WGA01283.jpg",
+   "Federico Barocci - Aeneas' Flight from Troy (detail) - WGA01284.jpg",
+   "Fuga di Enea da Troia - Barocci.jpg",
+   "Federico Barocci - Aeneas Saving Anchises at the Fall of Troy - 1960.26 - Cleveland Museum of Art.tif"
   ]
  },
  {
@@ -5955,6 +6159,13 @@
   "query": "Bernini Aeneas Anchises Ascanius",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Bernini+Aeneas+Anchises+Ascanius&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Aeneas, Anchises, and Ascanius by Bernini.jpg",
+   "Aeneas, Anchises, and Ascanius by Bernini, Galleria Borghese (44686152210).jpg",
+   "Aeneas, Anchises, and Ascanius (15778731307).jpg",
+   "Aeneas, Anchises, and Ascanius by Bernini, 1618-1620, marble, view 3 - Galleria Borghese - Rome, Italy - DSC04801.jpg",
+   "Aeneas, Anchises, and Ascanius by Bernini, 1618-1620, marble, view 1 - Galleria Borghese - Rome, Italy - DSC04797.jpg"
   ]
  },
  {
@@ -5970,6 +6181,13 @@
   "query": "Bouguereau Remorse of Orestes",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Bouguereau+Remorse+of+Orestes&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Orestes Pursued by the Furies by William-Adolphe Bouguereau (1862) - Google Art Project.jpg",
+   "Orestes (torso).jpg",
+   "Bouguereau fury art.jpg",
+   "Carl Rahl - Orestes Pursued by the Furies (1852).jpg",
+   "Singer Sargent, John - Orestes Pursued by the Furies - 1921.jpg"
   ]
  },
  {
@@ -5985,6 +6203,10 @@
   "query": "Sargent Orestes MFA Boston",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Sargent+Orestes+MFA+Boston&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Singer Sargent, John - Orestes Pursued by the Furies - 1921.jpg",
+   "Sargent - Orestes, 1922–25, 25.645.jpg"
   ]
  },
  {
@@ -6000,6 +6222,12 @@
   "query": "Franz Stuck Orestes Erinyes",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Franz+Stuck+Orestes+Erinyes&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Franz von Stuck - Orest und die Erinnyen - 1905.jpeg",
+   "Franz von stuck, oreste e le erinni, 1905, 02.jpg",
+   "Franz von stuck, oreste e le erinni, 1905, 01.jpg",
+   "Franz von stuck, oreste e le erinni, 1905, 03.jpg"
   ]
  },
  {
@@ -6030,6 +6258,10 @@
   "query": "Jordaens Odysseus cave Polyphemus Pushkin",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Jordaens+Odysseus+cave+Polyphemus+Pushkin&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Jacob jordaens, ulisse nella grotta di polifemo, 1630-35 (mosca, museo pushkin).jpg",
+   "Jakob Jordaens 009.jpg"
   ]
  },
  {
@@ -6045,6 +6277,13 @@
   "query": "Odilon Redon The Cyclops",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Odilon+Redon+The+Cyclops&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Odilon Redon - The Cyclops, c. 1914.jpg",
+   "Odilon Redon - Le Cyclope.jpeg",
+   "Redon.cyclops.jpg",
+   "1914 Redon Zyklop anagoria.JPG",
+   "Oczlik (Cyclops) - samica.jpg"
   ]
  },
  {
@@ -6090,6 +6329,13 @@
   "query": "Herbert Draper Ulysses and the Sirens",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Herbert+Draper+Ulysses+and+the+Sirens&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Draper Herbert James Ulysses and the Sirens.jpg",
+   "Herbert-James-Draper-Ulysses-and-the-Sirens.jpg",
+   "Herbert James Draper - Ulysses and the Sirens (1910).jpg",
+   "Herbert James Draper, Ulysses and the Sirens, 1909.jpg",
+   "Herbert James Draper, Ulysses and the Sirens.jpg"
   ]
  },
  {
@@ -6105,6 +6351,10 @@
   "query": "Böcklin Odysseus and Calypso",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=B%C3%B6cklin+Odysseus+and+Calypso&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Arnold Böcklin 008.jpg",
+   "Calypso Calipso mitología griega greek.jpg"
   ]
  },
  {
@@ -6120,6 +6370,13 @@
   "query": "Serov Odysseus and Nausicaa",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Serov+Odysseus+and+Nausicaa&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Валентин Александрович Серов - Одиссей и Навсикая.jpg",
+   "Odysseus and Nausicaa by Valentin Serov (drawing, 1910).JPG",
+   "Odysseus and Nausicaa by Valentin Serov (drawing, 1910) 2.JPG",
+   "Odysseus and Nausicaa by Valentin Serov (drawing, GTG) FRAME.jpg",
+   "Odysseus and Nausicaa by Valentin Serov (drawing, GTG) detail.jpg"
   ]
  },
  {
@@ -6135,6 +6392,13 @@
   "query": "Pinturicchio Penelope with the Suitors",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Pinturicchio+Penelope+with+the+Suitors&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Pinturicchio, Return of Odysseus.jpg",
+   "Pinturicchio - The Return of Odysseus - WGA17830.jpg",
+   "Penelope with the Suitors - Pinturicchio (National Gallery).jpg",
+   "Pinturicchio, penelope e i suoi corteggiatori, 1509 ca., dal palazzo del magnifico a siena, 01.jpg",
+   "Pinturicchio, penelope e i suoi corteggiatori, 1509 ca., dal palazzo del magnifico a siena, 02 gatto.jpg"
   ]
  },
  {
@@ -6150,6 +6414,10 @@
   "query": "Waterhouse Penelope and the Suitors",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Waterhouse+Penelope+and+the+Suitors&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Penelope and the Suitors - John William Waterhouse - ABDAG003035.jpg",
+   "JohnWilliamWaterhouse-PenelopeandtheSuitors(1912).jpg"
   ]
  },
  {
@@ -6165,6 +6433,12 @@
   "query": "Poussin Landscape with Polyphemus Hermitage",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Poussin+Landscape+with+Polyphemus+Hermitage&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Nicolas Poussin - Landscape with Polyphemus - WGA18316.jpg",
+   "Poussin - Landscape with Polyphemus, 1649, ГЭ-1186.jpg",
+   "Nicolas Poussin - Paysage avec Polyphème.jpg",
+   "Musée de l'Ermitage - Nicolas Poussin - Paysage avec Polyphème (1649).jpg"
   ]
  },
  {
@@ -6180,6 +6454,10 @@
   "query": "Rubens Odysseus island of the Phaeacians",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Rubens+Odysseus+island+of+the+Phaeacians&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Rubens - Ulysses Landing on the Island of the Phaeacians 61.27 A1.jpg",
+   "Peter Paul Rubens - Ulysses and Nausicaa on the Island of the Phaeacians - WGA20400.jpg"
   ]
  },
  {
@@ -6195,6 +6473,13 @@
   "query": "Annibale Carracci Polyphemus Farnese",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Annibale+Carracci+Polyphemus+Farnese&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Annibale Carracci - The Cyclops Polyphemus - WGA04461.jpg",
+   "Annibale Carracci, The Cyclops Polyphemus.jpg",
+   "Polyphemus en Galatea Schilderingen in Palazzo Farnese te Rome (serietitel) Galeria nel Palazzo Farnese in Roma (serietitel), RP-P-OB-35.916.jpg",
+   "Polyphemus en Galatea Schilderingen in Palazzo Farnese te Rome (serietitel) Galeria nel Palazzo Farnese in Roma (serietitel), RP-P-H-F-55.jpg",
+   "Polyphemus gooit een steen naar Acis Schilderingen in Palazzo Farnese te Rome (serietitel) Galeria nel Palazzo Farnese in Roma (serietitel), RP-P-OB-35.901.jpg"
   ]
  },
  {
@@ -6210,6 +6495,11 @@
   "query": "Böcklin Odysseus and Polyphemus",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=B%C3%B6cklin+Odysseus+and+Polyphemus&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Arnold Böcklin - Odysseus und Polyphemus (1896).jpg",
+   "Arnold Böcklin - Odysseus and Polyphemus.jpg",
+   "Böcklin - Odysseus und Polyphem (Odysseus and Polyphemus), 1896, lot.8.jpg"
   ]
  },
  {
@@ -6225,6 +6515,13 @@
   "query": "Dosso Dossi Circe and her lovers",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Dosso+Dossi+Circe+and+her+lovers&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Dosso Dossi 003.jpg",
+   "Dosso Dossi, Circe and Her Lovers in a Landscape, c. 1525, NGA 12147.jpg",
+   "Dosso Dossi 003FXD.jpg",
+   "Circe Washington.jpg",
+   "A catalogue of the pictures and drawings in the National loan exhibition, in aid of National gallery funds, held in the Grafton Galleries, London (1909-1910) (1909) (14763618935).jpg"
   ]
  },
  {
@@ -6240,6 +6537,13 @@
   "query": "Wright Barker Circe",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Wright+Barker+Circe&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Circe by Wright Barker (1889).jpg",
+   "Circe by Wright Barker (2).jpg",
+   "Circe rivularis 01.jpg",
+   "Circe scripta 02.jpg",
+   "Circe scripta 01.jpg"
   ]
  },
  {
@@ -6255,6 +6559,274 @@
   "query": "Joseph Wright Penelope unravelling her web",
   "links": [
    "https://commons.wikimedia.org/w/index.php?search=Joseph+Wright+Penelope+unravelling+her+web&title=Special:MediaSearch&type=image"
+  ],
+  "cands": [
+   "Joseph Wright of Derby. Penelope Unravelling Her Web by Lamp Light. exhibited 1785.jpg",
+   "Joseph Wright of Derby - Penelope Unraveling Her Web - 87.PA.49 - J. Paul Getty Museum.jpg"
+  ]
+ },
+ {
+  "sec": "Цитаты",
+  "sub": null,
+  "line": 946,
+  "raw": "Антонио Поллайоло, «Геракл и Гидра», «Геракл и Антей», ок. 1475 (Уффици) — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Pollaiuolo+Hercules+Hydra+Uffizi&title=Special:MediaSearch&type=image)",
+  "desc": "Антонио Поллайоло, «Геракл и Гидра», «Геракл и Антей», ок. 1475 (Уффици)",
+  "caution": false,
+  "ru": false,
+  "dispute": false,
+  "file": null,
+  "query": "Pollaiuolo Hercules Hydra Uffizi",
+  "cands": [
+   "Hercules and the Hydra - Antonio del Pollaiolo.jpg",
+   "Antonio del Pollaiolo - Hercules and the Hydra (no background).png",
+   "Antonio del Pollaiolo - Hercules and the Hydra - WGA18031.jpg",
+   "Star Lore Of All Ages (1911), 0321, Hercules and the Hydra.png",
+   "Antonio del Pollaiolo - Ercole e l'Idra e Ercole e Anteo - Google Art Project.jpg"
+  ]
+ },
+ {
+  "sec": "Цитаты",
+  "sub": null,
+  "line": 947,
+  "raw": "Аннибале Карраччи, «Выбор Геракла», 1596 (Неаполь) — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Annibale+Carracci+Choice+of+Hercules&title=Special:MediaSearch&type=image)",
+  "desc": "Аннибале Карраччи, «Выбор Геракла», 1596 (Неаполь)",
+  "caution": false,
+  "ru": false,
+  "dispute": false,
+  "file": null,
+  "query": "Annibale Carracci Choice of Hercules",
+  "cands": [
+   "Annibale Carracci, Hercules at the Crossroads, brighter.jpg",
+   "Annibale Carracci - The Choice of Heracles - WGA4416.jpg",
+   "CarracciHercules.jpg",
+   "Carracci Hercultes at Crossroads, detail.jpg",
+   "Annibale carracci, ercole al bizio, 1596, Q365.JPG"
+  ]
+ },
+ {
+  "sec": "Цитаты",
+  "sub": null,
+  "line": 948,
+  "raw": "Франсиско Сурбаран, серия «Подвиги Геракла», 1634 (Прадо) — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Zurbaran+Labours+of+Hercules+Prado&title=Special:MediaSearch&type=image)",
+  "desc": "Франсиско Сурбаран, серия «Подвиги Геракла», 1634 (Прадо)",
+  "caution": false,
+  "ru": false,
+  "dispute": false,
+  "file": null,
+  "query": "Zurbaran Labours of Hercules Prado",
+  "cands": []
+ },
+ {
+  "sec": "Цитаты",
+  "sub": null,
+  "line": 949,
+  "raw": "Гюстав Моро, «Геракл и Лернейская гидра», 1875–76 (Чикаго) — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Gustave+Moreau+Hercules+Lernaean+Hydra&title=Special:MediaSearch&type=image)",
+  "desc": "Гюстав Моро, «Геракл и Лернейская гидра», 1875–76 (Чикаго)",
+  "caution": false,
+  "ru": false,
+  "dispute": false,
+  "file": null,
+  "query": "Gustave Moreau Hercules Lernaean Hydra",
+  "cands": []
+ },
+ {
+  "sec": "Цитаты",
+  "sub": null,
+  "line": 950,
+  "raw": "Фредерик Лейтон, «Геракл борется со Смертью за тело Алкесты», ок. 1869–71 (Хартфорд) — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Leighton+Hercules+wrestling+Death+Alcestis&title=Special:MediaSearch&type=image)",
+  "desc": "Фредерик Лейтон, «Геракл борется со Смертью за тело Алкесты», ок. 1869–71 (Хартфорд)",
+  "caution": false,
+  "ru": false,
+  "dispute": false,
+  "file": null,
+  "query": "Leighton Hercules wrestling Death Alcestis",
+  "cands": []
+ },
+ {
+  "sec": "Цитаты",
+  "sub": null,
+  "line": 951,
+  "raw": "🇷🇺 Иван Акимов, «Самосожжение Геркулеса на костре в присутствии его друга Филоктета», 1782 (Третьяковская галерея) — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Ivan+Akimov+Hercules+pyre&title=Special:MediaSearch&type=image)",
+  "desc": "🇷🇺 Иван Акимов, «Самосожжение Геркулеса на костре в присутствии его друга Филоктета», 1782 (Третьяковская галерея)",
+  "caution": false,
+  "ru": true,
+  "dispute": false,
+  "file": null,
+  "query": "Ivan Akimov Hercules pyre",
+  "cands": []
+ },
+ {
+  "sec": "Цитаты",
+  "sub": null,
+  "line": 952,
+  "raw": "🇷🇺 Франсуа Буше, «Геркулес и Омфала», 1731–34 (ГМИИ им. Пушкина) ⚠ — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Boucher+Hercules+and+Omphale+Pushkin&title=Special:MediaSearch&type=image)",
+  "desc": "🇷🇺 Франсуа Буше, «Геркулес и Омфала», 1731–34 (ГМИИ им. Пушкина) ⚠",
+  "caution": true,
+  "ru": true,
+  "dispute": false,
+  "file": null,
+  "query": "Boucher Hercules and Omphale Pushkin",
+  "cands": []
+ },
+ {
+  "sec": "Цитаты",
+  "sub": null,
+  "line": 953,
+  "raw": "🇷🇺 Джошуа Рейнольдс, «Младенец Геракл, удушающий змей», 1786–88, заказ Екатерины II (Эрмитаж) — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Reynolds+Infant+Hercules+strangling+serpents+Hermitage&title=Special:MediaSearch&type=image)",
+  "desc": "🇷🇺 Джошуа Рейнольдс, «Младенец Геракл, удушающий змей», 1786–88, заказ Екатерины II (Эрмитаж)",
+  "caution": false,
+  "ru": true,
+  "dispute": false,
+  "file": null,
+  "query": "Reynolds Infant Hercules strangling serpents Hermitage",
+  "cands": [
+   "The Infant Hercules Strangling Serpents in his Cradle - Joshua Reynolds (1788).jpg",
+   "Joshuareynolds2.jpg"
+  ]
+ },
+ {
+  "sec": "Цитаты",
+  "sub": null,
+  "line": 954,
+  "raw": "🇷🇺 Рубенс, эскиз «Арка Геракла» (Эрмитаж, зал 247) — [Эрмитаж: зал](https://www.hermitagemuseum.org/wps/portal/hermitage/explore/buildings/locations/room/B40_F2_H247/?lng=ru)",
+  "desc": "🇷🇺 Рубенс, эскиз «Арка Геракла» (Эрмитаж, зал 247)",
+  "caution": false,
+  "ru": true,
+  "dispute": false,
+  "file": null,
+  "query": null
+ },
+ {
+  "sec": "Цитаты",
+  "sub": null,
+  "line": 955,
+  "raw": "Гвидо Рени, цикл «Подвиги Геракла», 1617–21 (Лувр) — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Guido+Reni+Hercules+Louvre&title=Special:MediaSearch&type=image)",
+  "desc": "Гвидо Рени, цикл «Подвиги Геракла», 1617–21 (Лувр)",
+  "caution": false,
+  "ru": false,
+  "dispute": false,
+  "file": null,
+  "query": "Guido Reni Hercules Louvre",
+  "cands": [
+   "Guido Reni - Hercules Vanquishing the Hydra of Lerma - WGA19284.jpg",
+   "Guido reni, storie di ercole, ercole e l'idra, 1617-21, 01.JPG",
+   "Heracles Hydra Guido Reni.jpg",
+   "Guido reni, storie di ercole, ercole e l'idra, 1617-21, 02.JPG",
+   "Reni - Hercule terrassant l'hydre de Lerne, INV 535 ; MR 284.jpg"
+  ]
+ },
+ {
+  "sec": "Цитаты",
+  "sub": null,
+  "line": 956,
+  "raw": "Рубенс, «Геракл и Немейский лев», ок. 1615 — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Rubens+Hercules+Nemean+Lion&title=Special:MediaSearch&type=image)",
+  "desc": "Рубенс, «Геракл и Немейский лев», ок. 1615",
+  "caution": false,
+  "ru": false,
+  "dispute": false,
+  "file": null,
+  "query": "Rubens Hercules Nemean Lion",
+  "cands": [
+   "Rubens - Hercules and the Nemean lion.jpg",
+   "Peter Paul Rubens - Hercules Strangling the Nemean Lion - 2000.199 - Busch–Reisinger Museum.jpg",
+   "Peter Paul Rubens (1577-1640) (after) - Hercules and the Nemean Lion - WM.1608-1948 - Apsley House.jpg",
+   "Peter Paul Rubens - Hercules fighting the Nemean lion.jpeg",
+   "Heracles and the Nemea Lion Pieter Paul Rubens.jpg"
+  ]
+ },
+ {
+  "sec": "Цитаты",
+  "sub": null,
+  "line": 957,
+  "raw": "Лукас Кранах Старший, «Геракл у Омфалы», 1537 (Брауншвейг) — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Cranach+Hercules+Omphale&title=Special:MediaSearch&type=image)",
+  "desc": "Лукас Кранах Старший, «Геракл у Омфалы», 1537 (Брауншвейг)",
+  "caution": false,
+  "ru": false,
+  "dispute": false,
+  "file": null,
+  "query": "Cranach Hercules Omphale",
+  "cands": [
+   "Bemberg Fondation Toulouse - Hercule à la cour d'Omphale - Lucas Cranach l'Ancien - 1537 Inv.1098.jpg",
+   "Cranach, Lucas (I) - Hercules at the court of Omphale - .Bemberg Fondation Toulouse - Google Art Project.jpg",
+   "Lucas Cranach d.Æ. - Hercules with Omphale - KMSsp727 - Statens Museum for Kunst.jpg",
+   "Cranach Hercules and Omphale (detail).jpg",
+   "Hans Cranach - Hercules am Hofe der Omphale.jpg"
+  ]
+ },
+ {
+  "sec": "Цитаты",
+  "sub": null,
+  "line": 958,
+  "raw": "Антонио Поллайоло, «Геракл и Антей», бронза, ок. 1470 (Флоренция, Барджелло) — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Pollaiuolo+Hercules+and+Antaeus+bronze&title=Special:MediaSearch&type=image)",
+  "desc": "Антонио Поллайоло, «Геракл и Антей», бронза, ок. 1470 (Флоренция, Барджелло)",
+  "caution": false,
+  "ru": false,
+  "dispute": false,
+  "file": null,
+  "query": "Pollaiuolo Hercules and Antaeus bronze",
+  "cands": [
+   "Baldung Hercules and Antaeus (detail).jpg",
+   "Baldung Hercules and Antaeus (detail) 02.jpg",
+   "Hercules and Antaeus, Trent Park, Enfield.jpg",
+   "Baldung Hercules and Antaeus (detail) 03.jpg",
+   "Baldung Hercules and Antaeus (detail) 01.jpg"
+  ]
+ },
+ {
+  "sec": "Цитаты",
+  "sub": null,
+  "line": 959,
+  "raw": "Джамболонья, «Геракл и кентавр Несс», 1599 (Флоренция, Лоджия деи Ланци) — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Giambologna+Hercules+Nessus+Loggia&title=Special:MediaSearch&type=image)",
+  "desc": "Джамболонья, «Геракл и кентавр Несс», 1599 (Флоренция, Лоджия деи Ланци)",
+  "caution": false,
+  "ru": false,
+  "dispute": false,
+  "file": null,
+  "query": "Giambologna Hercules Nessus Loggia",
+  "cands": [
+   "Hercules and Nessus by Giambologna 1599 at the Loggia dei Lanzi in Florence Italy MH 03.jpg",
+   "Hercules and Nessus by Giambologna 1599 at the Loggia dei Lanzi in Florence Italy MH 01.jpg",
+   "Hercules and Nessus by Giambologna 1599 at the Loggia dei Lanzi in Florence Italy MH 02.jpg",
+   "Firenze - Florence - Loggia dei Lanzi - View West on 'Hercules beating the Centaur Nessus' 1599 by Giambologna (moved here in 1841).jpg",
+   "Statue group Heracles and Nessus at Loggia dei Lanzi.jpg"
+  ]
+ },
+ {
+  "sec": "Цитаты",
+  "sub": null,
+  "line": 960,
+  "raw": "Антонио Канова, «Геракл и Лихас», 1795–1815 (Рим) ⚠ — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Canova+Hercules+and+Lichas&title=Special:MediaSearch&type=image)",
+  "desc": "Антонио Канова, «Геракл и Лихас», 1795–1815 (Рим) ⚠",
+  "caution": true,
+  "ru": false,
+  "dispute": false,
+  "file": null,
+  "query": "Canova Hercules and Lichas",
+  "cands": [
+   "Hercules en Lichas Sculpturen van Antonio Canova (serietitel), RP-P-OB-39.040.jpg",
+   "Hercules en Lichas Sculpturen van Antonio Canova (serietitel), RP-P-OB-39.044.jpg",
+   "Canova - Hercules and Lichas, 1795-1815, bwF-umb5LwT0RA.jpg",
+   "Canova - Hercules and Lichas, circa 1796, G.68.3.1.jpg",
+   "Hercules about to hurl Lichas into the sea MET SF40 20 27.jpg"
+  ]
+ },
+ {
+  "sec": "Цитаты",
+  "sub": null,
+  "line": 961,
+  "raw": "Антуан Бурдель, «Геракл-лучник», 1909, бронза (Орсе) — [🔍 Commons](https://commons.wikimedia.org/w/index.php?search=Bourdelle+Heracles+the+Archer&title=Special:MediaSearch&type=image)",
+  "desc": "Антуан Бурдель, «Геракл-лучник», 1909, бронза (Орсе)",
+  "caution": false,
+  "ru": false,
+  "dispute": false,
+  "file": null,
+  "query": "Bourdelle Heracles the Archer",
+  "cands": [
+   "Musée Ingres-Bourdelle - Héraklès Archer, 1909 - Platre - Antoine Bourdelle Joconde06070001188.jpg",
+   "Bourdelle Heracles Archer 1909 (91421391).jpeg",
+   "Bourdelle Heracles boogschutter 1909.jpg",
+   "Alfred Mayssonié par Bourdelle 1922.jpg",
+   "Middelheim Bourdelle Heracles.jpg"
   ]
  }
 ]

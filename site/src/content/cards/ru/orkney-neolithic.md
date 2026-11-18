@@ -10,6 +10,7 @@ when: { from: -3200, to: -2500, approx: true }
 place: { name: "Оркнейские острова", lat: 59.0013, lon: -3.229 }
 links:
   - { to: newgrange, kind: meaning }
+art: [orkney-neolithic-photo-01, orkney-neolithic-photo-02]
 ---
 **Кольцо Бродгар ✅.** Круг диаметром 104 м, из 60 камней стоят 27. Рядом — Стеннесские камни и раскопанный «Ness of Brodgar» — огромный комплекс зданий, похожий на храмовый городок.
 

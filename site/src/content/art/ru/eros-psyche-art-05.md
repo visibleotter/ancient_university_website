@@ -7,5 +7,7 @@ kind: painting
 museum: "Лувр"
 commons: "Psyché et l'Amour - François Gérard - Musée du Louvre Peintures INV 4739 ; L 3778.jpg"
 caution: true
+license: "общественное достояние"
+credit: "François Gérard"
 ---
 Подборка из тома «Мифы Греции в искусстве».
