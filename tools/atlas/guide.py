@@ -95,6 +95,11 @@ JS = """
 })();
 """
 
+def plural(n):
+    if n % 10 == 1 and n % 100 != 11: return 'рисунок'
+    if 2 <= n % 10 <= 4 and not 12 <= n % 100 <= 14: return 'рисунка'
+    return 'рисунков'
+
 def page():
     leg = ''.join(f'<li><svg viewBox="0 0 46 26" aria-hidden="true">{s}</svg><span>{E(t)}</span></li>' for s, t in LEG)
     themes = ''.join(f'<button class="chip" type="button" data-theme="{E(t)}" aria-pressed="false">{E(t)}</button>' for t in meta.THEMES)
@@ -105,7 +110,7 @@ def page():
          f'<style>{CSS}</style>', '<div class="wrap"><header>',
          '<div class="eyebrow">Приложение к тому «Математика и геометрия древних греков»</div>',
          '<h1>Атлас чертежей <em>Евклида</em></h1>',
-         f'<p class="lead">{len(F)} рисунков к тому. У каждого рисунка одинаковый порядок: как его читать, почему это верно, что сделать руками с ребёнком и где это встречается в жизни. Внизу карточки — раздел тома, где тема разобрана подробно.</p></header>',
+         f'<p class="lead">{len(F)} {plural(len(F))} к тому. У каждого рисунка одинаковый порядок: как его читать, почему это верно, что сделать руками с ребёнком и где это встречается в жизни. Внизу карточки — раздел тома, где тема разобрана подробно.</p></header>',
          '<div class="how">',
          '<div><b>1. Читаете том</b><p>В тексте стоит ссылка «Рис. 23» — она открывает здесь нужную карточку. Или введите номер в поле «Рис. №» ниже.</p></div>',
          '<div><b>2. Готовите занятие</b><p>Выберите тему и возраст в фильтрах: останутся только подходящие рисунки. Блок «Сделайте сами» — готовый план на 10–20 минут.</p></div>',
@@ -115,11 +120,11 @@ def page():
          '<div class="filters" role="group" aria-label="Фильтры">',
          f'<div class="row"><span class="lab">Тема</span><button class="chip" type="button" data-theme="all" aria-pressed="true">Все</button>{themes}</div>',
          f'<div class="row"><span class="lab">Возраст</span><button class="chip" type="button" data-age="all" aria-pressed="true">Любой</button>{ages}'
-         '<form id="gotoform" class="row" style="margin-left:auto"><label class="lab" for="goto">Рис. №</label><input id="goto" type="number" min="1" max="49" inputmode="numeric" placeholder="1–49"><button class="chip" type="submit">Открыть</button></form></div>',
+         f'<form id="gotoform" class="row" style="margin-left:auto"><label class="lab" for="goto">Рис. №</label><input id="goto" type="number" min="1" max="{len(F)}" inputmode="numeric" placeholder="1–{len(F)}"><button class="chip" type="submit">Открыть</button></form></div>',
          '<div class="count" id="count" aria-live="polite"></div></div>',
          '<div class="list">'] + [card(d) for d in F] + [
          '<div class="empty" id="empty" hidden>Для этой темы и возраста рисунков нет. Выберите «Все» или «Любой».</div></div>',
-         '<footer>📜 — поздняя традиция или легенда. Рисунки построены по точным координатам: углы и пропорции настоящие, кроме рисунков 36, 37, 41, 47 и 49, где угол для наглядности изменён (это подписано).</footer></div>',
+         '<footer>📜 — поздняя традиция или легенда. Рисунки построены по точным координатам: углы и пропорции настоящие, кроме рисунков 36, 37, 41, 47 и 49, где угол для наглядности изменён (это подписано). Рисунки 50–51 — по «Занимательной геометрии» Я. И. Перельмана (1925), гл. I.</footer></div>',
          f'<script>{JS}</script>']
     return '\n'.join(o)
 
