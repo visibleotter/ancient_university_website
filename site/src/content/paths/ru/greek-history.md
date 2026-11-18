@@ -39,6 +39,8 @@ sections:
     cards: [socrates-trial]
 turns:
   - { at: homer, to: beginning-of-world, side: right, label: мифы Гесиода — от Хаоса до Зевса }
+  - { at: homer, to: homer, side: right, label: подробно — «Илиада» и «Одиссея» }
+  - { at: bronze-age-collapse, to: collapse-vs-rome, side: right }
   - { at: colonization, to: birth-of-philosophy, side: right, label: в колониях и Ионии рождается философия }
   - { at: tragedy, to: sophists, side: right }
   - { at: socrates-trial, to: beginnings-of-logic, side: right, label: Сократ, Платон и начала логики }

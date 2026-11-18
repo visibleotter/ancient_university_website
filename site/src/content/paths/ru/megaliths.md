@@ -16,7 +16,7 @@ sections:
   - title: Мальта — остров храмов
     cards: [hal-saflieni, hagar-qim, mnajdra, tarxien]
   - title: Солнце и предки
-    cards: [newgrange, stonehenge]
+    cards: [newgrange, stonehenge, nebra-disk]
 turns:
   - { at: newgrange, to: cosmic-ladder, side: right, label: как люди мерили небо дальше }
   - { at: megaliths-intro, to: first-fires, side: right, label: что было раньше }
