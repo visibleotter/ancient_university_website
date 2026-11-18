@@ -12,7 +12,7 @@ export const localeNames: Record<Locale, string> = {
 
 export const ui = {
   ru: { site: 'Древний университет', math: 'Математика греков', myths: 'Мифы', philosophers: 'Философы', soon: 'скоро', home: 'Главная',
-    worlds: 'Миры древности', lines: 'Сквозные линии', allCards: 'Все карточки', atlas: 'Атлас чертежей', art: 'Искусство и изображения', draft: 'Черновой каркас: дизайн будет позже', untranslated: 'Перевода пока нет — показан русский оригинал.' },
+    worlds: 'Миры древности', lines: 'Сквозные линии', allCards: 'Все карточки', atlas: 'Атлас чертежей', map: 'Карта и время', art: 'Искусство и изображения', draft: 'Черновой каркас: дизайн будет позже', untranslated: 'Перевода пока нет — показан русский оригинал.' },
   en: { site: 'Ancient University', math: 'Greek Mathematics', myths: 'Myths', philosophers: 'Philosophers', soon: 'soon', home: 'Home', draft: 'Draft skeleton: design comes later', untranslated: 'This section is not translated yet; the Russian original is shown.' },
   fr: { site: 'Université antique', math: 'Mathématiques grecques', myths: 'Mythes', philosophers: 'Philosophes', soon: 'bientôt', home: 'Accueil', draft: 'Squelette provisoire : le design viendra plus tard', untranslated: "Cette section n'est pas encore traduite ; l'original russe est affiché." },
   es: { site: 'Universidad antigua', math: 'Matemáticas griegas', myths: 'Mitos', philosophers: 'Filósofos', soon: 'pronto', home: 'Inicio', draft: 'Esqueleto provisional: el diseño vendrá después', untranslated: 'Esta sección aún no está traducida; se muestra el original ruso.' },

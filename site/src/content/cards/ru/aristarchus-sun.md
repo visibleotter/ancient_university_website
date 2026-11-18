@@ -7,6 +7,7 @@ title: "Аристарх: насколько Солнце дальше Луны"
 summary: "Когда Луна освещена ровно наполовину, Земля, Луна и Солнце образуют прямоугольный треугольник. Метод безупречен — а ответ ошибочен в 20 раз."
 ages: ["8-10", "11-15"]
 era: "III в. до н. э."
+when: { from: -300, to: -200, approx: true }
 people: ["aristarchus"]
 quotes: ["aristarchus-18-20"]
 related: ["moon-distance", "aristarchus", "annual-parallax", "ladder-intro"]

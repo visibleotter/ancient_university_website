@@ -7,6 +7,8 @@ title: "Гесиод"
 summary: "Беотийский поэт-крестьянин, который первым рассказал по порядку, как появился мир и боги."
 ages: ["8-10", "11-15"]
 era: "около 700 до н. э. ❓"
+when: { from: -700, approx: true }
+place: { name: "Аскра", lat: 38.3282, lon: 23.0754, pleiades: "540670" }
 greek: "Ἡσίοδος"
 quotes: ["hes-theog-26-28"]
 related: ["theogony", "myth-to-logos"]

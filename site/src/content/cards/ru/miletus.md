@@ -6,6 +6,8 @@ title: "Милет"
 summary: "Богатый ионийский порт на берегу нынешней Турции, где жили первые философы — Фалес, Анаксимандр и Анаксимен."
 ages: ["8-10", "11-15"]
 era: "расцвет — VII–VI вв. до н. э."
+when: { from: -700, to: -494, approx: true }
+place: { name: "Милет", lat: 37.5305, lon: 27.2788, pleiades: "599799" }
 greek: "Μίλητος"
 related: ["thales", "anaximander", "anaximenes"]
 ---

@@ -19,6 +19,7 @@ const worlds = (await worldList(locale)).filter((w) => w.entry.data.status === '
       <nav>
         {worlds.map((w) => <a href={href(locale, w.id)}>{w.entry.data.title}</a>)}
         <a href={href(locale, 'cards')}>{t.allCards}</a>
+        <a href={href(locale, 'map')}>{(t as any).map ?? 'Карта'}</a>
         <a href={href(locale, 'atlas')}>{t.atlas}</a>
         <a href={href(locale, 'art')}>{t.art}</a>
       </nav>

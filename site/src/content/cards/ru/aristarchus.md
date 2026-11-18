@@ -7,6 +7,8 @@ title: "Аристарх Самосский"
 summary: "Первым попытался измерить, насколько Солнце дальше Луны, — и первым предположил, что Земля обращается вокруг Солнца."
 ages: ["8-10", "11-15"]
 era: "около 310 — около 230 до н. э."
+when: { from: -310, to: -230, approx: true }
+place: { name: "Самос", lat: 37.6883, lon: 26.9445, pleiades: "599925" }
 greek: "Ἀρίσταρχος ὁ Σάμιος"
 quotes: ["archimedes-psammites-helio", "archimedes-psammites-sun"]
 related: ["aristarchus-sun", "moon-distance", "annual-parallax"]

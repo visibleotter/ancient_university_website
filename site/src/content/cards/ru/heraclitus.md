@@ -7,6 +7,8 @@ title: "Гераклит Эфесский"
 summary: "«Тёмный» философ из Эфеса: логос, огонь, река, в которую нельзя войти дважды, и единство противоположностей."
 ages: ["8-10", "11-15"]
 era: "расцвет около 500 до н. э."
+when: { from: -535, to: -475, approx: true }
+place: { name: "Эфес", lat: 37.9402, lon: 27.3424, pleiades: "599612" }
 greek: "Ἡράκλειτος ὁ Ἐφέσιος"
 quotes: ["heraclitus-b40", "plutarch-colotes-1118c"]
 related: ["logos", "river", "opposites", "aion-child", "pythagoras", "xenophanes"]

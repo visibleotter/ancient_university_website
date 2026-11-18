@@ -7,6 +7,8 @@ title: "Анаксимандр"
 summary: "Ученик Фалеса, автор первой греческой книги о природе в прозе: беспредельное как начало, Земля, висящая ни на чём, первая карта мира."
 ages: ["8-10", "11-15"]
 era: "около 610 — после 547 до н. э."
+when: { from: -610, to: -546, approx: true }
+place: { name: "Милет", lat: 37.5305, lon: 27.2788, pleiades: "599799" }
 greek: "Ἀναξίμανδρος"
 quotes: ["dl-2-1"]
 related: ["thales", "apeiron", "earth-symmetry", "humans-from-fish", "anaximenes", "miletus"]

@@ -34,6 +34,20 @@ export const CARD_TYPES = [
 ] as const;
 export const ART_KINDS = ['vase', 'sculpture', 'relief', 'mosaic', 'fresco', 'painting', 'object', 'photo', 'diagram', 'map'] as const;
 
+/** Время для карты и шкалы: годы числом, до н. э. — отрицательные (−585). Строка era остаётся для людей. */
+const when = z.object({
+  from: z.number(),
+  to: z.number().optional(),                     // нет — точка во времени
+  approx: z.boolean().default(false),            // «около»: на шкале рисуется размыто
+});
+/** Место на карте; pleiades — id в газеттере Pleiades (откуда взяты координаты), см. tools/map/pleiades.py. */
+const place = z.object({
+  name: z.string().optional(),
+  lat: z.number(),
+  lon: z.number(),
+  pleiades: z.string().optional(),
+});
+
 /** Мир-цивилизация — «облако знаний». */
 const worlds = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/worlds' }),
@@ -44,6 +58,9 @@ const worlds = defineCollection({
     order: z.number(),                             // порядок на главной (примерно хронологический)
     status: z.enum(['active', 'planned']).default('planned'),
     native: z.string().optional(),                 // самоназвание: Ἑλλάς, Kemet…
+    when: when.optional(),                         // годы мира на шкале времени
+    center: z.object({ lat: z.number(), lon: z.number() }).optional(), // куда смотрит глобус
+    places: z.array(place.extend({ name: z.string(), when: when.optional() })).default([]), // главные города и центры
   }),
 });
 
@@ -61,6 +78,8 @@ const cards = defineCollection({
     themes: z.array(z.string()).default([]),
     people: z.array(z.string()).default([]),       // id карточек-людей
     era: z.string().optional(),                    // «VI в. до н. э.»
+    when: when.optional(),                         // годы числом — для шкалы времени и карты
+    place: place.optional(),                       // где: город, святилище; для людей — где жил и работал
     reliability: z.enum(['fact', 'legend', 'disputed']).optional(), // ✅ 📜 ❓
     greek: z.string().optional(),                  // термин по-гречески
     euclid: z.string().optional(),                 // «I.15»

@@ -8,6 +8,7 @@ summary: Γεωμετρία — «землемерие». Нил каждый г
 ages: ['6-7', '8-10', '11-15']
 themes: [measure]
 era: II тыс. до н. э. — VI в. до н. э.
+when: { from: -2000, to: -550, approx: true }
 reliability: legend
 greek: γεωμετρία
 quotes: [proclus-64]

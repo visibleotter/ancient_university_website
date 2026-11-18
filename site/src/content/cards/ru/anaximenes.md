@@ -7,6 +7,8 @@ title: "Анаксимен"
 summary: "Третий милетец: всё из воздуха, который сгущается и разрежается. Впервые качество объяснено количеством."
 ages: ["8-10", "11-15"]
 era: "около 585 — около 525 до н. э."
+when: { from: -585, to: -525, approx: true }
+place: { name: "Милет", lat: 37.5305, lon: 27.2788, pleiades: "599799" }
 greek: "Ἀναξιμένης"
 related: ["anaximander", "air-condensation", "exp-breath", "miletus"]
 links:

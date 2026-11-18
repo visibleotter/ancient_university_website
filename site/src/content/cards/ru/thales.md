@@ -8,6 +8,8 @@ summary: Первый греческий мудрец, которому прип
 ages: ['6-7', '8-10', '11-15']
 themes: [basics, measure]
 era: около 624 — около 546 до н. э.
+when: { from: -624, to: -546, approx: true }
+place: { name: "Милет", lat: 37.5305, lon: 27.2788, pleiades: "599799" }
 greek: Θαλῆς ὁ Μιλήσιος
 quotes: [proclus-65, plato-theaetetus-174a]
 related: [arche-water, thales-eclipse, miletus, sources, diameter-bisects, isosceles-base-angles, vertical-angles, asa-ships, angle-in-semicircle, pyramid-shadow]

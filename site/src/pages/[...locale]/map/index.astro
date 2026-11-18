@@ -1,0 +1,89 @@
+---
+// Карта и время: шкала-синхронистическая таблица по мирам + глобус (globe.gl), синхронные через «окна» времени.
+// Данные — src/lib/map.ts (поля when/place у карточек, when/center/places у миров). Клиентская часть — src/scripts/map-client.ts.
+import Base from '../../../layouts/Base.astro';
+import { localePaths, toLocale, ui, href } from '../../../i18n/ui';
+import { mapData } from '../../../lib/map';
+export function getStaticPaths() {
+  return localePaths();
+}
+const locale = toLocale(Astro.params.locale);
+const t = ui[locale] as any;
+const data = await mapData(locale);
+const json = JSON.stringify(data).replace(/</g, '\\u003c');
+const year = (y: number) => (y < 0 ? `${-y} до н. э.` : `${y}`);
+const span = (w?: { from: number; to?: number; approx: boolean }) =>
+  w ? `${w.approx ? '≈ ' : ''}${year(w.from)}${w.to !== undefined ? ' — ' + year(w.to) : ''}` : '';
+const lanes = [...data.worlds.map((w) => ({ id: w.id, title: w.title, href: w.href, when: w.when })), { id: '', title: 'Наука нового времени', href: '', when: undefined }];
+---
+<Base locale={locale} title={t.map ?? 'Карта'} path="map">
+  <h1>{t.map ?? 'Карта'}</h1>
+  <p>Выберите на шкале окно — глобус покажет, что происходило в это время во всех мирах. Включите сравнение — появится второе окно, и две эпохи будут видны одновременно разными цветами.</p>
+
+  <div id="globe" class="globe" aria-label="Глобус: места выбранной эпохи"></div>
+  <p id="globe-fail" class="note" hidden>Глобус не запустился (нет WebGL) — шкала и список ниже работают и без него.</p>
+
+  <div class="controls">
+    <label>Ширина окна
+      <select id="width">
+        <option value="50">50 лет</option>
+        <option value="100" selected>век</option>
+        <option value="250">250 лет</option>
+        <option value="500">500 лет</option>
+        <option value="1000">тысяча лет</option>
+      </select>
+    </label>
+    <button id="play" type="button">▶ Пустить время</button>
+    <label><input id="compare" type="checkbox" /> Сравнить с другой эпохой</label>
+    <span id="readout" class="readout" aria-live="polite"></span>
+  </div>
+
+  <div class="timeline-wrap"><svg id="timeline" class="timeline" role="img" aria-label="Шкала времени по мирам"></svg></div>
+  <p class="note">Шкала с разрывами: до 3500 г. до н. э. и наша эра сжаты. Кружок — событие, полоса — жизнь или период; бледная полоса — время мира. Перетаскивайте окно мышью или пальцем, щелчок по шкале переносит окно туда.</p>
+
+  <div id="lists" class="lists"></div>
+
+  <details>
+    <summary>Всё списком (без карты)</summary>
+    {lanes.map((l) => {
+      const items = data.items.filter((i) => (i.world ?? '') === l.id && i.when).sort((a, b) => a.when!.from - b.when!.from);
+      const w = data.worlds.find((x) => x.id === l.id);
+      if (!items.length && !w?.places.length) return null;
+      return (
+        <section>
+          <h3>{l.href ? <a href={l.href}>{l.title}</a> : l.title} <small>{span(l.when)}</small></h3>
+          <ul>
+            {w?.places.map((p) => <li>📍 {p.name} <small>{span(p.when)}</small></li>)}
+            {items.map((i) => <li><a href={i.href}>{i.title}</a> <small>{span(i.when)}</small></li>)}
+          </ul>
+        </section>
+      );
+    })}
+  </details>
+
+  <script id="map-data" type="application/json" set:html={json} />
+  <script>
+    import { start } from '../../../scripts/map-client';
+    start();
+  </script>
+  <style>
+    .globe { width: 100%; height: min(70vh, 520px); background: #0d1b2a; border-radius: 6px; overflow: hidden; touch-action: pan-y; }
+    .controls { display: flex; flex-wrap: wrap; gap: .5rem 1rem; align-items: center; margin: .75rem 0 .25rem; }
+    .readout { font-weight: 600; }
+    .timeline-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; border: 1px solid #ccc; border-radius: 6px; }
+    .timeline { display: block; min-width: 860px; width: 100%; user-select: none; touch-action: none; }
+    .note { font-size: .85rem; color: #555; }
+    .lists { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1rem; margin: 1rem 0; }
+    .lists h3 { margin: .25rem 0; }
+  </style>
+  <style is:global>
+    .timeline text { font: 11px system-ui, sans-serif; fill: #333; }
+    .timeline .lane-label { font-weight: 600; }
+    .timeline .item { cursor: pointer; }
+    .timeline .item.dim { opacity: .25; }
+    .timeline .item.hot { stroke: #000; stroke-width: 2; }
+    .timeline .win { cursor: grab; }
+    .lists ul { margin: .25rem 0; padding-left: 1.1rem; }
+    .lists li.hot { background: #fff3b0; }
+  </style>
+</Base>

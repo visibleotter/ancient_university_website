@@ -1,6 +1,7 @@
 ---
 type: place
 world: greece
+place: { name: "Дельфы", lat: 38.4823, lon: 22.5012, pleiades: "540726" }
 area: religion
 subject: mythology
 title: "Камень в Дельфах"

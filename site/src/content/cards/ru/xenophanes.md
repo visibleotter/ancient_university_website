@@ -7,6 +7,8 @@ title: "Ксенофан"
 summary: "Странствующий поэт, который высмеял человекоподобных богов, рассуждал об окаменелостях и первым задумался о границах знания."
 ages: ["8-10", "11-15"]
 era: "около 570 — около 475 до н. э."
+when: { from: -570, to: -475, approx: true }
+place: { name: "Колофон", lat: 38.1083, lon: 27.1483, pleiades: "599577" }
 greek: "Ξενοφάνης ὁ Κολοφώνιος"
 quotes: ["xenophanes-b18"]
 related: ["gods-like-us", "fossils", "knowledge-limits", "pythagoras", "heraclitus"]

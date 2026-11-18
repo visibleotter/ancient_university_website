@@ -7,6 +7,8 @@ title: "«Песнь о Кумарби» — хеттский миф о царя
 summary: "Хурритский миф в хеттском переводе: бога неба Ану свергает Кумарби, Кумарби — бог грозы. Удивительно похоже на Урана, Кроноса и Зевса."
 ages: ["11-15"]
 era: "таблички XIV–XIII вв. до н. э."
+when: { from: -1400, to: -1200, approx: true }
+place: { name: "Хаттуса", lat: 40.0149, lon: 34.6172, pleiades: "283602441" }
 related: ["theogony", "uranus", "cronus"]
 links:
   - { to: theogony, kind: comparative }

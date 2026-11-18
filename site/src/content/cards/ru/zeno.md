@@ -7,6 +7,8 @@ title: "Зенон Элейский"
 summary: "Ученик Парменида, автор книги доводов-апорий. Аристотель назвал его изобретателем диалектики."
 ages: ["8-10", "11-15"]
 era: "около 490 — около 430 до н. э."
+when: { from: -490, to: -430, approx: true }
+place: { name: "Элея", lat: 40.1605, lon: 15.1562, pleiades: "452488" }
 greek: "Ζήνων ὁ Ἐλεάτης"
 quotes: ["plato-parmenides-128c", "dl-9-25"]
 related: ["reductio", "zeno-plurality", "achilles", "arrow", "parmenides"]

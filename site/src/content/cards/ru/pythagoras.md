@@ -7,6 +7,8 @@ title: "Пифагор"
 summary: "Учитель жизни и, может быть, математик. Знаменит больше всех ранних греков — и меньше всех известен достоверно."
 ages: ["8-10", "11-15"]
 era: "около 570 — около 495 до н. э."
+when: { from: -570, to: -495, approx: true }
+place: { name: "Кротон", lat: 39.0812, lon: 17.128, pleiades: "452317" }
 greek: "Πυθαγόρας ὁ Σάμιος"
 quotes: ["xenophanes-b7", "heraclitus-b129"]
 related: ["transmigration", "tetractys", "philosophy-word", "xenophanes", "heraclitus"]

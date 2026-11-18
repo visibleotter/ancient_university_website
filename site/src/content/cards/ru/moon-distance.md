@@ -7,6 +7,7 @@ title: "Как узнали расстояние до Луны"
 summary: "Горошина, часы и лунное затмение: зная размер Земли, греки нашли размер Луны и расстояние до неё — около 60 радиусов Земли."
 ages: ["8-10", "11-15"]
 era: "III–II вв. до н. э."
+when: { from: -300, to: -100, approx: true }
 quotes: ["aristarchus-hyp-4-6"]
 related: ["eratosthenes-earth", "aristarchus-sun", "aristarchus", "ladder-intro"]
 figs: [49]
