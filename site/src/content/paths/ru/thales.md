@@ -14,6 +14,9 @@ sections:
   - title: Открытия Фалеса
     text: Пять утверждений, которые предание связывает с Фалесом, — от самого надёжного свидетельства до самого позднего.
     cards: [vertical-angles, asa-ships, diameter-bisects, isosceles-base-angles, angle-in-semicircle]
+  - title: Подобие — уменьшенная копия
+    text: Одинаковая форма, разный размер. Три признака подобия Евклида — и чем подобие отличается от равенства, на котором стоит корабль Фалеса.
+    cards: [similarity, similarity-aa, similarity-sss, similarity-sas, intercept-vi2, similarity-vs-equality]
   - title: Измеряем недоступное
     text: Корабль в море и пирамида — то, до чего нельзя дотянуться рулеткой.
     cards: [pyramid-shadow, exp-cap-trick, exp-quadrant-sight, exp-shadow]
@@ -31,6 +34,8 @@ turns:
   - { at: thales, to: birth-of-philosophy, side: right }
   - { at: angle-in-semicircle, to: thales-theorem-name, side: left }
   - { at: pyramid-shadow, to: cosmic-ladder, side: right }
+  - { at: similarity-aa, to: cosmic-ladder, side: right, label: подобие до самых звёзд }
+  - { at: similarity-vs-equality, to: cosmic-ladder, side: right }
   - { at: asa-ships, to: cosmic-ladder, side: right }
   - { at: aristarchus-sun, to: cosmic-ladder, side: right }
 ---
