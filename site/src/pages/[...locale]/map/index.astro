@@ -3,7 +3,7 @@
 // Данные — src/lib/map.ts (поля when/place у карточек, when/center/places у миров). Клиентская часть — src/scripts/map-client.ts.
 import Base from '../../../layouts/Base.astro';
 import { localePaths, toLocale, ui, href } from '../../../i18n/ui';
-import { mapData } from '../../../lib/map';
+import { mapData, span } from '../../../lib/map';
 export function getStaticPaths() {
   return localePaths();
 }
@@ -11,10 +11,7 @@ const locale = toLocale(Astro.params.locale);
 const t = ui[locale] as any;
 const data = await mapData(locale);
 const json = JSON.stringify(data).replace(/</g, '\\u003c');
-const year = (y: number) => (y < 0 ? `${-y} до н. э.` : `${y}`);
-const span = (w?: { from: number; to?: number; approx: boolean }) =>
-  w ? `${w.approx ? '≈ ' : ''}${year(w.from)}${w.to !== undefined ? ' — ' + year(w.to) : ''}` : '';
-const lanes = [...data.worlds.map((w) => ({ id: w.id, title: w.title, href: w.href, when: w.when })), { id: '', title: 'Наука нового времени', href: '', when: undefined }];
+const lanes = [...data.worlds.map((w) => ({ id: w.id, title: w.title, href: w.href, when: w.when })), { id: '', title: 'Без мира: общее, наука', href: '', when: undefined }];
 ---
 <Base locale={locale} title={t.map ?? 'Карта'} path="map">
   <h1>{t.map ?? 'Карта'}</h1>
@@ -31,6 +28,8 @@ const lanes = [...data.worlds.map((w) => ({ id: w.id, title: w.title, href: w.hr
         <option value="250">250 лет</option>
         <option value="500">500 лет</option>
         <option value="1000">тысяча лет</option>
+        <option value="10000">10 тысяч лет</option>
+        <option value="1000000">миллион лет</option>
       </select>
     </label>
     <button id="play" type="button">▶ Пустить время</button>
@@ -39,7 +38,7 @@ const lanes = [...data.worlds.map((w) => ({ id: w.id, title: w.title, href: w.hr
   </div>
 
   <div class="timeline-wrap"><svg id="timeline" class="timeline" role="img" aria-label="Шкала времени по мирам"></svg></div>
-  <p class="note">Шкала с разрывами: до 3500 г. до н. э. и наша эра сжаты. Кружок — событие, полоса — жизнь или период; бледная полоса — время мира. Перетаскивайте окно мышью или пальцем, щелчок по шкале переносит окно туда.</p>
+  <p class="note">Шкала с разрывами: миллионы лет, ледниковый век (40 000 — 3500 до н. э.) и наша эра сжаты. Кружок — событие, полоса — жизнь или период; бледная полоса — время мира. Перетаскивайте окно мышью или пальцем, щелчок по шкале переносит окно туда.</p>
 
   <div id="lists" class="lists"></div>
 

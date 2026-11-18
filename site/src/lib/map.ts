@@ -12,6 +12,11 @@ export type MapItem = {
   id: string; title: string; world: string | null; area: string; type: string; era?: string;
   reliability?: string; when?: When; place?: { name?: string; lat: number; lon: number; pleiades?: string }; href: string;
 };
+/** Год для людей: −585 → «585 до н. э.», −1 840 000 → «1,84 млн лет назад». */
+export const year = (y: number) =>
+  y <= -1000000 ? `${(Math.round(-y / 10000) / 100).toLocaleString('ru')} млн лет назад` : y <= -20000 ? `${Math.round(-y / 1000)} тыс. лет назад` : y < 0 ? `${Math.round(-y)} до н. э.` : `${Math.round(y)}`;
+export const span = (w?: When) => (w ? `${w.approx ? '≈ ' : ''}${year(w.from)}${w.to !== undefined ? ' — ' + year(w.to) : ''}` : '');
+
 export type MapArc = { from: string; to: string; kind: string; note?: string };
 
 export async function mapData(locale: Locale) {

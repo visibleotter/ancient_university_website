@@ -40,12 +40,13 @@ const when = z.object({
   to: z.number().optional(),                     // нет — точка во времени
   approx: z.boolean().default(false),            // «около»: на шкале рисуется размыто
 });
-/** Место на карте; pleiades — id в газеттере Pleiades (откуда взяты координаты), см. tools/map/pleiades.py. */
+/** Место на карте; pleiades / wikidata — откуда взяты координаты (tools/map/pleiades.py, docs/sources-map.md). */
 const place = z.object({
   name: z.string().optional(),
   lat: z.number(),
   lon: z.number(),
   pleiades: z.string().optional(),
+  wikidata: z.string().optional(),               // Q-id, если места нет в Pleiades (доисторические, Индия, Китай, Япония)
 });
 
 /** Мир-цивилизация — «облако знаний». */

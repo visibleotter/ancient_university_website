@@ -6,8 +6,8 @@ order: 7
 when: { from: -1600, to: 0, approx: true }
 center: { lat: 34, lon: 112 }
 places:
-  - { name: "Аньян (Инь)", lat: 36.12, lon: 114.31, when: { from: -1300, to: -1046, approx: true } }
-  - { name: "Цюйфу", lat: 35.6, lon: 116.99, when: { from: -1050, to: -250, approx: true } }
-  - { name: "Сяньян", lat: 34.33, lon: 108.71, when: { from: -350, to: -207, approx: true } }
+  - { name: "Аньян (Инь)", lat: 36.1225, lon: 114.3186, wikidata: "Q464904", when: { from: -1300, to: -1046, approx: true } }
+  - { name: "Цюйфу", lat: 35.6, lon: 116.9833, wikidata: "Q210287", when: { from: -1050, to: -250, approx: true } }
+  - { name: "Сяньян", lat: 34.4158, lon: 108.8626, wikidata: "Q139718789", when: { from: -350, to: -207, approx: true } }
 ---
 Надписи на гадательных костях, «Книга перемен», Конфуций и Лао-цзы, счётные палочки и «Математика в девяти книгах», терракотовая армия.

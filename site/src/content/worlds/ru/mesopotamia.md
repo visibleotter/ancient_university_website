@@ -7,7 +7,7 @@ when: { from: -3500, to: -539, approx: true }
 center: { lat: 32.5, lon: 44.4 }
 places:
   - { name: "Урук", lat: 31.3234, lon: 45.6391, pleiades: "912986", when: { from: -4000, to: -300, approx: true } }
-  - { name: "Ур", lat: 30.96, lon: 46.1, when: { from: -3800, to: -500, approx: true } }
+  - { name: "Ур", lat: 30.9622, lon: 46.1044, wikidata: "Q5699", when: { from: -3800, to: -500, approx: true } }
   - { name: "Вавилон", lat: 32.5373, lon: 44.425, pleiades: "893951", when: { from: -1900, to: -100, approx: true } }
   - { name: "Ниневия", lat: 36.3608, lon: 43.1599, pleiades: "874621", when: { from: -1800, to: -612, approx: true } }
 ---

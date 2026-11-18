@@ -8,16 +8,18 @@ const SVG = 'http://www.w3.org/2000/svg';
 
 // Шкала с разрывами: глубокая древность и наша эра сжаты.
 const SEG = [
-  { a: -15000, b: -3500, w: 0.12 },
-  { a: -3500, b: 0, w: 0.7 },
-  { a: 0, b: 2030, w: 0.18 },
+  { a: -4000000, b: -40000, w: 0.08 },
+  { a: -40000, b: -3500, w: 0.12 },
+  { a: -3500, b: 0, w: 0.63 },
+  { a: 0, b: 2030, w: 0.17 },
 ];
 const MIN = SEG[0].a, MAX = SEG[SEG.length - 1].b;
-const TICKS = [-15000, -10000, -5000, -3000, -2500, -2000, -1500, -1000, -500, 0, 500, 1000, 1500, 2000];
+const TICKS = [-3000000, -1000000, -30000, -20000, -10000, -5000, -3000, -2500, -2000, -1500, -1000, -500, 0, 500, 1000, 1500, 2000];
 const COLORS = { A: '#d1495b', B: '#2e86de' };
 const WORLD_COLORS = ['#8d6e63', '#c08b30', '#b5651d', '#7b1fa2', '#2e7d32', '#1565c0', '#d1495b', '#00838f', '#ad1457', '#5d4037'];
 
-const year = (y: number) => (y < 0 ? `${Math.round(-y)} до н. э.` : `${Math.round(y)}`);
+const year = (y: number) =>
+  y <= -1000000 ? `${(Math.round(-y / 10000) / 100).toLocaleString('ru')} млн лет назад` : y <= -20000 ? `${Math.round(-y / 1000)} тыс. лет назад` : y < 0 ? `${Math.round(-y)} до н. э.` : `${Math.round(y)}`;
 const span = (w?: When) => (w ? `${w.approx ? '≈ ' : ''}${year(w.from)}${w.to !== undefined ? ' — ' + year(w.to) : ''}` : '');
 const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
 
@@ -39,7 +41,7 @@ export function start() {
 
   // ---------- шкала ----------
   const LABEL = 150, PAD = 10, LANE = 26, TOP = 22;
-  const lanes = [...data.worlds.map((w) => ({ id: w.id, title: w.title, when: w.when })), { id: '', title: 'Наука нового времени', when: undefined as When | undefined }];
+  const lanes = [...data.worlds.map((w) => ({ id: w.id, title: w.title, when: w.when })), { id: '', title: 'Без мира: общее, наука', when: undefined as When | undefined }];
   const H = TOP + lanes.length * LANE + 6;
   let W = 900;
   const x = (y: number) => {
@@ -88,7 +90,7 @@ export function start() {
     }
     for (const tk of TICKS) {
       el('line', { x1: x(tk), x2: x(tk), y1: TOP - 4, y2: H, stroke: '#eee' });
-      el('text', { x: x(tk), y: 12, 'text-anchor': 'middle' }).textContent = tk === 0 ? '0' : tk < 0 ? `${-tk}` : `${tk}`;
+      el('text', { x: x(tk), y: 12, 'text-anchor': 'middle' }).textContent = tk === 0 ? '0' : tk <= -1000000 ? `${-tk / 1000000} млн` : tk < 0 ? `${-tk}` : `${tk}`;
     }
     el('text', { x: 4, y: 12 }).textContent = 'до н. э. | н. э.';
     // дорожки
@@ -266,7 +268,7 @@ export function start() {
     playBtn.textContent = '⏸ Остановить';
     timer = window.setInterval(() => {
       const w = wins[active];
-      const step = w.c < -3500 ? 500 : w.c < 0 ? Math.max(25, width / 4) : 50;
+      const step = w.c < -40000 ? Math.max(20000, width / 4) : w.c < -3500 ? Math.max(500, width / 4) : w.c < 0 ? Math.max(25, width / 4) : 50;
       w.c = clampC(w.c + step);
       if (w.c >= MAX - width / 2) { clearInterval(timer); timer = undefined; playBtn.textContent = '▶ Пустить время'; }
       update();
