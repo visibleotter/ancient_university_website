@@ -9,7 +9,7 @@ sections:
     cards: [shaman]
   - title: Следы в древности
     text: Птицы, рога и люди в масках.
-    cards: [trois-freres, shigir-idol, star-carr, bad-durrenberg, hilazon-tachtit, oleni-ostrov]
+    cards: [arene-candide, brno-shaman, malta-buret, trois-freres, gabillou-sorcerer, shigir-idol, star-carr, bad-durrenberg, hilazon-tachtit, skateholm, oleni-ostrov]
   - title: Как это устроено
     text: По этнографии народов Сибири.
     cards: [shaman-drum, nanai-kasa]

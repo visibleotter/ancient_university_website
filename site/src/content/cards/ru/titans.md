@@ -9,6 +9,7 @@ ages: ["6-7", "8-10", "11-15"]
 greek: "Τιτῆνες"
 quotes: ["hes-theog-133-138"]
 related: ["gaia", "uranus", "cronus", "cyclopes-hecatoncheires"]
+art: [titans-art-01]
 ---
 У Гесиода титанов двенадцать — шесть братьев и шесть сестёр:
 
