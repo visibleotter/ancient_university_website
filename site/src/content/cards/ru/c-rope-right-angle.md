@@ -1,5 +1,8 @@
 ---
 type: construction
+world: greece
+area: science
+subject: math
 title: "Прямой угол верёвкой: 3–4–5"
 summary: "Верёвка с 12 равными промежутками, натянутая треугольником 3–4–5, даёт прямой угол."
 ages: ["6-7", "8-10"]

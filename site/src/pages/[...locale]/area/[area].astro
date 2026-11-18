@@ -1,0 +1,27 @@
+---
+// Область через все миры. Главное назначение — сквозные линии «Как мы это знаем» и «Памятники и тексты».
+import Base from '../../../layouts/Base.astro';
+import CardLink from '../../../components/CardLink.astro';
+import { locales, defaultLocale, toLocale, mt, href } from '../../../i18n/ui';
+import { all, worldList } from '../../../lib/content';
+import { AREAS } from '../../../content.config';
+export function getStaticPaths() {
+  return locales.flatMap((l) => AREAS.map((area) => ({ params: { locale: l === defaultLocale ? undefined : l, area } })));
+}
+const locale = toLocale(Astro.params.locale);
+const m = mt[locale];
+const area = Astro.params.area as (typeof AREAS)[number];
+const cards = [...(await all('cards', locale)).values()].filter((c) => c.entry.data.area === area);
+const paths = [...(await all('paths', locale)).values()].filter((p) => p.entry.data.area === area);
+const groups = [{ id: '', title: '' }, ...(await worldList(locale)).map((w) => ({ id: w.id, title: w.entry.data.title }))];
+---
+<Base locale={locale} title={m.areas[area]} path={`area/${area}`}>
+  <h1>{m.areas[area]}</h1>
+  <p>{m.areaIntro[area]}</p>
+  {paths.length > 0 && <ul>{paths.map((p) => <li><b>{m.paths}:</b> <a href={href(locale, `path/${p.id}`)}>{p.entry.data.title}</a></li>)}</ul>}
+  {cards.length === 0 && <p><i>{m.planned}</i></p>}
+  {groups.map((g) => {
+    const list = cards.filter((c) => (c.entry.data.world ?? '') === g.id);
+    return list.length > 0 && <section>{g.title && <h2><a href={href(locale, g.id)}>{g.title}</a></h2>}<ul>{list.map((c) => <CardLink c={c} locale={locale} />)}</ul></section>;
+  })}
+</Base>

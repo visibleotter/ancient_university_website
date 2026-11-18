@@ -1,5 +1,8 @@
 ---
 type: construction
+world: greece
+area: science
+subject: math
 title: "Касательная в точке окружности"
 summary: "Касательная перпендикулярна радиусу: восставьте перпендикуляр к радиусу в его конце."
 ages: ["11-15"]

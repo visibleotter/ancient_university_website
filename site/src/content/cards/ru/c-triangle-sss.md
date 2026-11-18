@@ -1,5 +1,8 @@
 ---
 type: construction
+world: greece
+area: science
+subject: math
 title: "Треугольник по трём сторонам"
 summary: "Отложить одну сторону, из её концов — две окружности радиусами двух других сторон."
 ages: ["8-10", "11-15"]

@@ -1,0 +1,36 @@
+---
+// Произведение искусства к сюжету. Картинка — с Wikimedia Commons по имени файла (в репозиторий не копируем),
+// с автором снимка и лицензией; без файла — только ссылка на музей.
+import { render } from 'astro:content';
+import { one } from '../lib/content';
+import { mt, type Locale } from '../i18n/ui';
+interface Props { id: string; locale: Locale; width?: number }
+const { id, locale, width = 480 } = Astro.props;
+const t = mt[locale];
+const a = await one('art', locale, id);
+const d = a.entry.data;
+const { Content } = await render(a.entry);
+const file = d.commons?.replace(/ /g, '_');
+const img = file && `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file)}?width=${width}`;
+const page = file ? `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(file)}` : d.url;
+const src = img || d.image;
+const host = file ? 'Wikimedia Commons' : d.url ? new URL(d.url).hostname.replace(/^www\./, '') : '';
+---
+<figure class="art" id={`art-${id}`}>
+  {src && <a href={page ?? src}><img src={src} alt={d.title} loading="lazy" width={width} /></a>}
+  <figcaption>
+    <p class="ttl">{d.artist && <>{d.artist}. </>}<b>{d.title}</b>, {d.date}{d.reliability === 'disputed' && ' ❓'}</p>
+    <p class="where">{t.artKinds[d.kind]} · {d.museum}{d.inv && <>, {d.inv}</>}{d.url && <> · <a href={d.url}>{d.period === 'science' ? 'источник' : t.museumPage}</a></>}</p>
+    {d.caution && <p class="caution">{t.artCaution}</p>}
+    <div class="about"><Content /></div>
+    {src && <p class="credit">{d.period === 'science' ? 'Credit' : t.photo}: {d.credit ?? '—'}{d.license && <>, {d.license}</>}{page && <> · <a href={page}>{host}</a></>}</p>}
+  </figcaption>
+</figure>
+<style>
+  .art { margin: 1rem 0; max-width: 40rem; border: 1px solid #ccc; padding: .5rem; }
+  .art img { max-width: 100%; height: auto; display: block; }
+  .art figcaption { overflow-wrap: anywhere; }
+  .art p { margin: .2rem 0; }
+  .where, .credit { font-size: .8rem; color: #777; }
+  .caution { font-size: .85rem; }
+</style>

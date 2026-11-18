@@ -1,5 +1,9 @@
 ---
 type: construction
+world: greece
+area: science
+subject: math
+figs: [22]
 title: "Разделить отрезок на равные части"
 summary: "Отложить равные шаги на вспомогательном луче и провести параллельные. Без линейки с делениями."
 ages: ["11-15"]

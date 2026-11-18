@@ -1,5 +1,8 @@
 ---
 type: person
+world: greece
+area: science
+subject: math
 title: Thales of Miletus
 summary: The first Greek sage credited with geometrical theorems. About 624 – about 546 BC.
 ages: ['6-7', '8-10', '11-15']

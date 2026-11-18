@@ -1,5 +1,5 @@
 ---
-// Строка-ссылка на карточку: тип, название, возраст.
+// Строка-ссылка на карточку: тип, название, возраст, значки (▶ чертёж, 📐 атлас, 🖼 искусство).
 import { href, mt, type Locale } from '../i18n/ui';
 import type { Localized } from '../lib/content';
 interface Props { c: Localized<'cards'>; locale: Locale }
@@ -9,8 +9,10 @@ const d = c.entry.data;
 ---
 <li class="cardlink" data-ages={d.ages.join(' ')}>
   <span class="type">{t.types[d.type]}</span>
-  <a href={href(locale, `math/c/${c.id}`)}>{d.title}</a>
+  <a href={href(locale, `c/${c.id}`)}>{d.title}</a>
   {d.demo && <span title={t.interactive}> ▶</span>}
+  {d.figs.length > 0 && <span title={t.figs}> 📐</span>}
+  {d.art.length > 0 && <span title={t.art}> 🖼</span>}
   {d.ages.length > 0 && <span class="ages">{d.ages.map((a) => t.ages[a].split(' ')[0]).join('')}</span>}
   <br /><small>{d.summary}</small>
 </li>

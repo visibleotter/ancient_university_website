@@ -1,5 +1,8 @@
 ---
 type: construction
+world: greece
+area: science
+subject: math
 title: "Параллельная прямая через точку"
 summary: "Через точку вне прямой провести параллельную. Самый короткий способ — «ромбом»."
 ages: ["11-15"]

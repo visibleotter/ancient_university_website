@@ -1,5 +1,8 @@
 ---
 type: construction
+world: greece
+area: science
+subject: math
 title: "Правильный пятиугольник и золотое сечение"
 summary: "Самое трудное построение «Начал» книги IV: через золотое сечение отрезка."
 ages: ["11-15"]

@@ -1,0 +1,47 @@
+---
+// Каталог построений циркулем и линейкой по возрастам.
+// Отметки школьных программ (поле curricula) — только для внутреннего учёта: docs/curriculum-coverage.md. Здесь не показываются.
+import Base from '../../../../layouts/Base.astro';
+import { localePaths, toLocale, mt, href } from '../../../../i18n/ui';
+import { all, one } from '../../../../lib/content';
+import { AGES } from '../../../../content.config';
+export function getStaticPaths() {
+  return localePaths();
+}
+const locale = toLocale(Astro.params.locale);
+const m = mt[locale];
+const greece = await one('worlds', locale, 'greece');
+const cs = [...(await all('cards', locale)).values()].filter((c) => c.entry.data.type === 'construction');
+// Возраст построения — первый (самый младший) из указанных.
+const band = (c: (typeof cs)[number]) => c.entry.data.ages[0];
+---
+<Base locale={locale} title={m.constructions} path="greece/constructions" fallback={cs.some((c) => c.fallback)}>
+  <p><a href={href(locale, 'greece')}>← {greece.entry.data.title}</a></p>
+  <h1>{m.constructions}</h1>
+  <p>{m.constructionsIntro}</p>
+  {AGES.map((a) => {
+    const list = cs.filter((c) => band(c) === a).sort((x, y) => x.entry.data.level - y.entry.data.level);
+    return list.length > 0 && (
+      <section>
+        <h2 id={`age-${a}`}>{m.ages[a]}</h2>
+        <ol>
+          {list.map((c) => {
+            const d = c.entry.data;
+            return (
+              <li>
+                <a href={href(locale, `c/${c.id}`)}>{d.title}</a>
+                {d.demo && <span title={m.interactive}> ▶</span>}
+                {d.figs.length > 0 && <span title={m.figs}> 📐</span>}
+                {d.extra && <em> ({m.extra})</em>}
+                <br /><small>{d.summary}</small>
+              </li>
+            );
+          })}
+        </ol>
+      </section>
+    );
+  })}
+</Base>
+<style>
+  li { margin-bottom: .6rem; }
+</style>

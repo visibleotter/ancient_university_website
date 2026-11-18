@@ -1,0 +1,28 @@
+---
+// Все произведения искусства, подобранные к сюжетам, — по карточкам в порядке маршрутов.
+import Base from '../../../layouts/Base.astro';
+import ArtItem from '../../../components/ArtItem.astro';
+import { localePaths, toLocale, ui, mt, href } from '../../../i18n/ui';
+import { all } from '../../../lib/content';
+export function getStaticPaths() {
+  return localePaths();
+}
+const locale = toLocale(Astro.params.locale);
+const t = ui[locale], m = mt[locale];
+const cards = await all('cards', locale);
+const paths = [...(await all('paths', locale)).values()];
+// Порядок: карточки по маршрутам, затем остальные карточки с картинками.
+const order: string[] = [];
+for (const p of paths) for (const s of p.entry.data.sections) for (const id of s.cards) if (!order.includes(id)) order.push(id);
+for (const id of cards.keys()) if (!order.includes(id)) order.push(id);
+const withArt = order.map((id) => cards.get(id)!).filter((c) => c.entry.data.art.length > 0);
+---
+<Base locale={locale} title={t.art} path="art">
+  <h1>{t.art}</h1>
+  {withArt.map((c) => (
+    <section>
+      <h2><a href={href(locale, `c/${c.id}`)}>{c.entry.data.title}</a></h2>
+      {c.entry.data.art.map((a) => <ArtItem id={a} locale={locale} width={360} />)}
+    </section>
+  ))}
+</Base>

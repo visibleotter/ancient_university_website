@@ -1,5 +1,9 @@
 ---
 type: experiment
+world: greece
+area: science
+subject: math
+figs: [6]
 title: Ножницы и вертикальные углы
 summary: Раскрываем ножницы и смотрим, как ведут себя углы между ручками и между лезвиями.
 ages: ['6-7', '8-10']

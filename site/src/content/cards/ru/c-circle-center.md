@@ -1,5 +1,9 @@
 ---
 type: construction
+world: greece
+area: science
+subject: math
+figs: [17]
 title: "Найти центр окружности"
 summary: "Серединные перпендикуляры к двум хордам пересекаются в центре."
 ages: ["11-15"]

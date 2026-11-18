@@ -1,5 +1,9 @@
 ---
 type: experiment
+world: greece
+area: science
+subject: math
+figs: [23]
 title: Тень Фалеса во дворе
 summary: Меряем высоту дерева или фонаря по тени — двумя способами.
 ages: ['6-7', '8-10']

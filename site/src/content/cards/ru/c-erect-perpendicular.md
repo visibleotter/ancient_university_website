@@ -1,5 +1,8 @@
 ---
 type: construction
+world: greece
+area: science
+subject: math
 title: "Перпендикуляр из точки на прямой"
 summary: "Восставить перпендикуляр в данной точке прямой — так размечают прямой угол садовники и строители."
 ages: ["11-15"]

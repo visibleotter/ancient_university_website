@@ -1,0 +1,74 @@
+---
+// Обзор маршрута — вертикальная линия: станции по порядку, разделы как участки линии,
+// повороты — отростки налево («вглубь») и направо («вширь»).
+import Base from '../../../layouts/Base.astro';
+import Turns from '../../../components/Turns.astro';
+import { locales, defaultLocale, toLocale, mt, href } from '../../../i18n/ui';
+import { ids, one } from '../../../lib/content';
+import { stations, turnsAt } from '../../../lib/route';
+export async function getStaticPaths() {
+  const list = await ids('paths');
+  return locales.flatMap((l) => list.map((path) => ({ params: { locale: l === defaultLocale ? undefined : l, path } })));
+}
+const locale = toLocale(Astro.params.locale);
+const m = mt[locale];
+const r = m.route;
+const p = await one('paths', locale, Astro.params.path!);
+const d = p.entry.data;
+const world = d.world ? await one('worlds', locale, d.world) : undefined;
+const st = await stations(locale, p.id);
+const rows = await Promise.all(st.map(async (s) => ({ s, t: await turnsAt(locale, p.id, s.card.id) })));
+const stepHref = (id: string) => href(locale, `path/${p.id}/${id}`);
+---
+<Base locale={locale} title={d.title} path={`path/${p.id}`} fallback={p.fallback}>
+  <p>{world ? <a href={href(locale, world.id)}>← {world.entry.data.title}</a> : <a href={href(locale, `area/${d.area}`)}>← {m.areas[d.area]}</a>}</p>
+  <p class="kind">{m.paths} · {m.areas[d.area]}</p>
+  <h1>{d.title}</h1>
+  <p>{d.summary}</p>
+  <p>{d.ages.map((a) => m.ages[a]).join(' · ')} · станций на линии: {st.length}</p>
+  <p><a class="start" href={stepHref(st[0].card.id)}>{r.start}</a></p>
+  <p class="legend"><span class="lg-left">{r.deeper} — {r.deeperHint}</span><span class="lg-right">{r.wider} — {r.widerHint}</span></p>
+
+  <ol class="line">
+    {rows.map(({ s, t }) => (
+      <>
+        {s.firstInSection && (
+          <li class="sec-row">
+            <h2>{s.sectionIndex + 1}. {s.section}</h2>
+            {d.sections[s.sectionIndex].text && <p>{d.sections[s.sectionIndex].text}</p>}
+          </li>
+        )}
+        <li class="row">
+          <div class="side left"><Turns turns={t.left} side="left" locale={locale} compact /></div>
+          <div class="stop">
+            <span class="dot">{s.index + 1}</span>
+            <a href={stepHref(s.card.id)}>{s.card.entry.data.title}</a>
+            <small>{m.types[s.card.entry.data.type]}{s.card.entry.data.demo && ' · ▶'}{s.card.entry.data.figs.length > 0 && ' · 📐'}{s.card.entry.data.art.length > 0 && ' · 🖼'}</small>
+          </div>
+          <div class="side right"><Turns turns={t.right} side="right" locale={locale} compact /></div>
+        </li>
+      </>
+    ))}
+  </ol>
+</Base>
+<style>
+  .kind { text-transform: uppercase; font-size: .8rem; color: #777; margin-bottom: 0; }
+  .start { display: inline-block; padding: .5rem 1rem; background: #1f4e9c; color: #fff; border-radius: 6px; text-decoration: none; }
+  .legend { display: flex; justify-content: space-between; gap: 1rem; font-size: .85rem; color: #555; flex-wrap: wrap; }
+  .line { list-style: none; padding: 0; margin: 1rem 0; }
+  .sec-row { margin: 1.5rem 0 .5rem; text-align: center; }
+  .sec-row h2 { margin: 0; font-size: 1.15rem; }
+  .sec-row p { margin: .2rem auto; max-width: 40rem; color: #555; font-size: .9rem; }
+  .row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(12rem, 18rem) minmax(0, 1fr); gap: .75rem; align-items: center; }
+  .stop { position: relative; text-align: center; padding: .9rem .5rem; border-left: 4px solid #1f4e9c; border-right: 4px solid #1f4e9c; background: #f4f7fd; }
+  .stop small { display: block; color: #777; }
+  .dot { display: inline-block; min-width: 1.6rem; height: 1.6rem; line-height: 1.6rem; border-radius: 50%; background: #1f4e9c; color: #fff; font-size: .8rem; margin-right: .3rem; }
+  .side.left { justify-self: end; text-align: right; }
+  .side.left :global(.turn-box) { border-right: 3px solid #7a5c2e; }
+  .side.right :global(.turn-box) { border-left: 3px solid #2e7a4f; }
+  @media (max-width: 760px) {
+    .row { grid-template-columns: 1fr; }
+    .side.left, .side.right { justify-self: stretch; text-align: left; }
+    .stop { order: -1; }
+  }
+</style>

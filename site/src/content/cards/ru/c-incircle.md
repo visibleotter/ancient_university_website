@@ -1,5 +1,8 @@
 ---
 type: construction
+world: greece
+area: science
+subject: math
 title: "Окружность, вписанная в треугольник"
 summary: "Биссектрисы углов сходятся в центре окружности, касающейся всех трёх сторон."
 ages: ["11-15"]

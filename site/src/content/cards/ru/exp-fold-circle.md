@@ -1,5 +1,9 @@
 ---
 type: experiment
+world: greece
+area: science
+subject: math
+figs: [17]
 title: Найти центр круга складыванием
 summary: Два сгиба бумажного круга пополам пересекаются в центре.
 ages: ['6-7', '8-10']

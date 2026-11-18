@@ -1,5 +1,8 @@
 ---
 type: construction
+world: greece
+area: science
+subject: math
 title: "Корень циркулем: √2, √3, √(ab)"
 summary: "Высота прямоугольного треугольника — среднее пропорциональное. Так строится любой квадратный корень."
 ages: ["11-15"]

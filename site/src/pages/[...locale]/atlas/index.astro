@@ -1,0 +1,36 @@
+---
+// Атлас чертежей (tools/atlas → src/data/atlas.json): все рисунки по разделам, у каждого — карточки, где он используется.
+import Base from '../../../layouts/Base.astro';
+import AtlasFig from '../../../components/AtlasFig.astro';
+import { localePaths, toLocale, ui, mt, href } from '../../../i18n/ui';
+import { all } from '../../../lib/content';
+import atlas from '../../../data/atlas.json';
+export function getStaticPaths() {
+  return localePaths();
+}
+const locale = toLocale(Astro.params.locale);
+const t = ui[locale], m = mt[locale];
+const cards = [...(await all('cards', locale)).values()];
+const sections = [...new Set(atlas.map((d) => d.sec))];
+const usedBy = (n: number) => cards.filter((c) => c.entry.data.figs.includes(n));
+---
+<Base locale={locale} title={t.atlas} path="atlas">
+  <h1>{t.atlas}</h1>
+  <p>{m.atlasIntro}</p>
+  <nav class="toc">{sections.map((s, i) => <a href={`#sec-${i + 1}`}>{s}</a>)}</nav>
+  {sections.map((s, i) => (
+    <section>
+      <h2 id={`sec-${i + 1}`}>{s}</h2>
+      {atlas.filter((d) => d.sec === s).map((d) => (
+        <>
+          <AtlasFig n={d.n} locale={locale} />
+          {usedBy(d.n).length > 0 && <p class="used">{m.usedIn}: {usedBy(d.n).map((c, j) => <>{j > 0 && ', '}<a href={href(locale, `c/${c.id}`)}>{c.entry.data.title}</a></>)}</p>}
+        </>
+      ))}
+    </section>
+  ))}
+</Base>
+<style>
+  .toc { display: flex; flex-wrap: wrap; gap: .5rem; }
+  .used { font-size: .85rem; margin-top: -.5rem; }
+</style>

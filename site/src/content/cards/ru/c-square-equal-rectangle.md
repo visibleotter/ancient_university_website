@@ -1,5 +1,8 @@
 ---
 type: construction
+world: greece
+area: science
+subject: math
 title: "Квадрат, равный прямоугольнику"
 summary: "Превратить прямоугольник в квадрат той же площади — «квадратура» у греков."
 ages: ["11-15"]

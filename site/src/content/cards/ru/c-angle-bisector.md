@@ -1,5 +1,9 @@
 ---
 type: construction
+world: greece
+area: science
+subject: math
+figs: [5]
 title: "Биссектриса угла"
 summary: "Разделить угол пополам: одна дуга из вершины и две засечки."
 ages: ["11-15"]

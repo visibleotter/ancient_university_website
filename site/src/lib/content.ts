@@ -2,7 +2,7 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { defaultLocale, type Locale } from '../i18n/ui';
 
-type Coll = 'cards' | 'quotes' | 'paths';
+type Coll = 'cards' | 'quotes' | 'paths' | 'worlds' | 'art';
 export type Localized<C extends Coll> = { id: string; entry: CollectionEntry<C>; fallback: boolean };
 
 /** Id записи без языковой папки: «ru/thales» → «thales». */
@@ -40,4 +40,20 @@ export async function backlinks(locale: Locale, id: string) {
   const paths = [...(await all('paths', locale)).values()].filter((p) => p.entry.data.sections.some((s) => s.cards.includes(id)));
   const cards = [...(await all('cards', locale)).values()].filter((c) => c.id !== id && c.entry.data.related.includes(id));
   return { paths, cards };
+}
+
+/** Связи карточки в обе стороны: свои links + чужие links, указывающие на неё. */
+export async function linksOf(locale: Locale, id: string) {
+  const cards = await all('cards', locale);
+  const me = cards.get(id)!;
+  const out = me.entry.data.links.map((l) => ({ ...l, card: cards.get(l.to), dir: 'out' as const }));
+  for (const c of cards.values())
+    for (const l of c.entry.data.links) if (l.to === id) out.push({ ...l, to: c.id, card: c, dir: 'in' as const });
+  for (const l of out) if (!l.card) throw new Error(`Карточка ${id}: связь ведёт на несуществующую карточку ${l.to}`);
+  return out;
+}
+
+/** Миры по порядку. */
+export async function worldList(locale: Locale) {
+  return [...(await all('worlds', locale)).values()].sort((a, b) => a.entry.data.order - b.entry.data.order);
 }

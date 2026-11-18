@@ -1,5 +1,9 @@
 ---
 type: experiment
+world: greece
+area: science
+subject: math
+figs: [47, 48]
 title: Визир из транспортира
 summary: Делаем за 10 минут прибор, который «запоминает наклон» взгляда, — квадрант.
 ages: ['8-10', '11-15']

@@ -1,5 +1,8 @@
 ---
 type: construction
+world: greece
+area: science
+subject: math
 title: "Угол, равный данному"
 summary: "Перенести угол на другое место: две дуги одного радиуса и одна засечка."
 ages: ["11-15"]

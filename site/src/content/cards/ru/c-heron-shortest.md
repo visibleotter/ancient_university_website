@@ -1,5 +1,8 @@
 ---
 type: construction
+world: greece
+area: science
+subject: math
 title: "Задача Герона: кратчайший путь через реку"
 summary: "Дойти от дома до реки и к палатке самым коротким путём. Помогает отражение."
 ages: ["11-15"]

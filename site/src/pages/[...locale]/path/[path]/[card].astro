@@ -1,0 +1,94 @@
+---
+// Станция маршрута: карточка в контексте маршрута — «шаг N из M», мини-линия, повороты налево (вглубь) и направо (вширь), «Назад» / «Дальше».
+// Канонический адрес содержимого — /c/<id>/.
+import Base from '../../../../layouts/Base.astro';
+import CardBody from '../../../../components/CardBody.astro';
+import Turns from '../../../../components/Turns.astro';
+import { locales, defaultLocale, toLocale, mt, href } from '../../../../i18n/ui';
+import { all, ids, one } from '../../../../lib/content';
+import { stations, turnsAt } from '../../../../lib/route';
+export async function getStaticPaths() {
+  const out = [];
+  for (const l of locales) {
+    for (const path of await ids('paths')) {
+      const p = (await all('paths', l)).get(path)!;
+      for (const card of p.entry.data.sections.flatMap((s) => s.cards))
+        out.push({ params: { locale: l === defaultLocale ? undefined : l, path, card } });
+    }
+  }
+  return out;
+}
+const locale = toLocale(Astro.params.locale);
+const m = mt[locale];
+const r = m.route;
+const p = await one('paths', locale, Astro.params.path!);
+const st = await stations(locale, p.id);
+const i = st.findIndex((s) => s.card.id === Astro.params.card);
+const s = st[i];
+const prev = st[i - 1];
+const next = st[i + 1];
+const turns = await turnsAt(locale, p.id, s.card.id);
+const stepHref = (id: string) => href(locale, `path/${p.id}/${id}`);
+const canonical = new URL(href(locale, `c/${s.card.id}`), Astro.site ?? 'http://localhost').href;
+---
+<Base locale={locale} title={`${s.card.entry.data.title} · ${p.entry.data.title}`} path={`path/${p.id}/${s.card.id}`} fallback={s.card.fallback}>
+  <link slot="head" rel="canonical" href={canonical} />
+  <!-- Относительные ссылки в тексте карточек ([..](../id/)) считаются от /c/<id>/; остальные ссылки сайта абсолютные. -->
+  <base slot="head" href={href(locale, `c/${s.card.id}`)} />
+  <div id="route-here" hidden data-path={p.id} data-card={s.card.id} data-step={String(i + 1)} data-title={p.entry.data.title}
+       data-href={stepHref(s.card.id)} data-base={href(locale, `path/${p.id}`)}></div>
+
+  <header class="route-head">
+    <p class="route-title"><a href={href(locale, `path/${p.id}`)}>{p.entry.data.title}</a></p>
+    <p class="route-step">{r.stepWord} {i + 1} {r.of} {s.total} · {s.section}</p>
+    <ol class="mini-line" aria-label={r.toOverview}>
+      {st.map((x) => (
+        <li class:list={[{ here: x.index === i, done: x.index < i, sec: x.firstInSection && x.index > 0 }]}>
+          <a href={stepHref(x.card.id)} title={`${x.index + 1}. ${x.card.entry.data.title}`} aria-current={x.index === i ? 'step' : undefined}><span class="sr">{x.index + 1}. {x.card.entry.data.title}</span></a>
+        </li>
+      ))}
+    </ol>
+  </header>
+
+  <div class="station">
+    <aside class="turns left"><Turns turns={turns.left} side="left" locale={locale} /></aside>
+    <div class="body">
+      <CardBody id={s.card.id} locale={locale} inRoute />
+      <p class="alone"><a href={href(locale, `c/${s.card.id}`)}>{r.openCard}</a></p>
+    </div>
+    <aside class="turns right"><Turns turns={turns.right} side="right" locale={locale} /></aside>
+  </div>
+
+  <nav class="route-nav" aria-label={p.entry.data.title}>
+    {prev ? <a class="btn" rel="prev" href={stepHref(prev.card.id)}>{r.back}<br /><small>{prev.card.entry.data.title}</small></a> : <a class="btn" href={href(locale, `path/${p.id}`)}>{r.toOverview}</a>}
+    {next
+      ? <a class="btn next" rel="next" href={stepHref(next.card.id)}>{next.firstInSection && <small>{r.sectionNext} «{next.section}»<br /></small>}{r.next}<br /><small>{next.card.entry.data.title}</small></a>
+      : <a class="btn next" href={href(locale, `path/${p.id}`)}>{r.end}<br /><small>{r.toOverview}</small></a>}
+  </nav>
+</Base>
+<style>
+  .route-head { border-bottom: 1px solid #ddd; margin-bottom: 1rem; }
+  .route-title { margin: .5rem 0 0; font-weight: 600; }
+  .route-step { margin: 0; color: #777; font-size: .9rem; }
+  .mini-line { list-style: none; display: flex; flex-wrap: wrap; gap: 3px; padding: 0; margin: .5rem 0; align-items: center; }
+  .mini-line li { display: flex; align-items: center; }
+  .mini-line li.sec { margin-left: 8px; }
+  .mini-line a { display: block; width: 12px; height: 12px; border-radius: 50%; border: 2px solid #1f4e9c; background: #fff; }
+  .mini-line li.done a { background: #9db5dc; }
+  .mini-line li.here a { background: #c8102e; border-color: #c8102e; width: 16px; height: 16px; }
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .station { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+  .station .body { min-width: 0; }
+  .turns.left { order: 2; } .turns.right { order: 3; }
+  @media (min-width: 1000px) {
+    :global(body):has(.station) { max-width: 78rem; }
+    .station { grid-template-columns: 13rem minmax(0, 1fr) 13rem; }
+    .turns.left { order: 0; } .turns.right { order: 0; }
+    .turns { position: sticky; top: 1rem; align-self: start; }
+  }
+  .alone { font-size: .85rem; }
+  .route-nav { display: flex; justify-content: space-between; gap: 1rem; margin: 2rem 0; }
+  .btn { display: block; padding: .6rem 1rem; border: 2px solid #1f4e9c; border-radius: 6px; text-decoration: none; max-width: 48%; }
+  .btn.next { text-align: right; margin-left: auto; background: #1f4e9c; color: #fff; }
+  .btn.next small { color: #e8eefb; }
+</style>

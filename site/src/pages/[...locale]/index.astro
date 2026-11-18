@@ -1,17 +1,35 @@
 ---
+// Главная: миры древности («облака знаний») и сквозные линии.
 import Base from '../../layouts/Base.astro';
-import { localePaths, toLocale, ui, href } from '../../i18n/ui';
+import { localePaths, toLocale, ui, mt, href } from '../../i18n/ui';
+import { all, worldList } from '../../lib/content';
 export function getStaticPaths() {
   return localePaths();
 }
 const locale = toLocale(Astro.params.locale);
-const t = ui[locale];
+const t = ui[locale], m = mt[locale];
+const worlds = await worldList(locale);
+const cards = [...(await all('cards', locale)).values()];
+const count = (f: (d: (typeof cards)[number]['entry']['data']) => boolean) => cards.filter((c) => f(c.entry.data)).length;
 ---
 <Base locale={locale} title={t.home} path="">
   <h1>{t.site}</h1>
+  <h2>{t.worlds}</h2>
   <ul>
-    <li><a href={href(locale, 'math')}>{t.math}</a></li>
-    <li>{t.myths} — {t.soon}</li>
-    <li>{t.philosophers} — {t.soon}</li>
+    {worlds.map((w) => (
+      <li>
+        {w.entry.data.status === 'active'
+          ? <a href={href(locale, w.id)}>{w.entry.data.title}</a>
+          : <span>{w.entry.data.title}</span>}
+        {' '}<small>({w.entry.data.era}){w.entry.data.status === 'planned' && <> — {m.planned}</>}{count((d) => d.world === w.id) > 0 && <> · {count((d) => d.world === w.id)} {m.cards.toLowerCase()}</>}</small>
+        <br /><small>{w.entry.data.summary}</small>
+      </li>
+    ))}
+  </ul>
+  <h2>{t.lines}</h2>
+  <ul>
+    {(['method', 'monuments'] as const).map((a) => (
+      <li><a href={href(locale, `area/${a}`)}>{m.areas[a]}</a> <small>({count((d) => d.area === a)})</small><br /><small>{m.areaIntro[a]}</small></li>
+    ))}
   </ul>
 </Base>

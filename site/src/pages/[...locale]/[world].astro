@@ -1,0 +1,48 @@
+---
+// Мир-цивилизация: маршруты и карточки по областям (наука, религия и мифы, культура, история…).
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import CardLink from '../../components/CardLink.astro';
+import { locales, defaultLocale, toLocale, mt, href } from '../../i18n/ui';
+import { all, ids, one } from '../../lib/content';
+import { AREAS } from '../../content.config';
+export async function getStaticPaths() {
+  const list = await ids('worlds');
+  return locales.flatMap((l) => list.map((world) => ({ params: { locale: l === defaultLocale ? undefined : l, world } })));
+}
+const locale = toLocale(Astro.params.locale);
+const m = mt[locale];
+const w = await one('worlds', locale, Astro.params.world!);
+const d = w.entry.data;
+const { Content } = await render(w.entry);
+const paths = [...(await all('paths', locale)).values()].filter((p) => p.entry.data.world === w.id);
+const cards = [...(await all('cards', locale)).values()].filter((c) => c.entry.data.world === w.id);
+const bySubject = (list: typeof cards) => {
+  const g = new Map<string, typeof cards>();
+  for (const c of list) { const k = c.entry.data.subject ?? ''; g.set(k, [...(g.get(k) ?? []), c]); }
+  return [...g.entries()];
+};
+---
+<Base locale={locale} title={d.title} path={w.id}>
+  <h1>{d.title}</h1>
+  <p class="lead">{d.summary}</p>
+  <p><small>{d.era}{d.native && <> · <span lang="und">{d.native}</span></>}{d.status === 'planned' && <> · {m.planned}</>}</small></p>
+  <Content />
+  {AREAS.map((a) => {
+    const ps = paths.filter((p) => p.entry.data.area === a);
+    const cs = cards.filter((c) => c.entry.data.area === a);
+    return (ps.length > 0 || cs.length > 0) && (
+      <section>
+        <h2>{m.areas[a]}</h2>
+        {ps.length > 0 && <ul>{ps.map((p) => <li><b>{m.paths}:</b> <a href={href(locale, `path/${p.id}`)}>{p.entry.data.title}</a><br /><small>{p.entry.data.summary}</small></li>)}</ul>}
+        {bySubject(cs).map(([s, list]) => (
+          <details>
+            <summary>{m.subjects[s] ?? m.cards} ({list.length})</summary>
+            <ul>{list.map((c) => <CardLink c={c} locale={locale} />)}</ul>
+          </details>
+        ))}
+        {a === 'science' && w.id === 'greece' && <p><a href={href(locale, 'greece/constructions')}>{m.constructions}</a> · <a href={href(locale, 'atlas')}>{m.figs}</a></p>}
+      </section>
+    );
+  })}
+</Base>

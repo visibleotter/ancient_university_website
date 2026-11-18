@@ -1,5 +1,8 @@
 ---
 type: construction
+world: greece
+area: science
+subject: math
 title: "Квадрат, вписанный в окружность"
 summary: "Два перпендикулярных диаметра — и четыре вершины квадрата на окружности."
 ages: ["11-15"]

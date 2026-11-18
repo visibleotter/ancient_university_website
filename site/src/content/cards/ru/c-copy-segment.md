@@ -1,5 +1,8 @@
 ---
 type: construction
+world: greece
+area: science
+subject: math
 title: "Перенести отрезок циркулем"
 summary: "Циркуль — не только для окружностей: им переносят и сравнивают длины без линейки с делениями."
 ages: ["8-10", "11-15"]

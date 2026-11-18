@@ -1,5 +1,8 @@
 ---
 type: construction
+world: greece
+area: science
+subject: math
 title: "Центр круга складыванием"
 summary: "Два сгиба бумажного круга пополам пересекаются в центре."
 ages: ["6-7", "8-10"]

@@ -1,0 +1,21 @@
+---
+// Карточка — одна страница: понятие, теорема, человек, построение, опыт, миф, идея…
+// Тело — в components/CardBody.astro (то же тело показывает страница станции маршрута).
+import Base from '../../../layouts/Base.astro';
+import CardBody from '../../../components/CardBody.astro';
+import { locales, defaultLocale, toLocale, mt, href } from '../../../i18n/ui';
+import { ids, one } from '../../../lib/content';
+export async function getStaticPaths() {
+  const list = await ids('cards');
+  return locales.flatMap((l) => list.map((id) => ({ params: { locale: l === defaultLocale ? undefined : l, id } })));
+}
+const locale = toLocale(Astro.params.locale);
+const m = mt[locale];
+const c = await one('cards', locale, Astro.params.id!);
+const d = c.entry.data;
+const world = d.world ? await one('worlds', locale, d.world) : undefined;
+---
+<Base locale={locale} title={d.title} path={`c/${c.id}`} fallback={c.fallback}>
+  <p>{world ? <a href={href(locale, world.id)}>← {world.entry.data.title}</a> : <a href={href(locale, `area/${d.area}`)}>← {m.areas[d.area]}</a>}</p>
+  <CardBody id={c.id} locale={locale} />
+</Base>

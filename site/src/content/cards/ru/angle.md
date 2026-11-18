@@ -1,5 +1,8 @@
 ---
 type: concept
+world: greece
+area: science
+subject: math
 title: Угол
 summary: Два луча из одной точки. Для Евклида угол — «наклон» линий друг к другу; градусы пришли из Вавилона.
 ages: ['6-7', '8-10', '11-15']

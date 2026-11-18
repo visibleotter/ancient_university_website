@@ -1,0 +1,33 @@
+---
+// Повороты у станции маршрута. Налево — «вглубь» (как мы это знаем), направо — «вширь» (соседи, сравнения, другие маршруты).
+import { mt, href, type Locale } from '../i18n/ui';
+import type { Turn } from '../lib/route';
+interface Props { turns: Turn[]; side: 'left' | 'right'; locale: Locale; compact?: boolean }
+const { turns, side, locale, compact = false } = Astro.props;
+const r = mt[locale].route;
+---
+{turns.length > 0 && (
+  <div class:list={['turn-box', side]}>
+    {!compact && <p class="turn-head"><b>{side === 'left' ? r.deeper : r.wider}</b><br /><small>{side === 'left' ? r.deeperHint : r.widerHint}</small></p>}
+    <ul>
+      {turns.map((t) => (
+        <li class:list={[t.kind]}>
+          <a href={href(locale, t.kind === 'path' ? `path/${t.id}` : `c/${t.id}`)}>{t.kind === 'path' && '⤳ '}{t.title}</a>
+          {(t.label || t.kind === 'path') && <small class="lbl">{t.kind === 'path' ? r.pathTurn : t.label}</small>}
+          {!compact && t.note && <small class="note">{t.note}</small>}
+        </li>
+      ))}
+    </ul>
+  </div>
+)}
+<style>
+  .turn-box { border: 1px dashed #999; border-radius: 6px; padding: .5rem .75rem; font-size: .9rem; }
+  .turn-box.left { border-left: 4px solid #7a5c2e; }
+  .turn-box.right { border-right: 4px solid #2e7a4f; }
+  .turn-head { margin: 0 0 .25rem; }
+  ul { list-style: none; padding: 0; margin: 0; }
+  li { margin: .4rem 0; }
+  li.path a { font-weight: 600; }
+  small { display: block; color: #777; }
+  .lbl { text-transform: lowercase; }
+</style>

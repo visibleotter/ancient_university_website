@@ -1,32 +1,58 @@
 ---
 import { locales, localeNames, ui, href, type Locale } from '../i18n/ui';
+import { worldList } from '../lib/content';
 interface Props { locale: Locale; title: string; path: string; fallback?: boolean }
 const { locale, title, path, fallback = false } = Astro.props;
 const t = ui[locale];
+const worlds = (await worldList(locale)).filter((w) => w.entry.data.status === 'active');
 ---
 <html lang={locale}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title} — {t.site}</title>
+    <slot name="head" />
   </head>
   <body>
     <header>
       <a href={href(locale)}><strong>{t.site}</strong></a>
       <nav>
-        <a href={href(locale, 'math')}>{t.math}</a>
-        <span>{t.myths} ({t.soon})</span>
-        <span>{t.philosophers} ({t.soon})</span>
+        {worlds.map((w) => <a href={href(locale, w.id)}>{w.entry.data.title}</a>)}
+        <a href={href(locale, 'cards')}>{t.allCards}</a>
+        <a href={href(locale, 'atlas')}>{t.atlas}</a>
+        <a href={href(locale, 'art')}>{t.art}</a>
       </nav>
-      <nav aria-label="Language">
-        {locales.map((l) => (
-          <a href={href(l, path)} aria-current={l === locale ? 'page' : undefined}>{localeNames[l]}</a>
-        ))}
-      </nav>
+      {locales.length > 1 && (
+        <nav aria-label="Language">
+          {locales.map((l) => (
+            <a href={href(l, path)} aria-current={l === locale ? 'page' : undefined}>{localeNames[l]}</a>
+          ))}
+        </nav>
+      )}
     </header>
     <p class="draft">{t.draft}</p>
     {fallback && <p class="draft">{t.untranslated}</p>}
+    <p id="route-return" class="route-return" hidden><a href="#"></a></p>
     <main><slot /></main>
+    <script>
+      // Память о маршруте (только в этой вкладке): страница станции запоминает, где вы; на остальных страницах — «вернуться».
+      try {
+        const here = document.getElementById('route-here');
+        if (here) {
+          const { path, card, step, title, href, base } = here.dataset;
+          sessionStorage.setItem('route', JSON.stringify({ path, card, step, title, href, base }));
+        } else {
+          const r = JSON.parse(sessionStorage.getItem('route') || 'null');
+          const box = document.getElementById('route-return');
+          if (r && box && !location.pathname.startsWith(r.base)) {
+            const a = box.querySelector('a')!;
+            a.href = r.href;
+            a.textContent = `${box.dataset.label ?? '← Вернуться на маршрут'} «${r.title}», шаг ${r.step}`;
+            box.hidden = false;
+          }
+        }
+      } catch {}
+    </script>
     <style is:global>
       /* Временные стили-заглушки: только чтобы было читаемо. Дизайн делаем отдельно. */
       body { font-family: system-ui, sans-serif; max-width: 60rem; margin: 0 auto; padding: 1rem; line-height: 1.5; }
@@ -34,6 +60,7 @@ const t = ui[locale];
       nav { display: flex; flex-wrap: wrap; gap: .75rem; }
       nav a[aria-current] { font-weight: 700; }
       .draft { font-size: .85rem; color: #777; }
+      .route-return { position: sticky; top: 0; background: #fff8e1; border: 1px solid #e0c46c; padding: .4rem .75rem; margin: .5rem 0; z-index: 5; }
     </style>
   </body>
 </html>

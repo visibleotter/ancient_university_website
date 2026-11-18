@@ -1,5 +1,8 @@
 ---
 type: construction
+world: greece
+area: science
+subject: math
 title: "Круг верёвкой и колышком"
 summary: "Первый циркуль: колышек, верёвка и мел. Потом — самодельный циркуль из кнопки и полоски картона."
 ages: ["6-7"]

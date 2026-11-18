@@ -1,5 +1,9 @@
 ---
 type: experiment
+world: greece
+area: science
+subject: math
+figs: [16]
 title: Центр столешницы угольником
 summary: Столярный приём, основанный на угле в полукруге.
 ages: ['8-10', '11-15']

@@ -1,5 +1,8 @@
 ---
 type: construction
+world: greece
+area: science
+subject: math
 title: "Задача Наполеона: только циркулем"
 summary: "Разделить окружность на четыре равные части одним циркулем, без линейки."
 ages: ["11-15"]

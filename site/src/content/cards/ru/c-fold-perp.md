@@ -1,5 +1,8 @@
 ---
 type: construction
+world: greece
+area: science
+subject: math
 title: "Середина отрезка складыванием"
 summary: "Сложите лист так, чтобы точка A легла на точку B. Сгиб пройдёт через середину AB под прямым углом."
 ages: ["6-7", "8-10"]

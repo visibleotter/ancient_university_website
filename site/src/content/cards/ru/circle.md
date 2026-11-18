@@ -1,5 +1,8 @@
 ---
 type: concept
+world: greece
+area: science
+subject: math
 title: Круг и окружность
 summary: Все точки, одинаково удалённые от центра. Первый циркуль — колышек и верёвка.
 ages: ['6-7', '8-10', '11-15']

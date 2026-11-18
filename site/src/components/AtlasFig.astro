@@ -1,0 +1,39 @@
+---
+// Рисунок из атласа чертежей (tools/atlas → src/data/atlas.json). Номер «Рис. N» совпадает с томом и опубликованным атласом.
+import atlas from '../data/atlas.json';
+import { mt, type Locale } from '../i18n/ui';
+interface Props { n: number; locale: Locale; full?: boolean }
+const { n, locale, full = true } = Astro.props;
+const t = mt[locale];
+const d = atlas.find((x) => x.n === n);
+if (!d) throw new Error(`Нет рисунка атласа № ${n}`);
+---
+<figure class="atlas-fig" id={`fig-${n}`}>
+  <p class="fh"><b>{t.fig} {d.n}.</b> {d.title} <small>· {d.ref}</small></p>
+  <div class="pic" set:html={d.svg} />
+  <figcaption>
+    <p>{d.cap}</p>
+    {full && d.read && (
+      <details>
+        <summary>{t.figRead} · {t.figDo} · {t.figLife}</summary>
+        <p><b>{t.figRead}.</b> {d.read}</p>
+        {d.do && <><p><b>{t.figDo}:</b></p><ol>{d.do.map((s: string) => <li>{s}</li>)}</ol></>}
+        {d.life && <p><b>{t.figLife}.</b> {d.life}</p>}
+      </details>
+    )}
+  </figcaption>
+</figure>
+<style is:global>
+  /* Цвета Бирна, как в tools/atlas/atlas.py. Временные стили — дизайн будет позже. */
+  .atlas-fig { --ink:#1b2430; --mute:#6b7682; --card:#fff; --red:#c8321f; --yel:#d99a06; --blu:#1f5fa8; --gry:#8a949e;
+    margin: 1rem 0; border: 1px solid #ccc; padding: .5rem .75rem; max-width: 40rem; background: var(--card); }
+  .atlas-fig .fh { margin: 0; }
+  .atlas-fig .pic svg { width: 100%; height: auto; max-height: 330px; }
+  .atlas-fig figcaption { font-size: .9rem; }
+  .atlas-fig svg .s{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+  .atlas-fig svg .k{stroke:var(--ink)} .atlas-fig svg .r{stroke:var(--red)} .atlas-fig svg .y{stroke:var(--yel)} .atlas-fig svg .b{stroke:var(--blu)} .atlas-fig svg .g{stroke:var(--gry)} .atlas-fig svg .nos{stroke:none}
+  .atlas-fig svg .d{stroke-dasharray:5 4;stroke-width:1.5} .atlas-fig svg .wide{stroke-width:4} .atlas-fig svg .w4{stroke-width:5}
+  .atlas-fig svg .fr{fill:var(--red);fill-opacity:.2} .atlas-fig svg .fy{fill:var(--yel);fill-opacity:.3} .atlas-fig svg .fb{fill:var(--blu);fill-opacity:.2} .atlas-fig svg .fg{fill:var(--gry);fill-opacity:.15} .atlas-fig svg .fbgf{fill:var(--card);fill-opacity:1}
+  .atlas-fig svg .dot{stroke:none} .atlas-fig svg .dot.k{fill:var(--ink)} .atlas-fig svg .dot.r{fill:var(--red)} .atlas-fig svg .dot.g{fill:var(--gry)}
+  .atlas-fig svg .t{fill:var(--ink);font:13px system-ui,sans-serif} .atlas-fig svg .t.g{font:italic 18px Georgia,serif;fill:var(--ink)} .atlas-fig svg .t.h{font:600 16px Georgia,serif} .atlas-fig svg .t.s{fill:var(--mute);font-size:12.5px}
+</style>

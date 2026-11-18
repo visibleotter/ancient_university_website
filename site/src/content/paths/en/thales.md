@@ -1,5 +1,7 @@
 ---
 title: Thales and the beginnings of geometry
+world: greece
+area: science
 summary: "A pilot path. Where geometry came from, what it works with, what Thales discovered (or is said to have discovered), and how to check it with your hands."
 ages: ['6-7', '8-10', '11-15']
 sections:

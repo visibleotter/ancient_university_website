@@ -1,5 +1,9 @@
 ---
 type: experiment
+world: greece
+area: science
+subject: math
+figs: [43]
 title: Фокус с козырьком
 summary: Ребёнок в кепке узнаёт расстояние до дальнего предмета, как Фалес до корабля.
 ages: ['6-7', '8-10']

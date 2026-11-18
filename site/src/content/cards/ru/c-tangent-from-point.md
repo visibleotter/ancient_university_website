@@ -1,5 +1,8 @@
 ---
 type: construction
+world: greece
+area: science
+subject: math
 title: "Касательные из точки к окружности"
 summary: "Окружность на OP как на диаметре — «окружность Фалеса» — даёт точки касания."
 ages: ["11-15"]

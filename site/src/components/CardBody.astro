@@ -1,0 +1,79 @@
+---
+// Тело карточки: заголовок, факты, чертёж, текст, атлас, изображения, цитаты, связи.
+// Используется на странице карточки (/c/<id>/) и на странице станции маршрута (/path/<path>/<id>/).
+import { render } from 'astro:content';
+import Quote from './Quote.astro';
+import Demo from './Demo.astro';
+import CardLink from './CardLink.astro';
+import AtlasFig from './AtlasFig.astro';
+import ArtItem from './ArtItem.astro';
+import { mt, href, type Locale } from '../i18n/ui';
+import { all, one, backlinks, linksOf } from '../lib/content';
+interface Props { id: string; locale: Locale; inRoute?: boolean }
+const { id, locale, inRoute = false } = Astro.props;
+const m = mt[locale];
+const c = await one('cards', locale, id);
+const d = c.entry.data;
+const { Content } = await render(c.entry);
+const cards = await all('cards', locale);
+const get = (x: string) => { const r = cards.get(x); if (!r) throw new Error(`Карточка ${c.id}: нет связанной карточки ${x}`); return r; };
+const related = d.related.map(get);
+const people = d.people.map(get);
+const back = await backlinks(locale, c.id);
+// Типизированные связи (в обе стороны) показываем отдельно; их не повторяем в «Где встречается».
+const links = await linksOf(locale, c.id);
+const linked = new Set(links.map((l) => l.to));
+const backCards = back.cards.filter((b) => !d.related.includes(b.id) && !linked.has(b.id));
+const arts = await all('art', locale);
+const art = { ancient: [] as string[], later: [] as string[], science: [] as string[] };
+for (const a of d.art) { const r = arts.get(a); if (!r) throw new Error(`Карточка ${c.id}: нет произведения ${a}`); art[r.entry.data.period].push(a); }
+---
+<p class="kind">{m.types[d.type]} · {m.areas[d.area]}{d.extra && <> · {m.extra}</>}</p>
+<h1>{d.title}</h1>
+<p class="lead">{d.summary}</p>
+<dl class="facts">
+  {d.ages.length > 0 && <><dt>{m.byAge}</dt><dd>{d.ages.map((a) => m.ages[a]).join(' · ')}</dd></>}
+  {d.era && <><dt>{m.era}</dt><dd>{d.era}</dd></>}
+  {d.greek && <><dt>Ἑλληνιστί</dt><dd lang="grc">{d.greek}</dd></>}
+  {d.euclid && <><dt>{m.euclid}</dt><dd>{d.euclid}</dd></>}
+  {d.reliability && <><dt>✅📜❓</dt><dd>{m.rel[d.reliability]}</dd></>}
+  {people.length > 0 && <><dt>👤</dt><dd>{people.map((p, i) => <>{i > 0 && ', '}<a href={href(locale, `c/${p.id}`)}>{p.entry.data.title}</a></>)}</dd></>}
+</dl>
+{d.demo && <Demo id={d.demo} locale={locale} />}
+<article><Content /></article>
+{d.figs.length > 0 && <section><h2>{m.figs}</h2>{d.figs.map((n) => <AtlasFig n={n} locale={locale} />)}</section>}
+{d.art.length > 0 && (
+  <section>
+    <h2>{art.science.length === d.art.length ? m.images : m.art}</h2>
+    {art.science.map((a) => <ArtItem id={a} locale={locale} />)}
+    {art.ancient.length > 0 && <><h3>{m.artAncient}</h3>{art.ancient.map((a) => <ArtItem id={a} locale={locale} />)}</>}
+    {art.later.length > 0 && <><h3>{m.artLater}</h3>{art.later.map((a) => <ArtItem id={a} locale={locale} />)}</>}
+  </section>
+)}
+{d.quotes.length > 0 && <section><h2>{m.quotes}</h2>{d.quotes.map((q) => <Quote id={q} locale={locale} />)}</section>}
+{links.length > 0 && (
+  <section>
+    <h2>{m.connections}</h2>
+    <ul>{links.map((l) => <li><small>{m.links[l.kind]}</small> <a href={href(locale, `c/${l.to}`)}>{l.card!.entry.data.title}</a>{l.note && <> — <small>{l.note}</small></>}</li>)}</ul>
+  </section>
+)}
+{related.length > 0 && <section><h2>{m.related}</h2><ul>{related.map((r) => <CardLink c={r} locale={locale} />)}</ul></section>}
+{!inRoute && (back.paths.length > 0 || backCards.length > 0) && (
+  <section>
+    <h2>{m.usedIn}</h2>
+    <ul>
+      {back.paths.map((p) => <li><a href={href(locale, `path/${p.id}`)}>{p.entry.data.title}</a></li>)}
+      {backCards.map((b) => <CardLink c={b} locale={locale} />)}
+    </ul>
+  </section>
+)}
+<style>
+  .kind { text-transform: uppercase; font-size: .8rem; color: #777; margin-bottom: 0; }
+  .lead { font-size: 1.1rem; }
+  .facts { display: grid; grid-template-columns: max-content 1fr; gap: .2rem 1rem; }
+  .facts dt { color: #777; }
+  .facts dd { margin: 0; }
+  article :global(table) { border-collapse: collapse; }
+  article :global(td), article :global(th) { border: 1px solid #ddd; padding: .25rem .5rem; vertical-align: top; }
+  article :global(table) { display: block; overflow-x: auto; }
+</style>

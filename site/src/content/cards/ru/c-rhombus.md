@@ -1,5 +1,8 @@
 ---
 type: construction
+world: greece
+area: science
+subject: math
 title: "Ромб по стороне и диагонали"
 summary: "Две окружности одного радиуса из концов диагонали дают две другие вершины ромба."
 ages: ["8-10", "11-15"]
