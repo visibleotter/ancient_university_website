@@ -60,6 +60,7 @@ K = {
  'minoan-crete': ['кносс', 'knossos', 'прыжки быков', 'царь-жрец', 'minoan', 'миной', 'агиа триад', 'agia triada', 'larnax', 'малии', 'ханья', 'snake goddess', 'тронный зал'],
  'gobekli-tepe': ['гёбекли', 'гебекли', 'göbekli', 'gurcutepe', 'гюрджютепе'],
  'nahal-mearot': ['меарот', 'эль-вад', 'raqefet', 'ракефет'],
+ 'pythagoras-legacy': ['school of athens'], 'tetractys': ['теон (феон)'],
 }
 
 def norm(s): return ''.join(c for c in unicodedata.normalize('NFD', s.lower()) if unicodedata.category(c) != 'Mn')

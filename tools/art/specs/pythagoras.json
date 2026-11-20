@@ -1,0 +1,52 @@
+{
+ "pythagoras": [
+  {"q": "Pythagoras bust Capitoline Museums", "title": "Пифагор. Римская копия греческого портрета", "date": "римская копия", "museum": "Капитолийские музеи, Рим", "period": "ancient", "kind": "sculpture", "note": "Как на самом деле выглядел Пифагор, неизвестно: такие бюсты — поздние «идеальные портреты» мудреца."},
+  {"q": "Pythagoras coin Samos", "title": "Пифагор на монете Самоса", "date": "III в. н. э.", "museum": "—", "period": "ancient", "kind": "object", "note": "Самос гордился своим уроженцем и через восемьсот лет чеканил его на монетах."}
+ ],
+ "pythagorean-life": [
+  {"q": "Bronnikov Hymn of the Pythagoreans to the Rising Sun", "title": "Гимн пифагорейцев восходящему солнцу", "artist": "Фёдор Бронников", "date": "1869", "museum": "Третьяковская галерея, Москва", "period": "later", "kind": "painting", "note": "Пифагорейцы встречают солнце музыкой. Сцена придумана художником, но опирается на поздние рассказы о почитании солнца у пифагорейцев."},
+  {"q": "Rubens Pythagoras Advocating Vegetarianism", "title": "Пифагор проповедует вегетарианство", "artist": "Рубенс и Франс Снейдерс", "date": "1618–1630", "museum": "Королевская коллекция, Великобритания", "period": "later", "kind": "painting", "note": "Сюжет из «Метаморфоз» Овидия (XV): Пифагор убеждает не есть мяса — ведь в животных могут жить души людей."}
+ ],
+ "pythagoras-legends": [
+  {"q": "Salvator Rosa Pythagoras emerging from the underworld", "title": "Пифагор выходит из подземного мира", "artist": "Сальватор Роза", "date": "1662", "museum": "Музей Кимбелла, Форт-Уэрт", "period": "later", "kind": "painting", "note": "Поздняя легенда: Пифагор спрятался под землёй, а выйдя, рассказывал, что побывал в Аиде."}
+ ],
+ "croton-brotherhood": [
+  {"q": "Capo Colonna column temple of Hera Lacinia", "title": "Колонна храма Геры Лакинии у Кротона", "date": "V в. до н. э. (снимок наших дней)", "museum": "мыс Капо-Колонна, Калабрия", "period": "ancient", "kind": "photo", "note": "От знаменитого храма у Кротона осталась одна колонна."}
+ ],
+ "figurate-numbers": [
+  {"q": "Salamis Tablet abacus", "title": "Саламинская счётная доска", "date": "ок. 300 до н. э.", "museum": "Национальный археологический музей, Афины", "period": "ancient", "kind": "object", "note": "Мраморная доска для счёта камешками — греческий абак."}
+ ],
+ "smithy-legend": [
+  {"q": "Gaffurio Theorica musicae Pythagoras", "title": "Пифагор с колоколами, стаканами, струнами и трубами", "artist": "гравюра из «Теории музыки» Франкино Гафури", "date": "1492", "museum": "—", "period": "later", "kind": "object", "note": "Числа 4, 6, 8, 9, 12, 16 — те самые отношения октавы, квинты и кварты. Только молоты, стаканы и грузы так не звучат."}
+ ],
+ "monochord": [
+  {"q": "Fludd monochord Utriusque Cosmi", "title": "Божественный монохорд", "artist": "Роберт Фладд", "date": "1617", "museum": "книга «История двух миров»", "period": "later", "kind": "diagram", "note": "Рука Бога настраивает струну мира: вдоль неё — стихии, планеты и созвучия."}
+ ],
+ "music-of-spheres": [
+  {"q": "Kepler Harmonices Mundi planets music notation", "title": "«Гармония мира»: мелодии планет", "artist": "Иоганн Кеплер", "date": "1619", "museum": "—", "period": "later", "kind": "diagram", "note": "Кеплер записал «песни» планет нотами — чем сильнее меняется скорость планеты, тем шире её мелодия."}
+ ],
+ "platonic-solids": [
+  {"q": "Kepler Mysterium Cosmographicum solar system model", "title": "Модель мира из пяти правильных тел", "artist": "Иоганн Кеплер", "date": "1596", "museum": "книга «Тайна мироздания»", "period": "later", "kind": "diagram", "note": "Кеплер вложил пять тел друг в друга, чтобы объяснить расстояния между планетами. Идея оказалась неверной, но привела его к настоящим законам."},
+  {"q": "Leonardo da Vinci Pacioli dodecahedron", "title": "Додекаэдр для книги Пачоли «О божественной пропорции»", "artist": "Леонардо да Винчи", "date": "1509", "museum": "—", "period": "later", "kind": "diagram", "note": "Леонардо нарисовал правильные тела «каркасом», чтобы видна была задняя сторона."}
+ ],
+ "pythagorean-theorem": [
+  {"q": "Plimpton 322", "title": "Табличка Плимптон 322", "date": "ок. 1800 до н. э.", "museum": "Колумбийский университет, Нью-Йорк", "period": "ancient", "kind": "object", "note": "Вавилонская табличка со списком чисел, связанных с прямоугольными треугольниками, — за тысячу с лишним лет до Пифагора."},
+  {"q": "Zhoubi Suanjing gougu diagram", "title": "Чертёж «гоу-гу» из «Чжоу би суань цзин»", "date": "древнейшие части — I тыс. до н. э.", "museum": "—", "period": "ancient", "kind": "diagram", "note": "Китайское наглядное доказательство для треугольника 3–4–5."}
+ ],
+ "incommensurability": [
+  {"q": "YBC 7289", "title": "Табличка YBC 7289: квадрат, диагональ и √2", "date": "ок. 1800–1600 до н. э.", "museum": "Йельская вавилонская коллекция", "period": "ancient", "kind": "object", "note": "Ученик нарисовал квадрат с диагональю и записал √2 ≈ 1;24,51,10 в шестидесятеричной системе — это 1,41421296…"}
+ ],
+ "pythagorean-proofs": [
+  {"q": "Byrne Euclid first book proposition 47", "title": "Теорема Пифагора в цветном «Евклиде»", "artist": "Оливер Бирн", "date": "1847", "museum": "—", "period": "later", "kind": "diagram", "note": "Бирн заменил буквы цветами — доказательство можно «прочитать» глазами."}
+ ],
+ "tilings": [
+  {"q": "honeycomb close up hexagonal cells", "title": "Пчелиные соты", "date": "наши дни", "museum": "—", "period": "science", "kind": "photo", "note": "Шестиугольный паркет: самые короткие стенки при той же площади ячеек."}
+ ],
+ "quadrivium": [
+  {"q": "Typus Arithmeticae Reisch Margarita philosophica", "title": "Арифметика: Пифагор и Боэций", "artist": "Грегор Райш, «Философская жемчужина»", "date": "1503", "museum": "—", "period": "later", "kind": "object", "note": "Госпожа Арифметика судит спор: Пифагор считает на счётной доске, Боэций — новыми цифрами."}
+ ],
+ "pythagoras-legacy": [
+  {"q": "School of Athens Pythagoras detail Raphael", "title": "Пифагор в «Афинской школе»", "artist": "Рафаэль", "date": "1509–1511", "museum": "Станцы Рафаэля, Ватикан", "period": "later", "kind": "fresco", "note": "Пифагор пишет в книге, а мальчик держит перед ним доску с гармоническими числами 6, 8, 9, 12 и тетрактидой."},
+  {"q": "Chartres cathedral Pythagoras royal portal", "title": "Пифагор на Королевском портале Шартрского собора", "date": "XII в.", "museum": "Шартр, Франция", "period": "later", "kind": "sculpture", "note": "Среди семи свободных искусств Пифагор сидит под фигурой Музыки."}
+ ]
+}

@@ -10,8 +10,9 @@ era: "около 570 — около 495 до н. э."
 when: { from: -570, to: -495, approx: true }
 place: { name: "Кротон", lat: 39.0812, lon: 17.128, pleiades: "452317" }
 greek: "Πυθαγόρας ὁ Σάμιος"
-quotes: ["xenophanes-b7", "heraclitus-b129"]
+quotes: ["xenophanes-b7", "heraclitus-b129", "heraclitus-b40"]
 related: ["transmigration", "tetractys", "philosophy-word", "xenophanes", "heraclitus"]
+art: [pythagoras-pic-01, pythagoras-pic-02]
 ---
 **Что известно надёжно** ✅:
 - уроженец острова Самос, сын Мнесарха (так называет его Гераклит);
