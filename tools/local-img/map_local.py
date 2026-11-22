@@ -61,9 +61,23 @@ K = {
  'gobekli-tepe': ['гёбекли', 'гебекли', 'göbekli', 'gurcutepe', 'гюрджютепе'],
  'nahal-mearot': ['меарот', 'эль-вад', 'raqefet', 'ракефет'],
  'pythagoras-legacy': ['school of athens'], 'tetractys': ['теон (феон)'],
+ 'minoan-crete': ['кносс', 'knossos', 'прыжки быков', 'царь-жрец', 'minoan', 'миной', 'агиа триад', 'agia triada', 'larnax', 'малии', 'ханья',
+                  'snake goddess', 'тронный зал', 'зал царицы', 'трипартит', 'священных топоров', 'master of animals', 'перстень', 'танцы', 'равноправия',
+                  'other side', 'scene on the', 'великой богини матери'],
+ 'mycenae': ['микен', 'агамемнона', 'mikeny', 'mikenah', 'циклопич', 'диадем', 'маска'],
+ 'bronze-age-collapse': ['катастрофа_бронзового', 'катастрофа бронзового', 'угарит', 'ugarit', 'ougarit', 'народов моря', 'хаттус'],
+ 'omphalos': ['дельф', 'delphi', 'жрица-предсказательница'],
 }
+CAP = 30
+# всё, что не легло на карточки, — на страницу мира (по подпапке; внутри «Первых цивилизаций» — по словам)
+WORLD_DIR = {'Древний Египет': 'egypt', 'Израиль': 'israel', 'Индия и Иран': 'india', 'Древняя Греция': 'greece',
+             'Для Чемодана о Трое': 'greece', 'Первые цивилизации': 'mesopotamia', '.': 'mesopotamia', 'Внеисторическая эпоха': 'prehistory'}
+WORLD_KEYS = [('india', ['хараппск', 'мохенджо', 'индск']), ('china', ['китай']), (None, ['норте-чико', 'ольмеки']),
+              ('egypt', ['hieroglyphs', 'египет'])]
+JUNK = ['depositphotos', 'ахматов', 'теудат зеут', 'шумерское пивко', 'босые ноги']
+JUNK_RE = re.compile(r'^(images?( \(\d+\))?|image|[0-9a-f_\-x]{12,}|\d+_\d+_\d+_n|display_image.*|маска|руины города.*)$', re.I)
 
-def norm(s): return ''.join(c for c in unicodedata.normalize('NFD', s.lower()) if unicodedata.category(c) != 'Mn')
+def norm(s): return ''.join(c for c in unicodedata.normalize('NFD', s.lower().replace('_', ' ')) if unicodedata.category(c) != 'Mn')
 files = []
 for d, ds, fs in os.walk(SRC):
     ds[:] = [x for x in ds if x not in SKIP_DIRS]
@@ -72,17 +86,32 @@ for d, ds, fs in os.walk(SRC):
 os.makedirs(OUT_IMG, exist_ok=True)
 for f in os.listdir(OUT_IMG): os.remove(os.path.join(OUT_IMG, f))
 out = {}
+used = set()
+def base(p): return os.path.splitext(os.path.basename(p))[0]
+def put(key, hits):
+    for i, p in enumerate(hits):
+        ext = os.path.splitext(p)[1].lower()
+        name = f'{key}-{i + 1:02d}{ext}'
+        shutil.copyfile(p, os.path.join(OUT_IMG, name))
+        cap = re.sub(r'\s+\d+$', '', base(p)).replace('_', ' ').strip()
+        out.setdefault(key, []).append(dict(src=f'/local-img/{name}', caption=cap))
+        used.add(p)
 for card, keys in K.items():
     if not keys: continue
     nk = [norm(k) for k in keys]
-    hits = [p for p in files if any(k in norm(os.path.splitext(os.path.basename(p))[0]) for k in nk)]
-    hits = sorted(hits)[:12]
-    for i, p in enumerate(hits):
-        ext = os.path.splitext(p)[1].lower()
-        name = f'{card}-{i + 1:02d}{ext}'
-        shutil.copyfile(p, os.path.join(OUT_IMG, name))
-        cap = re.sub(r'\s+\d+$', '', os.path.splitext(os.path.basename(p))[0]).replace('_', ' ').strip()
-        out.setdefault(card, []).append(dict(src=f'/local-img/{name}', caption=cap))
+    put(card, sorted(p for p in files if any(k in norm(base(p)) for k in nk))[:CAP])
+worlds = {}
+for p in sorted(files):
+    if p in used: continue
+    b = norm(base(p))
+    if any(j in b for j in JUNK) or JUNK_RE.match(base(p).strip()): continue
+    top = os.path.relpath(os.path.dirname(p), SRC).split(os.sep)[0]
+    if top not in WORLD_DIR: continue
+    w = WORLD_DIR[top]
+    for ww, keys in WORLD_KEYS:
+        if any(k in b for k in keys): w = ww; break
+    if w: worlds.setdefault(w, []).append(p)
+for w, hits in worlds.items(): put('world-' + w, hits)
 os.makedirs(os.path.dirname(OUT_JSON), exist_ok=True)
 json.dump(out, open(OUT_JSON, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print('cards', len(out), 'images', sum(len(v) for v in out.values()))

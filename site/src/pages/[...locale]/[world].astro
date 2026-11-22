@@ -3,6 +3,7 @@
 import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import CardLink from '../../components/CardLink.astro';
+import LocalImages from '../../components/LocalImages.astro';
 import { locales, defaultLocale, toLocale, mt, href } from '../../i18n/ui';
 import { all, ids, one } from '../../lib/content';
 import { AREAS } from '../../content.config';
@@ -45,4 +46,5 @@ const bySubject = (list: typeof cards) => {
       </section>
     );
   })}
+  <LocalImages id={`world-${w.id}`} />
 </Base>
