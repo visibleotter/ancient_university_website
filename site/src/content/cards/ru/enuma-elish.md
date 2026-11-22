@@ -13,6 +13,9 @@ related: ["theogony"]
 links:
   - { to: theogony, kind: comparative }
   - { to: chaos, kind: comparative }
+  - { to: homer-ocean, kind: comparative, note: "Океан и Тефия — греческая пара первозданных вод" }
+  - { to: heliopolis-cosmogony, kind: comparative, note: "египетский Нун и первый холм" }
+  - { to: primordial-waters, kind: comparative, note: "три космогонии рядом" }
 ---
 **Что это.** Вавилонская поэма на аккадском языке, семь глиняных табличек, около тысячи строк. Названа по первым словам: *enūma eliš* — «когда вверху…»: «Когда вверху не названо небо, а внизу земля не имела имени…»
 

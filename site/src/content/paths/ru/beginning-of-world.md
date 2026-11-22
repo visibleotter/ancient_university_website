@@ -27,4 +27,5 @@ turns:
   - { at: rhea-stone, to: omphalos, side: left, label: камень, который можно было увидеть }
   - { at: theogony, to: fragments-dk, side: left, label: поэмы дошли целиком, книги философов — нет }
   - { at: chaos, to: birth-of-philosophy, side: right, label: из чего всё — ответ философов }
+  - { at: zeus-crete, to: olympus, side: right, label: что было дальше — война с титанами и Олимп }
 ---

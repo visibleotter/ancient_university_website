@@ -1,0 +1,12 @@
+{
+ "heliopolis-cosmogony": [
+  {"q": "Obelisk of Senusret I Heliopolis Matariya", "title": "Обелиск Сенусерта I в Гелиополе", "date": "ок. 1950 до н. э. (снимок наших дней)", "museum": "Матария, Каир", "period": "ancient", "kind": "photo", "note": "Всё, что осталось на месте от храма Солнца в Гелиополе."},
+  {"q": "Geb Nut Shu Greenfield papyrus", "title": "Шу поднимает Нут над Гебом", "date": "ок. 950 до н. э.", "museum": "Британский музей, Лондон", "period": "ancient", "kind": "object", "note": "Папирус Гринфилда: богиня неба Нут выгнулась над лежащим богом земли Гебом, а между ними стоит бог воздуха Шу."}
+ ],
+ "homer-ocean": [
+  {"q": "Oceanus Tethys mosaic Zeugma", "title": "Океан и Тефия", "date": "II–III вв. н. э.", "museum": "Музей мозаики Зевгмы, Газиантеп", "period": "ancient", "kind": "mosaic", "note": "Пара первозданных вод на римской мозаике: у Океана в волосах клешни, у Тефии на лбу крылышки."}
+ ],
+ "primordial-waters": [
+  {"q": "Enuma Elish tablet British Museum", "title": "Табличка «Энума элиш»", "date": "VII в. до н. э.", "museum": "Британский музей, Лондон", "period": "ancient", "kind": "object", "note": "Одна из табличек вавилонской поэмы из библиотеки Ашшурбанапала в Ниневии."}
+ ]
+}

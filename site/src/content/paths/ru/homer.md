@@ -21,4 +21,5 @@ sections:
 turns:
   - { at: troy, to: greek-history, side: right, label: история Греции — от Крита до Сократа }
   - { at: gods-and-fate, to: beginning-of-world, side: right, label: как боги пришли к власти (Гесиод) }
+  - { at: gods-and-fate, to: homer-ocean, side: right, label: "«Океан — прародитель богов» — другое начало мира" }
 ---

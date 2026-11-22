@@ -1,0 +1,45 @@
+{
+ "children-of-night": [
+  {"q": "Bouguereau La Nuit 1883", "title": "Ночь", "artist": "Вильям Бугро", "date": "1883", "museum": "Хиллвуд, Вашингтон", "period": "later", "kind": "painting", "note": "Ночь у Бугро парит над землёй, закрываясь тёмным покрывалом. У Гесиода она мать Сна, Смерти, Раздора и Старости."}
+ ],
+ "moirai": [
+  {"q": "Goya Atropos Fates Prado", "title": "Атропос (Парки)", "artist": "Франсиско Гойя", "date": "1819–1823", "museum": "Прадо, Мадрид", "period": "later", "kind": "painting", "note": "Одна из «мрачных картин» Гойи: три пряхи и человек со связанными руками летят над землёй."}
+ ],
+ "blood-of-uranus": [
+  {"q": "Bouguereau Remorse of Orestes", "title": "Угрызения совести Ореста", "artist": "Вильям Бугро", "date": "1862", "museum": "Музей Крайслера, Норфолк", "period": "later", "kind": "painting", "note": "Эринии преследуют Ореста, убившего мать, — они мстят за кровь родных."}
+ ],
+ "five-ages": [
+  {"q": "Cranach Golden Age Munich", "title": "Золотой век", "artist": "Лукас Кранах Старший", "date": "ок. 1530", "museum": "Старая пинакотека, Мюнхен", "period": "later", "kind": "painting", "note": "Люди золотого века водят хоровод в саду за стеной — без забот и старости."}
+ ],
+ "titanomachy": [
+  {"q": "Cornelis van Haarlem Fall of the Titans", "title": "Падение титанов", "artist": "Корнелис ван Харлем", "date": "1588–1590", "museum": "Государственный музей искусства, Копенгаген", "period": "later", "kind": "painting", "note": "Титаны низвергаются с неба — художник показывает их клубком тел."}
+ ],
+ "titans-punished": [
+  {"q": "Farnese Atlas Naples", "title": "Атлант Фарнезе", "date": "II в. н. э., римская копия", "museum": "Национальный археологический музей, Неаполь", "period": "ancient", "kind": "sculpture", "note": "Атлант держит небесный шар со звёздами — одна из древнейших карт созвездий."}
+ ],
+ "hestia": [
+  {"q": "Hestia Giustiniani", "title": "Гестия Джустиниани", "date": "римская копия греческого оригинала V в. до н. э.", "museum": "собрание Торлония, Рим", "period": "ancient", "kind": "sculpture", "note": "Спокойная богиня в строгом платье — такой Гестию представляли в классическую эпоху."}
+ ],
+ "olympians-twelve": [
+  {"q": "Parthenon east frieze gods Poseidon Apollo Artemis", "title": "Боги на восточном фризе Парфенона", "date": "447–432 до н. э.", "museum": "Музей Акрополя, Афины", "period": "ancient", "kind": "sculpture", "note": "Посейдон, Аполлон и Артемида сидят рядом и смотрят на праздничное шествие афинян."}
+ ],
+ "hephaestus": [
+  {"q": "Velazquez Apollo in the Forge of Vulcan", "title": "Кузница Вулкана", "artist": "Диего Веласкес", "date": "1630", "museum": "Прадо, Мадрид", "period": "later", "kind": "painting", "note": "Аполлон рассказывает Вулкану, что Венера ему изменяет. Кузнецы застыли."},
+  {"q": "Return of Hephaestus vase mule Dionysus", "title": "Возвращение Гефеста на Олимп", "date": "VI–V вв. до н. э.", "museum": "—", "period": "ancient", "kind": "vase", "note": "Дионис ведёт пьяного Гефеста на муле, чтобы тот освободил Геру из золотого трона."}
+ ],
+ "ambrosia": [
+  {"q": "Canova Hebe", "title": "Геба", "artist": "Антонио Канова", "date": "1800–1805", "museum": "—", "period": "later", "kind": "sculpture", "note": "Богиня юности несёт кувшин с нектаром для богов."}
+ ],
+ "leto-delos": [
+  {"q": "Terrace of the Lions Delos", "title": "Терраса львов на Делосе", "date": "VII в. до н. э. (снимок наших дней)", "museum": "Делос", "period": "ancient", "kind": "photo", "note": "Мраморные львы наксосцев смотрят на священное озеро, у которого, по преданию, родился Аполлон."}
+ ],
+ "artemis-wishes": [
+  {"q": "Diana of Versailles Louvre", "title": "Артемида Версальская", "date": "римская копия греческого оригинала IV в. до н. э.", "museum": "Лувр, Париж", "period": "ancient", "kind": "sculpture", "note": "Короткий хитон, колчан и лань рядом — всё, как просила маленькая Артемида."}
+ ],
+ "know-thyself": [
+  {"q": "Temple of Apollo Delphi ruins", "title": "Храм Аполлона в Дельфах", "date": "IV в. до н. э. (снимок наших дней)", "museum": "Дельфы", "period": "ancient", "kind": "photo", "note": "На этом храме были высечены «Познай самого себя» и «Ничего сверх меры»."}
+ ],
+ "athena": [
+  {"q": "birth of Athena black-figure amphora Zeus head", "title": "Рождение Афины", "date": "VI в. до н. э.", "museum": "—", "period": "ancient", "kind": "vase", "note": "Маленькая Афина в доспехах выходит из головы Зевса; рядом Гефест с топором."}
+ ]
+}
