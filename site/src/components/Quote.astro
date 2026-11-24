@@ -9,13 +9,24 @@ const t = mt[locale];
 const q = await one('quotes', locale, id);
 const d = q.entry.data;
 const { Content } = await render(q.entry);
+// Языки оригинала, кроме греческого: подпись и направление письма.
+const LANGS: Record<string, { name: string; rtl?: boolean; ok: string; no: string }> = {
+  he: { name: 'иврит', rtl: true, ok: 'еврейский текст сверен (Sefaria, издание MAM; огласовки сняты)', no: 'еврейский текст не сверен' },
+  arc: { name: 'арамейский', rtl: true, ok: 'арамейский текст сверен (Sefaria, издание MAM; огласовки сняты)', no: 'арамейский текст не сверен' },
+  uga: { name: 'угаритский, транслитерация', ok: 'угаритский текст сверен с изданием', no: 'угаритский текст не сверен с изданием' },
+  akk: { name: 'аккадский', ok: 'аккадский текст сверен', no: 'аккадский текст не сверен' },
+  egy: { name: 'египетский', ok: 'египетский текст сверен', no: 'египетский текст не сверен' },
+  phn: { name: 'финикийский', ok: 'финикийский текст сверен', no: 'финикийский текст не сверен' },
+};
+const L = d.lang ? LANGS[d.lang] : undefined;
 ---
 <blockquote class="quote" id={`q-${id}`}>
   <p class="src"><b>{d.author}</b>, «{d.work}», {d.locus}</p>
   {d.greek && <p class="greek" lang="grc"><i>{d.greek}</i></p>}
+  {d.original && L && <p class={L.rtl ? 'orig rtl' : 'orig'} lang={d.lang} dir={L.rtl ? 'rtl' : 'ltr'} title={L.name}>{d.original}</p>}
   <div class="tr"><Content /></div>
   <p class="meta">
-    {d.greek ? (d.greekVerified ? t.greekOk : t.greekNo) : t.greekNo}
+    {L ? (d.originalVerified ? L.ok : L.no) : d.greek ? (d.greekVerified ? t.greekOk : t.greekNo) : t.greekNo}
     {d.eudemus && t.eud[d.eudemus] && <> · {t.eud[d.eudemus]}</>}
   </p>
   {d.note && <p class="note">{d.note}</p>}
@@ -25,4 +36,6 @@ const { Content } = await render(q.entry);
   .src, .meta, .note { font-size: .85rem; }
   .meta { color: #777; }
   .greek { font-family: Georgia, serif; white-space: pre-line; }
+  .orig { font-family: Georgia, serif; white-space: pre-line; font-style: italic; }
+  .orig.rtl { font-style: normal; font-size: 1.15rem; text-align: right; }
 </style>

@@ -11,6 +11,7 @@ when: { from: -1400, to: -1200, approx: true }
 place: { name: "Хаттуса", lat: 40.0149, lon: 34.6172, pleiades: "283602441" }
 related: ["theogony", "uranus", "cronus"]
 links:
+  - { to: baal-cycle, kind: comparative, note: "угаритский бог грозы и его война за власть" }
   - { to: theogony, kind: comparative }
   - { to: castration-uranus, kind: comparative }
   - { to: cronus-swallows, kind: comparative }

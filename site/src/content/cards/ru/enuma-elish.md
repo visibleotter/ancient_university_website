@@ -11,6 +11,7 @@ when: { from: -2000, to: -1000, approx: true }
 place: { name: "Вавилон", lat: 32.5373, lon: 44.425, pleiades: "893951" }
 related: ["theogony"]
 links:
+  - { to: leviathan, kind: comparative, note: "угаритский Баал и библейский Яхве против Моря и змея" }
   - { to: theogony, kind: comparative }
   - { to: chaos, kind: comparative }
   - { to: homer-ocean, kind: comparative, note: "Океан и Тефия — греческая пара первозданных вод" }

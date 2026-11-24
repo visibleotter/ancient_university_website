@@ -10,6 +10,7 @@ when: { from: -1200, to: -1100, approx: true }
 place: { name: "Пилос (дворец Нестора)", lat: 37.0272, lon: 21.695, wikidata: "Q2047396" }
 reliability: disputed
 links:
+  - { to: ugarit, kind: history, note: "город и его архив" }
   - { to: uluburun, kind: history, note: "мир торговли накануне катастрофы" }
   - { to: troy, kind: history, note: "Троя VIIa сгорела около 1180 г." }
   - { to: dark-ages, kind: history }

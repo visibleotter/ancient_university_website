@@ -106,6 +106,10 @@ const quotes = defineCollection({
     locus: z.string(),
     greek: z.string().optional(),
     greekVerified: z.boolean().default(false),
+    // Текст на другом языке оригинала (иврит, арамейский, угаритский…): lang — код языка, original — сам текст.
+    lang: z.enum(['he', 'arc', 'uga', 'akk', 'egy', 'phn']).optional(),
+    original: z.string().optional(),
+    originalVerified: z.boolean().default(false),  // сверен с изданием (для иврита — Sefaria, MAM)
     eudemus: z.enum(['named', 'probable', 'no']).optional(), // назван ли Евдем
     note: z.string().optional(),
   }),
